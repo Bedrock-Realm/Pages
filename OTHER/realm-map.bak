@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Bedrock Map Viewer</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <style>
+      html,
+      body,
+      #map {
+        height: 100%;
+        margin: 0;
+        background-color: #0d1117;
+      }
+      .leaflet-container {
+        background: #0d1117 !important;
+      }
+      .leaflet-popup-content-wrapper {
+        background: #161b22;
+        color: #c9d1d9;
+        border-radius: 8px;
+      }
+      .leaflet-popup-tip {
+        background: #161b22;
+      }
+      .leaflet-image-layer,
+      .leaflet-tile {
+        image-rendering: pixelated;
+      }
+      .leaflet-popup-content {
+        max-width: none !important; /* remove Leaflet's cap */
+        width: auto !important; /* let content size itself */
+      }
+      /* Player icon */
+      .player-icon {
+        width: 32px;
+        height: 32px;
+        transform-origin: center center;
+      }
+      /* Players sidebar mimicking Leaflet control */
+      #players-sidebar {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        background: #ffffffdd; /* slightly transparent to mimic leaflet control */
+        color: #000;
+        padding: 6px 10px;
+        border-radius: 5px;
+        font-family: sans-serif;
+        max-width: 220px;
+        overflow-y: auto;
+        max-height: 90%;
+        z-index: 1000; /* above the map */
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+        background-color: #f8f9fa;
+      }
+      #players-sidebar b {
+        display: block;
+        margin-bottom: 6px;
+        font-weight: bold;
+      }
+      .player-entry {
+        display: flex;
+        align-items: center;
+        margin-bottom: 6px;
+        cursor: pointer;
+        transition: background 0.2s;
+        padding: 2px 4px;
+        border-radius: 4px;
+      }
+      .player-entry:hover {
+        background: #e1e3e6;
+      }
+      .player-entry img {
+        width: 32px;
+        height: 32px;
+        margin-right: 8px;
+        border-radius: 4px;
+      }
+
+      #coords-display {
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        background: #161b22dd;
+        color: #c9d1d9;
+        padding: 4px 8px;
+        border-radius: 4px;
+        font-family: monospace;
+        font-size: 14px;
+        z-index: 1000;
+        pointer-events: none;
+      }
+
+      .inventory-popup {
+        position: relative;
+        width: 176px; /* official Minecraft inventory width */
+        height: 166px; /* official height */
+        background: url("inventory.png") no-repeat;
+        image-rendering: pixelated;
+      }
+
+      .inventory-slot {
+        position: absolute;
+        width: 16px;
+        height: 16px;
+      }
+
+      .inventory-slot img {
+        width: 16px;
+        height: 16px;
+        image-rendering: pixelated;
+      }
+
+      .slot-count {
+        position: absolute;
+        bottom: -3px;
+    right: -1px;
+        font-size: 10px;
+        color: white;
+        text-shadow: 1px 1px #000;
+      }
+
+      .inventory-avatar {
+        position: absolute;
+        left: 25px;
+        top: 8px;
+        width: 50px;
+        height: 70px;
+        image-rendering: pixelated;
+      }
+
+      .enderchest-popup {
+        position: relative;
+    width: 176px;
+    height: 77px;
+    background: url(ender-chest.png) no-repeat;
+    image-rendering: pixelated;
+      }
+
+      .enderchest-slot {
+        position: absolute;
+        width: 16px;
+        height: 16px;
+      }
+
+      .enderchest-slot img {
+        width: 16px;
+        height: 16px;
+        image-rendering: pixelated;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+    <div id="coords-display">X: 0, Z: 0</div>
+    <div id="players-sidebar">
+      <b>Players</b>
+      <div id="player-list"></div>
+    </div>
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script>
+      const mapWidth = 4112;
+      const mapHeight = 4128;
+      const bounds = [
+        [0, 0],
+        [mapHeight, mapWidth],
+      ];
+
+      const worldBounds = {
+        overworld: {
+          minX: -2128,
+          maxX: 1983,
+          minZ: -2128,
+          maxZ: 1999,
+          image: "map_overworld.png",
+        },
+        nether: { minX: -1875, maxX: 1875, minZ: -1875, maxZ: 1875, image: "map_nether.png" },
+        end: { minX: -5000, maxX: 5000, minZ: -5000, maxZ: 5000, image: "map_end.png" },
+      };
+
+      const map = L.map("map", {
+        crs: L.CRS.Simple,
+        minZoom: -2,
+        maxZoom: 5,
+        zoomControl: false,
+      });
+
+      const baseLayers = {};
+      const playerLayers = {};
+
+      Object.keys(worldBounds).forEach((world) => {
+        const img = L.imageOverlay(worldBounds[world].image, bounds, { interactive: false });
+        const players = L.layerGroup();
+        const group = L.layerGroup([img, players]);
+        baseLayers[world] = group;
+        playerLayers[world] = players;
+      });
+
+      baseLayers["overworld"].addTo(map);
+      map.fitBounds(bounds);
+
+      // ---- Global layers for toggling ----
+      const spawnLayer = L.layerGroup().addTo(map);
+      const deathLayer = L.layerGroup().addTo(map);
+
+      // Layer control for toggle
+      const overlays = {
+        "Spawn Points": spawnLayer,
+        Deaths: deathLayer,
+      };
+      L.control.layers(baseLayers, overlays, { collapsed: false, position: "topleft" }).addTo(map);
+
+      function mcToPixel(world, x, z) {
+        const wb = worldBounds[world];
+        const px = Math.round((x - wb.minX) * (mapWidth / (wb.maxX - wb.minX)));
+        const py = mapHeight - Math.round((z - wb.minZ) * (mapHeight / (wb.maxZ - wb.minZ)));
+        return [py, px];
+      }
+
+      // Load players.json
+      fetch("players.json")
+        .then((res) => res.json())
+        .then((data) => {
+          const playerList = document.getElementById("player-list");
+
+          data.players.forEach((p) => {
+            if (!worldBounds[p.world]) return;
+            const coords = mcToPixel(p.world, p.x, p.z);
+
+            // Player marker
+            const icon = L.divIcon({
+              className: "player-icon-wrapper",
+              html: `<img src="player.png" class="player-icon" style="transform: rotate(${p.rotation[0]}deg)">`,
+              iconSize: [32, 32],
+              iconAnchor: [16, 16],
+            });
+            const marker = L.marker(coords, { icon }).addTo(playerLayers[p.world]);
+
+            // Spawn marker
+            if (p.SpawnX !== undefined && p.SpawnZ !== undefined) {
+              const spawnCoords = mcToPixel(p.world, p.SpawnX, p.SpawnZ);
+              const spawnIcon = L.divIcon({
+                className: "player-icon-wrapper",
+                html: `<img src="spawn-point.png" class="player-icon" style="image-rendering: pixelated;">`,
+                iconSize: [32, 32],
+                iconAnchor: [16, 16],
+              });
+              L.marker(spawnCoords, { icon: spawnIcon })
+                .bindPopup(`<b>${p.name} Spawn</b><br>X=${p.SpawnX}, Y=${p.SpawnY}, Z=${p.SpawnZ}`)
+                .addTo(spawnLayer);
+            }
+
+            // Death marker
+            if (p.DeathX !== undefined && p.DeathZ !== undefined) {
+              const deathCoords = mcToPixel(p.world, p.DeathX, p.DeathZ);
+              const deathIcon = L.divIcon({
+                className: "player-icon-wrapper",
+                html: `<img src="death.png" class="player-icon" style="image-rendering: pixelated;">`,
+                iconSize: [32, 32],
+                iconAnchor: [16, 16],
+              });
+              L.marker(deathCoords, { icon: deathIcon })
+                .bindPopup(`<b>${p.name} Last Death</b><br>X=${p.DeathX}, Y=${p.DeathY}, Z=${p.DeathZ}`)
+                .addTo(deathLayer);
+            }
+
+            // Minecraft inventory layout positions
+            const slotPositions = [
+              // Hotbar (0-8)
+              { x: 8, y: 142 },
+              { x: 26, y: 142 },
+              { x: 44, y: 142 },
+              { x: 62, y: 142 },
+              { x: 80, y: 142 },
+              { x: 98, y: 142 },
+              { x: 116, y: 142 },
+              { x: 134, y: 142 },
+              { x: 152, y: 142 },
+              // Main inventory (9-35)
+              { x: 8, y: 84 },
+              { x: 26, y: 84 },
+              { x: 44, y: 84 },
+              { x: 62, y: 84 },
+              { x: 80, y: 84 },
+              { x: 98, y: 84 },
+              { x: 116, y: 84 },
+              { x: 134, y: 84 },
+              { x: 152, y: 84 },
+              { x: 8, y: 102 },
+              { x: 26, y: 102 },
+              { x: 44, y: 102 },
+              { x: 62, y: 102 },
+              { x: 80, y: 102 },
+              { x: 98, y: 102 },
+              { x: 116, y: 102 },
+              { x: 134, y: 102 },
+              { x: 152, y: 102 },
+              { x: 8, y: 120 },
+              { x: 26, y: 120 },
+              { x: 44, y: 120 },
+              { x: 62, y: 120 },
+              { x: 80, y: 120 },
+              { x: 98, y: 120 },
+              { x: 116, y: 120 },
+              { x: 134, y: 120 },
+              { x: 152, y: 120 },
+              // Armor (36-39)
+              { x: 8, y: 8 },
+              { x: 8, y: 26 },
+              { x: 8, y: 44 },
+              { x: 8, y: 62 },
+              // Offhand (40)
+              { x: 8, y: 142 },
+              { x: 77, y: 62 },
+            ];
+
+            const enderChestSlots = [
+              // Row 1
+              { x: 8, y: 18 },
+              { x: 26, y: 18 },
+              { x: 44, y: 18 },
+              { x: 62, y: 18 },
+              { x: 80, y: 18 },
+              { x: 98, y: 18 },
+              { x: 116, y: 18 },
+              { x: 134, y: 18 },
+              { x: 152, y: 18 },
+              // Row 2
+              { x: 8, y: 36 },
+              { x: 26, y: 36 },
+              { x: 44, y: 36 },
+              { x: 62, y: 36 },
+              { x: 80, y: 36 },
+              { x: 98, y: 36 },
+              { x: 116, y: 36 },
+              { x: 134, y: 36 },
+              { x: 152, y: 36 },
+              // Row 3
+              { x: 8, y: 54 },
+              { x: 26, y: 54 },
+              { x: 44, y: 54 },
+              { x: 62, y: 54 },
+              { x: 80, y: 54 },
+              { x: 98, y: 54 },
+              { x: 116, y: 54 },
+              { x: 134, y: 54 },
+              { x: 152, y: 54 },
+            ];
+
+            function getItemIcon(itemName) {
+              if (!itemName) return "icons/empty.png";
+              const sanitized = itemName.replace(/[:.]/g, "_");
+              return `icons/${sanitized}.png`;
+            }
+
+            function renderEnderChest(player) {
+              let html = '<div class="enderchest-popup">';
+
+              (player.enderchestinventory || []).forEach((item, index) => {
+                if (!enderChestSlots[index]) return;
+                const pos = enderChestSlots[index];
+                html += `
+      <div class="enderchest-slot" style="left:${pos.x}px; top:${pos.y}px;">
+        <img src="${getItemIcon(item.Name)}">
+        ${item.Count > 1 ? `<span class="slot-count">${item.Count}</span>` : ""}
+      </div>
+    `;
+              });
+
+              html += "</div>";
+              return html;
+            }
+
+            function renderInventoryGrid(player) {
+              let html = "";
+
+              // Add Ender Chest first (if player has one)
+              if (Array.isArray(player.enderchestinventory) && player.enderchestinventory.length) {
+                html += renderEnderChest(player);
+              }
+
+              // Then add Inventory
+              html += '<div class="inventory-popup">';
+              html += `
+    <img 
+      src="https://persona-secondary.franchise.minecraft-services.net/api/v1.0/profile/xuid/${player.xuid}/image/avatar" 
+      alt="${player.name} avatar"
+      class="inventory-avatar"
+    >
+  `;
+
+              const allItems = [...player.inventory, ...player.armor, ...player.offhand];
+
+              allItems.forEach((item, index) => {
+                if (!slotPositions[index]) return;
+                const pos = slotPositions[index];
+                html += `
+      <div class="inventory-slot" style="left:${pos.x}px; top:${pos.y}px;">
+        <img src="${getItemIcon(item.Name)}">
+        ${item.Count > 1 ? `<span class="slot-count">${item.Count}</span>` : ""}
+      </div>
+    `;
+              });
+
+              html += "</div>";
+              return html;
+            }
+
+            // In your player marker code, replace the inventory section:
+            //           <b>${p.name}</b><br>
+            // World: ${p.world}<br>
+            // Gamemode: ${p.playergamemode}<br>
+            // Position: X=${p.x}, Y=${p.y}, Z=${p.z}<br>
+            // Rotation: ${Math.round(p.rotation[0])}, ${Math.round(p.rotation[1])}<br>
+            // Spawn: X=${p.SpawnX}, Y=${p.SpawnY}, Z=${p.SpawnZ}<br>
+            // Death: X=${p.DeathX}, Y=${p.DeathY}, Z=${p.DeathZ}<br>
+            // <b>Inventory:</b><br>
+            const popupContent = `
+  ${renderInventoryGrid(p)}
+`;
+            marker.bindPopup(popupContent);
+
+            // Sidebar entry
+            const entry = document.createElement("div");
+            entry.className = "player-entry";
+            entry.innerHTML = `
+          <img src="https://persona-secondary.franchise.minecraft-services.net/api/v1.0/profile/xuid/${p.xuid}/image/head" alt="${p.name} head">
+          <span>${p.name}</span>
+        `;
+            entry.addEventListener("click", () => {
+              Object.keys(baseLayers).forEach((world) => map.removeLayer(baseLayers[world]));
+              baseLayers[p.world].addTo(map);
+              map.setView(coords, 0);
+              marker.openPopup();
+            });
+            playerList.appendChild(entry);
+          });
+        })
+        .catch((err) => console.error("Failed to load players.json", err));
+
+      // Grid layer
+      const gridLayer = L.layerGroup().addTo(map);
+
+      // Draw for the current world
+      drawGrid("overworld");
+
+      const coordsDisplay = document.getElementById("coords-display");
+      map.on("mousemove", function (e) {
+        const lat = e.latlng.lat;
+        const lng = e.latlng.lng;
+        let currentWorld = "overworld"; // Update if dynamic world switch
+        const wb = worldBounds[currentWorld];
+        const mcX = Math.round(wb.minX + (lng / mapWidth) * (wb.maxX - wb.minX));
+        const mcZ = Math.round(wb.minZ + (lat / mapHeight) * (wb.maxZ - wb.minZ));
+        coordsDisplay.textContent = `X: ${mcX}, Z: ${mcZ}`;
+      });
+    </script>
+  </body>
+</html>

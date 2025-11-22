@@ -1,0 +1,215 @@
+{
+  "Block": {  
+    "name": "minecraft:chest", 
+    "states": {    
+      "minecraft:cardinal_direction": "north"
+    }, 
+    "version": 15393
+  }, 
+  "Count": 1b, 
+  "Damage": 0s, 
+  "Name": "minecraft:chest", 
+  "WasPickedUp": 0b, 
+  "tag": {  
+    "Findable": 0b, 
+    "Items": [   
+      {      
+        "Count": 0b, 
+        "Damage": 0s, 
+        "Name": "", 
+        "Slot": 0b, 
+        "WasPickedUp": 0b
+      }, 
+      {      
+        "Count": 0b, 
+        "Damage": 0s, 
+        "Name": "", 
+        "Slot": 1b, 
+        "WasPickedUp": 0b
+      }, 
+      {      
+        "Count": 0b, 
+        "Damage": 0s, 
+        "Name": "", 
+        "Slot": 2b, 
+        "WasPickedUp": 0b
+      }, 
+      {      
+        "Count": 0b, 
+        "Damage": 0s, 
+        "Name": "", 
+        "Slot": 3b, 
+        "WasPickedUp": 0b
+      }, 
+      {      
+        "Count": 0b, 
+        "Damage": 0s, 
+        "Name": "", 
+        "Slot": 4b, 
+        "WasPickedUp": 0b
+      }, 
+      {      
+        "Count": 0b, 
+        "Damage": 0s, 
+        "Name": "", 
+        "Slot": 5b, 
+        "WasPickedUp": 0b
+      }, 
+      {      
+        "Count": 0b, 
+        "Damage": 0s, 
+        "Name": "", 
+        "Slot": 6b, 
+        "WasPickedUp": 0b
+      }, 
+      {      
+        "Count": 0b, 
+        "Damage": 0s, 
+        "Name": "", 
+        "Slot": 7b, 
+        "WasPickedUp": 0b
+      }, 
+      {      
+        "Count": 0b, 
+        "Damage": 0s, 
+        "Name": "", 
+        "Slot": 8b, 
+        "WasPickedUp": 0b
+      }, 
+      {      
+        "Count": 0b, 
+        "Damage": 0s, 
+        "Name": "", 
+        "Slot": 9b, 
+        "WasPickedUp": 0b
+      }, 
+      {      
+        "Count": 0b, 
+        "Damage": 0s, 
+        "Name": "", 
+        "Slot": 10b, 
+        "WasPickedUp": 0b
+      }, 
+      {      
+        "Count": 0b, 
+        "Damage": 0s, 
+        "Name": "", 
+        "Slot": 11b, 
+        "WasPickedUp": 0b
+      }, 
+      {      
+        "Count": 0b, 
+        "Damage": 0s, 
+        "Name": "", 
+        "Slot": 12b, 
+        "WasPickedUp": 0b
+      }, 
+      {      
+        "Count": 0b, 
+        "Damage": 0s, 
+        "Name": "", 
+        "Slot": 13b, 
+        "WasPickedUp": 0b
+      }, 
+      {      
+        "Count": 0b, 
+        "Damage": 0s, 
+        "Name": "", 
+        "Slot": 14b, 
+        "WasPickedUp": 0b
+      }, 
+      {      
+        "Count": 0b, 
+        "Damage": 0s, 
+        "Name": "", 
+        "Slot": 15b, 
+        "WasPickedUp": 0b
+      }, 
+      {      
+        "Count": 0b, 
+        "Damage": 0s, 
+        "Name": "", 
+        "Slot": 16b, 
+        "WasPickedUp": 0b
+      }, 
+      {      
+        "Count": 0b, 
+        "Damage": 0s, 
+        "Name": "", 
+        "Slot": 17b, 
+        "WasPickedUp": 0b
+      }, 
+      {      
+        "Count": 0b, 
+        "Damage": 0s, 
+        "Name": "", 
+        "Slot": 18b, 
+        "WasPickedUp": 0b
+      }, 
+      {      
+        "Count": 0b, 
+        "Damage": 0s, 
+        "Name": "", 
+        "Slot": 19b, 
+        "WasPickedUp": 0b
+      }, 
+      {      
+        "Count": 0b, 
+        "Damage": 0s, 
+        "Name": "", 
+        "Slot": 20b, 
+        "WasPickedUp": 0b
+      }, 
+      {      
+        "Count": 0b, 
+        "Damage": 0s, 
+        "Name": "", 
+        "Slot": 21b, 
+        "WasPickedUp": 0b
+      }, 
+      {      
+        "Count": 0b, 
+        "Damage": 0s, 
+        "Name": "", 
+        "Slot": 22b, 
+        "WasPickedUp": 0b
+      }, 
+      {      
+        "Count": 0b, 
+        "Damage": 0s, 
+        "Name": "", 
+        "Slot": 23b, 
+        "WasPickedUp": 0b
+      }, 
+      {      
+        "Count": 0b, 
+        "Damage": 0s, 
+        "Name": "", 
+        "Slot": 24b, 
+        "WasPickedUp": 0b
+      }, 
+      {      
+        "Count": 0b, 
+        "Damage": 0s, 
+        "Name": "", 
+        "Slot": 25b, 
+        "WasPickedUp": 0b
+      }, 
+      {      
+        "Count": 0b, 
+        "Damage": 0s, 
+        "Name": "", 
+        "Slot": 26b, 
+        "WasPickedUp": 0b
+      }
+    ], 
+    "LootTable": "loot_tables/chests/stronghold_library.json", 
+    "LootTableSeed": 0l, 
+    "display": {    
+      "Lore": [      
+        "Â§rÂ§3Chance to recieve:\nÂ§7Â§bEye Armor Trim Â§8100.0%Â§f\nPaper / Book Â§888.3%Â§f\nEnchanted Book Â§872.9%Â§f\nCompass / Map Â§810.5%",
+      ], 
+      "Name": "Â§rÂ§bStronghold Library Loot Crate"
+    }
+  }
+}

@@ -1,0 +1,1374 @@
+{
+  ActiveEffects: [
+    {
+      Ambient: 0b,
+      Amplifier: 0b,
+      DisplayOnScreenTextureAnimation: 0b,
+      Duration: -1,
+      DurationEasy: -1,
+      DurationHard: -1,
+      DurationNormal: -1,
+      FactorCalculationData: {
+        factor_current: 0f,
+        factor_previous: 0f,
+        factor_start: 0f,
+        factor_target: 1f,
+        had_applied: 1b,
+        had_last_tick: 0b,
+        padding_duration: 0,
+        ticks_active: 0
+      },
+      Id: 3b,
+      ShowParticles: 1b
+    },
+    {
+      Ambient: 0b,
+      Amplifier: 0b,
+      DisplayOnScreenTextureAnimation: 0b,
+      Duration: -1,
+      DurationEasy: -1,
+      DurationHard: -1,
+      DurationNormal: -1,
+      FactorCalculationData: {
+        factor_current: 0f,
+        factor_previous: 0f,
+        factor_start: 0f,
+        factor_target: 1f,
+        had_applied: 1b,
+        had_last_tick: 0b,
+        padding_duration: 0,
+        ticks_active: 0
+      },
+      Id: 5b,
+      ShowParticles: 1b
+    },
+    {
+      Ambient: 0b,
+      Amplifier: 0b,
+      DisplayOnScreenTextureAnimation: 0b,
+      Duration: -1,
+      DurationEasy: -1,
+      DurationHard: -1,
+      DurationNormal: -1,
+      FactorCalculationData: {
+        factor_current: 0f,
+        factor_previous: 0f,
+        factor_start: 0f,
+        factor_target: 1f,
+        had_applied: 1b,
+        had_last_tick: 0b,
+        padding_duration: 0,
+        ticks_active: 0
+      },
+      Id: 15b,
+      ShowParticles: 1b
+    },
+    {
+      Ambient: 0b,
+      Amplifier: 3b,
+      DisplayOnScreenTextureAnimation: 0b,
+      Duration: -1,
+      DurationEasy: -1,
+      DurationHard: -1,
+      DurationNormal: -1,
+      FactorCalculationData: {
+        factor_current: 0f,
+        factor_previous: 0f,
+        factor_start: 0f,
+        factor_target: 1f,
+        had_applied: 1b,
+        had_last_tick: 0b,
+        padding_duration: 0,
+        ticks_active: 0
+      },
+      Id: 21b,
+      ShowParticles: 1b
+    },
+    {
+      Ambient: 0b,
+      Amplifier: 0b,
+      DisplayOnScreenTextureAnimation: 0b,
+      Duration: -1,
+      DurationEasy: -1,
+      DurationHard: -1,
+      DurationNormal: -1,
+      FactorCalculationData: {
+        factor_current: 0f,
+        factor_previous: 0f,
+        factor_start: 0f,
+        factor_target: 1f,
+        had_applied: 1b,
+        had_last_tick: 0b,
+        padding_duration: 0,
+        ticks_active: 0
+      },
+      Id: 22b,
+      ShowParticles: 1b
+    },
+    {
+      Ambient: 0b,
+      Amplifier: 0b,
+      DisplayOnScreenTextureAnimation: 0b,
+      Duration: -1,
+      DurationEasy: -1,
+      DurationHard: -1,
+      DurationNormal: -1,
+      FactorCalculationData: {
+        factor_current: 0f,
+        factor_previous: 0f,
+        factor_start: 0f,
+        factor_target: 1f,
+        had_applied: 1b,
+        had_last_tick: 0b,
+        padding_duration: 0,
+        ticks_active: 0
+      },
+      Id: 28b,
+      ShowParticles: 0b
+    },
+    {
+      Ambient: 0b,
+      Amplifier: 0b,
+      DisplayOnScreenTextureAnimation: 0b,
+      Duration: -1,
+      DurationEasy: -1,
+      DurationHard: -1,
+      DurationNormal: -1,
+      FactorCalculationData: {
+        factor_current: 1f,
+        factor_previous: 1f,
+        factor_start: 0f,
+        factor_target: 1f,
+        had_applied: 1b,
+        had_last_tick: 1b,
+        padding_duration: 22,
+        ticks_active: 733
+      },
+      Id: 30b,
+      ShowParticles: 0b
+    }
+  ],
+  Air: 300s,
+  Armor: [
+    {
+      Count: 1b,
+      Damage: 0s,
+      Name: "minecraft:diamond_helmet",
+      WasPickedUp: 0b,
+      tag: {
+        Damage: 0
+      }
+    },
+    {
+      Count: 1b,
+      Damage: 0s,
+      Name: "minecraft:diamond_chestplate",
+      WasPickedUp: 0b,
+      tag: {
+        Damage: 0
+      }
+    },
+    {
+      Count: 1b,
+      Damage: 0s,
+      Name: "minecraft:diamond_leggings",
+      WasPickedUp: 0b,
+      tag: {
+        Damage: 0
+      }
+    },
+    {
+      Count: 1b,
+      Damage: 0s,
+      Name: "minecraft:diamond_boots",
+      WasPickedUp: 0b,
+      tag: {
+        Damage: 0
+      }
+    },
+    {
+      Count: 0b,
+      Damage: 0s,
+      Name: "",
+      WasPickedUp: 0b
+    }
+  ],
+  Attributes: [
+    {
+      Base: 0f,
+      Current: 0f,
+      DefaultMax: 1024f,
+      DefaultMin: -1024f,
+      Max: 1024f,
+      Min: -1024f,
+      Name: "minecraft:luck"
+    },
+    {
+      Base: 20f,
+      Current: 21f,
+      DefaultMax: 20f,
+      DefaultMin: 0f,
+      Max: 36f,
+      Min: 0f,
+      Modifiers: [],
+      Name: "minecraft:health"
+    },
+    {
+      Base: 0f,
+      Current: 4f,
+      DefaultMax: 16f,
+      DefaultMin: 0f,
+      Max: 16f,
+      Min: 0f,
+      Name: "minecraft:absorption"
+    },
+    {
+      Base: 0f,
+      Current: 0f,
+      DefaultMax: 1f,
+      DefaultMin: 0f,
+      Max: 1f,
+      Min: 0f,
+      Name: "minecraft:knockback_resistance"
+    },
+    {
+      Base: 0.10000000149011612f,
+      Current: 0.10000000149011612f,
+      DefaultMax: 3.4028234663852886e+38f,
+      DefaultMin: 0f,
+      Max: 3.4028234663852886e+38f,
+      Min: 0f,
+      Name: "minecraft:movement"
+    },
+    {
+      Base: 0.019999999552965164f,
+      Current: 0.019999999552965164f,
+      DefaultMax: 3.4028234663852886e+38f,
+      DefaultMin: 0f,
+      Max: 3.4028234663852886e+38f,
+      Min: 0f,
+      Name: "minecraft:underwater_movement"
+    },
+    {
+      Base: 0.019999999552965164f,
+      Current: 0.019999999552965164f,
+      DefaultMax: 3.4028234663852886e+38f,
+      DefaultMin: 0f,
+      Max: 3.4028234663852886e+38f,
+      Min: 0f,
+      Name: "minecraft:lava_movement"
+    },
+    {
+      Base: 16f,
+      Current: 16f,
+      DefaultMax: 2048f,
+      DefaultMin: 0f,
+      Max: 2048f,
+      Min: 0f,
+      Name: "minecraft:follow_range"
+    },
+    {
+      Base: 1f,
+      Current: 1f,
+      DefaultMax: 1f,
+      DefaultMin: 1f,
+      Max: 1f,
+      Min: 1f,
+      Modifiers: [],
+      Name: "minecraft:attack_damage"
+    },
+    {
+      Base: 20f,
+      Current: 20f,
+      DefaultMax: 20f,
+      DefaultMin: 0f,
+      Max: 20f,
+      Min: 0f,
+      Name: "minecraft:player.hunger"
+    },
+    {
+      Base: 0f,
+      Current: 2f,
+      DefaultMax: 20f,
+      DefaultMin: 0f,
+      Max: 20f,
+      Min: 0f,
+      Name: "minecraft:player.exhaustion"
+    },
+    {
+      Base: 5f,
+      Current: 4f,
+      DefaultMax: 20f,
+      DefaultMin: 0f,
+      Max: 20f,
+      Min: 0f,
+      Name: "minecraft:player.saturation"
+    },
+    {
+      Base: 0f,
+      Current: 0f,
+      DefaultMax: 24791f,
+      DefaultMin: 0f,
+      Max: 24791f,
+      Min: 0f,
+      Name: "minecraft:player.level"
+    },
+    {
+      Base: 0f,
+      Current: 0f,
+      DefaultMax: 1f,
+      DefaultMin: 0f,
+      Max: 1f,
+      Min: 0f,
+      Name: "minecraft:player.experience"
+    }
+  ],
+  Chested: 0b,
+  Color: 0b,
+  Color2: 0b,
+  CraftingLayout: 0,
+  Dead: 0b,
+  DeathTime: 0s,
+  DimensionId: 0,
+  EnchantmentSeed: 1850338744,
+  EnderChestInventory: [
+    {
+      Block: {
+        name: "minecraft:barrel",
+        states: {
+          facing_direction: 0,
+          open_bit: 0b
+        },
+        version: 18168865
+      },
+      Count: 64b,
+      Damage: 0s,
+      Name: "minecraft:barrel",
+      Slot: 0b,
+      WasPickedUp: 0b
+    },
+    {
+      Block: {
+        name: "minecraft:barrel",
+        states: {
+          facing_direction: 0,
+          open_bit: 0b
+        },
+        version: 18168865
+      },
+      Count: 64b,
+      Damage: 0s,
+      Name: "minecraft:barrel",
+      Slot: 1b,
+      WasPickedUp: 0b
+    },
+    {
+      Block: {
+        name: "minecraft:barrel",
+        states: {
+          facing_direction: 0,
+          open_bit: 0b
+        },
+        version: 18168865
+      },
+      Count: 64b,
+      Damage: 0s,
+      Name: "minecraft:barrel",
+      Slot: 2b,
+      WasPickedUp: 0b
+    },
+    {
+      Block: {
+        name: "minecraft:barrel",
+        states: {
+          facing_direction: 0,
+          open_bit: 0b
+        },
+        version: 18168865
+      },
+      Count: 64b,
+      Damage: 0s,
+      Name: "minecraft:barrel",
+      Slot: 3b,
+      WasPickedUp: 0b
+    },
+    {
+      Block: {
+        name: "minecraft:barrel",
+        states: {
+          facing_direction: 0,
+          open_bit: 0b
+        },
+        version: 18168865
+      },
+      Count: 64b,
+      Damage: 0s,
+      Name: "minecraft:barrel",
+      Slot: 4b,
+      WasPickedUp: 0b
+    },
+    {
+      Block: {
+        name: "minecraft:barrel",
+        states: {
+          facing_direction: 0,
+          open_bit: 0b
+        },
+        version: 18168865
+      },
+      Count: 64b,
+      Damage: 0s,
+      Name: "minecraft:barrel",
+      Slot: 5b,
+      WasPickedUp: 0b
+    },
+    {
+      Block: {
+        name: "minecraft:barrel",
+        states: {
+          facing_direction: 0,
+          open_bit: 0b
+        },
+        version: 18168865
+      },
+      Count: 64b,
+      Damage: 0s,
+      Name: "minecraft:barrel",
+      Slot: 6b,
+      WasPickedUp: 0b
+    },
+    {
+      Block: {
+        name: "minecraft:barrel",
+        states: {
+          facing_direction: 0,
+          open_bit: 0b
+        },
+        version: 18168865
+      },
+      Count: 64b,
+      Damage: 0s,
+      Name: "minecraft:barrel",
+      Slot: 7b,
+      WasPickedUp: 0b
+    },
+    {
+      Block: {
+        name: "minecraft:barrel",
+        states: {
+          facing_direction: 0,
+          open_bit: 0b
+        },
+        version: 18168865
+      },
+      Count: 64b,
+      Damage: 0s,
+      Name: "minecraft:barrel",
+      Slot: 8b,
+      WasPickedUp: 0b
+    },
+    {
+      Block: {
+        name: "minecraft:barrel",
+        states: {
+          facing_direction: 0,
+          open_bit: 0b
+        },
+        version: 18168865
+      },
+      Count: 64b,
+      Damage: 0s,
+      Name: "minecraft:barrel",
+      Slot: 9b,
+      WasPickedUp: 0b
+    },
+    {
+      Block: {
+        name: "minecraft:barrel",
+        states: {
+          facing_direction: 0,
+          open_bit: 0b
+        },
+        version: 18168865
+      },
+      Count: 64b,
+      Damage: 0s,
+      Name: "minecraft:barrel",
+      Slot: 10b,
+      WasPickedUp: 0b
+    },
+    {
+      Block: {
+        name: "minecraft:barrel",
+        states: {
+          facing_direction: 0,
+          open_bit: 0b
+        },
+        version: 18168865
+      },
+      Count: 64b,
+      Damage: 0s,
+      Name: "minecraft:barrel",
+      Slot: 11b,
+      WasPickedUp: 0b
+    },
+    {
+      Block: {
+        name: "minecraft:barrel",
+        states: {
+          facing_direction: 0,
+          open_bit: 0b
+        },
+        version: 18168865
+      },
+      Count: 64b,
+      Damage: 0s,
+      Name: "minecraft:barrel",
+      Slot: 12b,
+      WasPickedUp: 0b
+    },
+    {
+      Block: {
+        name: "minecraft:barrel",
+        states: {
+          facing_direction: 0,
+          open_bit: 0b
+        },
+        version: 18168865
+      },
+      Count: 64b,
+      Damage: 0s,
+      Name: "minecraft:barrel",
+      Slot: 13b,
+      WasPickedUp: 0b
+    },
+    {
+      Block: {
+        name: "minecraft:barrel",
+        states: {
+          facing_direction: 0,
+          open_bit: 0b
+        },
+        version: 18168865
+      },
+      Count: 64b,
+      Damage: 0s,
+      Name: "minecraft:barrel",
+      Slot: 14b,
+      WasPickedUp: 0b
+    },
+    {
+      Block: {
+        name: "minecraft:barrel",
+        states: {
+          facing_direction: 0,
+          open_bit: 0b
+        },
+        version: 18168865
+      },
+      Count: 64b,
+      Damage: 0s,
+      Name: "minecraft:barrel",
+      Slot: 15b,
+      WasPickedUp: 0b
+    },
+    {
+      Block: {
+        name: "minecraft:barrel",
+        states: {
+          facing_direction: 0,
+          open_bit: 0b
+        },
+        version: 18168865
+      },
+      Count: 64b,
+      Damage: 0s,
+      Name: "minecraft:barrel",
+      Slot: 16b,
+      WasPickedUp: 0b
+    },
+    {
+      Block: {
+        name: "minecraft:barrel",
+        states: {
+          facing_direction: 0,
+          open_bit: 0b
+        },
+        version: 18168865
+      },
+      Count: 64b,
+      Damage: 0s,
+      Name: "minecraft:barrel",
+      Slot: 17b,
+      WasPickedUp: 0b
+    },
+    {
+      Block: {
+        name: "minecraft:barrel",
+        states: {
+          facing_direction: 0,
+          open_bit: 0b
+        },
+        version: 18168865
+      },
+      Count: 64b,
+      Damage: 0s,
+      Name: "minecraft:barrel",
+      Slot: 18b,
+      WasPickedUp: 0b
+    },
+    {
+      Block: {
+        name: "minecraft:barrel",
+        states: {
+          facing_direction: 0,
+          open_bit: 0b
+        },
+        version: 18168865
+      },
+      Count: 64b,
+      Damage: 0s,
+      Name: "minecraft:barrel",
+      Slot: 19b,
+      WasPickedUp: 0b
+    },
+    {
+      Block: {
+        name: "minecraft:barrel",
+        states: {
+          facing_direction: 0,
+          open_bit: 0b
+        },
+        version: 18168865
+      },
+      Count: 64b,
+      Damage: 0s,
+      Name: "minecraft:barrel",
+      Slot: 20b,
+      WasPickedUp: 0b
+    },
+    {
+      Block: {
+        name: "minecraft:barrel",
+        states: {
+          facing_direction: 0,
+          open_bit: 0b
+        },
+        version: 18168865
+      },
+      Count: 64b,
+      Damage: 0s,
+      Name: "minecraft:barrel",
+      Slot: 21b,
+      WasPickedUp: 0b
+    },
+    {
+      Block: {
+        name: "minecraft:barrel",
+        states: {
+          facing_direction: 0,
+          open_bit: 0b
+        },
+        version: 18168865
+      },
+      Count: 64b,
+      Damage: 0s,
+      Name: "minecraft:barrel",
+      Slot: 22b,
+      WasPickedUp: 0b
+    },
+    {
+      Block: {
+        name: "minecraft:barrel",
+        states: {
+          facing_direction: 0,
+          open_bit: 0b
+        },
+        version: 18168865
+      },
+      Count: 64b,
+      Damage: 0s,
+      Name: "minecraft:barrel",
+      Slot: 23b,
+      WasPickedUp: 0b
+    },
+    {
+      Block: {
+        name: "minecraft:barrel",
+        states: {
+          facing_direction: 0,
+          open_bit: 0b
+        },
+        version: 18168865
+      },
+      Count: 64b,
+      Damage: 0s,
+      Name: "minecraft:barrel",
+      Slot: 24b,
+      WasPickedUp: 0b
+    },
+    {
+      Block: {
+        name: "minecraft:barrel",
+        states: {
+          facing_direction: 0,
+          open_bit: 0b
+        },
+        version: 18168865
+      },
+      Count: 64b,
+      Damage: 0s,
+      Name: "minecraft:barrel",
+      Slot: 25b,
+      WasPickedUp: 0b
+    },
+    {
+      Block: {
+        name: "minecraft:barrel",
+        states: {
+          facing_direction: 0,
+          open_bit: 0b
+        },
+        version: 18168865
+      },
+      Count: 64b,
+      Damage: 0s,
+      Name: "minecraft:barrel",
+      Slot: 26b,
+      WasPickedUp: 0b
+    }
+  ],
+  FallDistance: 0f,
+  HasSeenCredits: 0b,
+  HurtTime: 0s,
+  Inventory: [
+    {
+      Count: 1b,
+      Damage: 0s,
+      Name: "minecraft:diamond_sword",
+      Slot: 0b,
+      WasPickedUp: 0b,
+      tag: {
+        Damage: 0
+      }
+    },
+    {
+      Count: 1b,
+      Damage: 0s,
+      Name: "minecraft:diamond_pickaxe",
+      Slot: 1b,
+      WasPickedUp: 0b,
+      tag: {
+        Damage: 0
+      }
+    },
+    {
+      Count: 1b,
+      Damage: 0s,
+      Name: "minecraft:diamond_axe",
+      Slot: 2b,
+      WasPickedUp: 0b,
+      tag: {
+        Damage: 0
+      }
+    },
+    {
+      Count: 1b,
+      Damage: 0s,
+      Name: "minecraft:diamond_shovel",
+      Slot: 3b,
+      WasPickedUp: 0b,
+      tag: {
+        Damage: 0
+      }
+    },
+    {
+      Count: 1b,
+      Damage: 0s,
+      Name: "minecraft:diamond_hoe",
+      Slot: 4b,
+      WasPickedUp: 0b,
+      tag: {
+        Damage: 0
+      }
+    },
+    {
+      Count: 1b,
+      Damage: 0s,
+      Name: "minecraft:trident",
+      Slot: 5b,
+      WasPickedUp: 0b,
+      tag: {
+        Damage: 0
+      }
+    },
+    {
+      Count: 1b,
+      Damage: 0s,
+      Name: "minecraft:mace",
+      Slot: 6b,
+      WasPickedUp: 0b,
+      tag: {
+        Damage: 0
+      }
+    },
+    {
+      Count: 1b,
+      Damage: 0s,
+      Name: "minecraft:crossbow",
+      Slot: 7b,
+      WasPickedUp: 0b,
+      tag: {
+        Damage: 0,
+        chargedItem: {
+          Count: 1b,
+          Damage: 0s,
+          Name: "minecraft:arrow",
+          WasPickedUp: 0b
+        }
+      }
+    },
+    {
+      Count: 1b,
+      Damage: 0s,
+      Name: "minecraft:shield",
+      Slot: 8b,
+      WasPickedUp: 0b,
+      tag: {
+        Damage: 0
+      }
+    },
+    {
+      Block: {
+        name: "minecraft:anvil",
+        states: {
+          "minecraft:cardinal_direction": "south"
+        },
+        version: 18168865
+      },
+      Count: 64b,
+      Damage: 0s,
+      Name: "minecraft:anvil",
+      Slot: 9b,
+      WasPickedUp: 0b
+    },
+    {
+      Block: {
+        name: "minecraft:anvil",
+        states: {
+          "minecraft:cardinal_direction": "south"
+        },
+        version: 18168865
+      },
+      Count: 64b,
+      Damage: 0s,
+      Name: "minecraft:anvil",
+      Slot: 10b,
+      WasPickedUp: 0b
+    },
+    {
+      Block: {
+        name: "minecraft:anvil",
+        states: {
+          "minecraft:cardinal_direction": "south"
+        },
+        version: 18168865
+      },
+      Count: 64b,
+      Damage: 0s,
+      Name: "minecraft:anvil",
+      Slot: 11b,
+      WasPickedUp: 0b
+    },
+    {
+      Block: {
+        name: "minecraft:anvil",
+        states: {
+          "minecraft:cardinal_direction": "south"
+        },
+        version: 18168865
+      },
+      Count: 64b,
+      Damage: 0s,
+      Name: "minecraft:anvil",
+      Slot: 12b,
+      WasPickedUp: 0b
+    },
+    {
+      Block: {
+        name: "minecraft:anvil",
+        states: {
+          "minecraft:cardinal_direction": "south"
+        },
+        version: 18168865
+      },
+      Count: 64b,
+      Damage: 0s,
+      Name: "minecraft:anvil",
+      Slot: 13b,
+      WasPickedUp: 0b
+    },
+    {
+      Block: {
+        name: "minecraft:anvil",
+        states: {
+          "minecraft:cardinal_direction": "south"
+        },
+        version: 18168865
+      },
+      Count: 64b,
+      Damage: 0s,
+      Name: "minecraft:anvil",
+      Slot: 14b,
+      WasPickedUp: 0b
+    },
+    {
+      Block: {
+        name: "minecraft:anvil",
+        states: {
+          "minecraft:cardinal_direction": "south"
+        },
+        version: 18168865
+      },
+      Count: 64b,
+      Damage: 0s,
+      Name: "minecraft:anvil",
+      Slot: 15b,
+      WasPickedUp: 0b
+    },
+    {
+      Block: {
+        name: "minecraft:anvil",
+        states: {
+          "minecraft:cardinal_direction": "south"
+        },
+        version: 18168865
+      },
+      Count: 64b,
+      Damage: 0s,
+      Name: "minecraft:anvil",
+      Slot: 16b,
+      WasPickedUp: 0b
+    },
+    {
+      Block: {
+        name: "minecraft:anvil",
+        states: {
+          "minecraft:cardinal_direction": "south"
+        },
+        version: 18168865
+      },
+      Count: 64b,
+      Damage: 0s,
+      Name: "minecraft:anvil",
+      Slot: 17b,
+      WasPickedUp: 0b
+    },
+    {
+      Block: {
+        name: "minecraft:anvil",
+        states: {
+          "minecraft:cardinal_direction": "south"
+        },
+        version: 18168865
+      },
+      Count: 64b,
+      Damage: 0s,
+      Name: "minecraft:anvil",
+      Slot: 18b,
+      WasPickedUp: 0b
+    },
+    {
+      Block: {
+        name: "minecraft:anvil",
+        states: {
+          "minecraft:cardinal_direction": "south"
+        },
+        version: 18168865
+      },
+      Count: 64b,
+      Damage: 0s,
+      Name: "minecraft:anvil",
+      Slot: 19b,
+      WasPickedUp: 0b
+    },
+    {
+      Block: {
+        name: "minecraft:anvil",
+        states: {
+          "minecraft:cardinal_direction": "south"
+        },
+        version: 18168865
+      },
+      Count: 64b,
+      Damage: 0s,
+      Name: "minecraft:anvil",
+      Slot: 20b,
+      WasPickedUp: 0b
+    },
+    {
+      Block: {
+        name: "minecraft:anvil",
+        states: {
+          "minecraft:cardinal_direction": "south"
+        },
+        version: 18168865
+      },
+      Count: 64b,
+      Damage: 0s,
+      Name: "minecraft:anvil",
+      Slot: 21b,
+      WasPickedUp: 0b
+    },
+    {
+      Block: {
+        name: "minecraft:anvil",
+        states: {
+          "minecraft:cardinal_direction": "south"
+        },
+        version: 18168865
+      },
+      Count: 64b,
+      Damage: 0s,
+      Name: "minecraft:anvil",
+      Slot: 22b,
+      WasPickedUp: 0b
+    },
+    {
+      Block: {
+        name: "minecraft:anvil",
+        states: {
+          "minecraft:cardinal_direction": "south"
+        },
+        version: 18168865
+      },
+      Count: 64b,
+      Damage: 0s,
+      Name: "minecraft:anvil",
+      Slot: 23b,
+      WasPickedUp: 0b
+    },
+    {
+      Block: {
+        name: "minecraft:anvil",
+        states: {
+          "minecraft:cardinal_direction": "south"
+        },
+        version: 18168865
+      },
+      Count: 64b,
+      Damage: 0s,
+      Name: "minecraft:anvil",
+      Slot: 24b,
+      WasPickedUp: 0b
+    },
+    {
+      Block: {
+        name: "minecraft:anvil",
+        states: {
+          "minecraft:cardinal_direction": "south"
+        },
+        version: 18168865
+      },
+      Count: 64b,
+      Damage: 0s,
+      Name: "minecraft:anvil",
+      Slot: 25b,
+      WasPickedUp: 0b
+    },
+    {
+      Block: {
+        name: "minecraft:anvil",
+        states: {
+          "minecraft:cardinal_direction": "south"
+        },
+        version: 18168865
+      },
+      Count: 64b,
+      Damage: 0s,
+      Name: "minecraft:anvil",
+      Slot: 26b,
+      WasPickedUp: 0b
+    },
+    {
+      Block: {
+        name: "minecraft:anvil",
+        states: {
+          "minecraft:cardinal_direction": "south"
+        },
+        version: 18168865
+      },
+      Count: 64b,
+      Damage: 0s,
+      Name: "minecraft:anvil",
+      Slot: 27b,
+      WasPickedUp: 0b
+    },
+    {
+      Block: {
+        name: "minecraft:anvil",
+        states: {
+          "minecraft:cardinal_direction": "south"
+        },
+        version: 18168865
+      },
+      Count: 64b,
+      Damage: 0s,
+      Name: "minecraft:anvil",
+      Slot: 28b,
+      WasPickedUp: 0b
+    },
+    {
+      Block: {
+        name: "minecraft:anvil",
+        states: {
+          "minecraft:cardinal_direction": "south"
+        },
+        version: 18168865
+      },
+      Count: 64b,
+      Damage: 0s,
+      Name: "minecraft:anvil",
+      Slot: 29b,
+      WasPickedUp: 0b
+    },
+    {
+      Block: {
+        name: "minecraft:anvil",
+        states: {
+          "minecraft:cardinal_direction": "south"
+        },
+        version: 18168865
+      },
+      Count: 64b,
+      Damage: 0s,
+      Name: "minecraft:anvil",
+      Slot: 30b,
+      WasPickedUp: 0b
+    },
+    {
+      Block: {
+        name: "minecraft:anvil",
+        states: {
+          "minecraft:cardinal_direction": "south"
+        },
+        version: 18168865
+      },
+      Count: 64b,
+      Damage: 0s,
+      Name: "minecraft:anvil",
+      Slot: 31b,
+      WasPickedUp: 0b
+    },
+    {
+      Block: {
+        name: "minecraft:anvil",
+        states: {
+          "minecraft:cardinal_direction": "south"
+        },
+        version: 18168865
+      },
+      Count: 64b,
+      Damage: 0s,
+      Name: "minecraft:anvil",
+      Slot: 32b,
+      WasPickedUp: 0b
+    },
+    {
+      Block: {
+        name: "minecraft:anvil",
+        states: {
+          "minecraft:cardinal_direction": "south"
+        },
+        version: 18168865
+      },
+      Count: 64b,
+      Damage: 0s,
+      Name: "minecraft:anvil",
+      Slot: 33b,
+      WasPickedUp: 0b
+    },
+    {
+      Block: {
+        name: "minecraft:anvil",
+        states: {
+          "minecraft:cardinal_direction": "south"
+        },
+        version: 18168865
+      },
+      Count: 64b,
+      Damage: 0s,
+      Name: "minecraft:anvil",
+      Slot: 34b,
+      WasPickedUp: 0b
+    },
+    {
+      Block: {
+        name: "minecraft:anvil",
+        states: {
+          "minecraft:cardinal_direction": "south"
+        },
+        version: 18168865
+      },
+      Count: 64b,
+      Damage: 0s,
+      Name: "minecraft:anvil",
+      Slot: 35b,
+      WasPickedUp: 0b
+    }
+  ],
+  InventoryFiltering: 0b,
+  InventoryLayout: 3,
+  Invulnerable: 0b,
+  IsAngry: 0b,
+  IsAutonomous: 0b,
+  IsBaby: 0b,
+  IsEating: 0b,
+  IsGliding: 0b,
+  IsGlobal: 0b,
+  IsIllagerCaptain: 0b,
+  IsOrphaned: 0b,
+  IsOutOfControl: 0b,
+  IsPregnant: 0b,
+  IsRoaring: 0b,
+  IsScared: 0b,
+  IsStunned: 0b,
+  IsSwimming: 0b,
+  IsTamed: 0b,
+  IsTrusting: 0b,
+  LeasherID: -1L,
+  LeftInventoryTabSelection: 6,
+  LootDropped: 0b,
+  Mainhand: [
+    {
+      Count: 1b,
+      Damage: 0s,
+      Name: "minecraft:diamond_sword",
+      WasPickedUp: 0b,
+      tag: {
+        Damage: 0
+      }
+    }
+  ],
+  MapIndex: 1,
+  MarkVariant: 0,
+  NaturalSpawn: 0b,
+  Offhand: [
+    {
+      Count: 1b,
+      Damage: 0s,
+      Name: "minecraft:totem_of_undying",
+      WasPickedUp: 0b
+    }
+  ],
+  OnGround: 1b,
+  OwnerNew: -1L,
+  PlayerGameMode: 0,
+  PlayerLevel: 0,
+  PlayerLevelProgress: 0f,
+  PlayerUIItems: [],
+  PortalCooldown: 0,
+  Pos: [
+    0.5f,
+    -58.37998962402344f,
+    0.5f
+  ],
+  RightInventoryTabSelection: 3,
+  Rotation: [
+    -37.32371520996094f,
+    6.418243408203125f
+  ],
+  Saddled: 0b,
+  SelectedContainerId: 0,
+  SelectedInventorySlot: 0,
+  Sheared: 0b,
+  ShowBottom: 0b,
+  Sitting: 0b,
+  SkinID: 0,
+  SleepTimer: 0s,
+  Sleeping: 0b,
+  SlotDropChances: [],
+  Sneaking: 0b,
+  SpawnBlockPositionX: -2147483648,
+  SpawnBlockPositionY: -2147483648,
+  SpawnBlockPositionZ: -2147483648,
+  SpawnDimension: 3,
+  SpawnX: -2147483648,
+  SpawnY: -2147483648,
+  SpawnZ: -2147483648,
+  Strength: 0,
+  StrengthMax: 0,
+  Surface: 0b,
+  Tags: [],
+  TargetID: -1L,
+  TimeSinceRest: 4728,
+  TradeExperience: 0,
+  TradeTier: 0,
+  UniqueID: -64424509439L,
+  Variant: 0,
+  WardenThreatDecreaseTimer: 0,
+  WardenThreatLevel: 0,
+  WardenThreatLevelIncreaseCooldown: 0,
+  abilities: {
+    attackmobs: 1b,
+    attackplayers: 1b,
+    build: 1b,
+    doorsandswitches: 1b,
+    flySpeed: 0.05000000074505806f,
+    flying: 0b,
+    instabuild: 0b,
+    invulnerable: 0b,
+    lightning: 0b,
+    mayfly: 0b,
+    mine: 1b,
+    op: 0b,
+    opencontainers: 1b,
+    teleport: 0b,
+    verticalFlySpeed: 1f,
+    walkSpeed: 0.10000000149011612f
+  },
+  boundX: 0,
+  boundY: 0,
+  boundZ: 0,
+  canPickupItems: 0b,
+  definitions: [
+    "+minecraft:player"
+  ],
+  expDropEnabled: 1b,
+  fogCommandStack: [],
+  format_version: "1.12.0",
+  hasBoundOrigin: 0b,
+  hasSetCanPickupItems: 1b,
+  identifier: "minecraft:player",
+  internalComponents: {
+    EntityStorageKeyComponent: {
+      StorageKey: ""
+    }
+  },
+  permissionsLevel: 0,
+  playerPermissionsLevel: 1,
+  recipe_unlocking: {
+    unlocked_recipes: [
+      "minecraft:diamond_pickaxe",
+      "minecraft:diamond_helmet",
+      "minecraft:WorkBench_recipeId_from_oak",
+      "minecraft:diamond_leggings",
+      "minecraft:WorkBench_recipeId",
+      "minecraft:diamond_boots",
+      "minecraft:diamond_chestplate",
+      "minecraft:diamond_sword",
+      "minecraft:diamond_axe",
+      "minecraft:diamond_shovel",
+      "minecraft:diamond_hoe",
+      "minecraft:Chest_recipeId",
+      "minecraft:crossbow",
+      "minecraft:mace",
+      "minecraft:shield",
+      "fa:workbench_totem_to_vanilla",
+      "fa:workbench_totem",
+      "minecraft:barrel_with_planks",
+      "minecraft:anvil"
+    ],
+    used_contexts: 10
+  }
+}
