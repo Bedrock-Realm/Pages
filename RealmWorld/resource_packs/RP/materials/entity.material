@@ -1,0 +1,71 @@
+{
+	"materials": {
+		"version": "1.0.0",
+		"entity_glow_outline:entity_alphablend": {
+			"+states": [
+				"EnableStencilTest",
+				"InvertCulling"
+			],
+			"-states": [ "DisableCulling" ],
+			"-defines": [ "FANCY" ],
+			"depthFunc": "Always",
+			"frontFace": {
+				"stencilFunc": "NotEqual"
+			},
+			"stencilRef": 3,
+			"blendSrc": "SourceAlpha",
+			"blendDst": "One"
+		},
+		"entity_glow_base:entity_alphatest": {
+			"+states": [
+				"EnableStencilTest",
+				"StencilWrite"
+			],
+			"frontFace": {
+				"stencilFunc": "Always",
+				"stencilFailOp": "Replace",
+				"stencilDepthFailOp": "Replace",
+				"stencilPassOp": "Replace"
+			},
+			"backFace": {
+				"stencilFunc": "Always",
+				"stencilFailOp": "Replace",
+				"stencilDepthFailOp": "Replace",
+				"stencilPassOp": "Replace"
+			},
+			"stencilRef": 3
+		},
+		"entity_outline_outline:entity_alphablend": {
+			"+states": [
+				"EnableStencilTest",
+				"InvertCulling"
+			],
+			"-states": [ "DisableCulling" ],
+			"-defines": [ "FANCY" ],
+			"depthFunc": "Always",
+			"frontFace": {
+				"stencilFunc": "NotEqual"
+			},
+			"stencilRef": 4
+		},
+		"entity_outline_base:entity_alphatest": {
+			"+states": [
+				"EnableStencilTest",
+				"StencilWrite"
+			],
+			"frontFace": {
+				"stencilFunc": "Always",
+				"stencilFailOp": "Replace",
+				"stencilDepthFailOp": "Replace",
+				"stencilPassOp": "Replace"
+			},
+			"backFace": {
+				"stencilFunc": "Always",
+				"stencilFailOp": "Replace",
+				"stencilDepthFailOp": "Replace",
+				"stencilPassOp": "Replace"
+			},
+			"stencilRef": 4
+		}
+	}
+}

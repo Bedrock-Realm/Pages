@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Creative Menu</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      width: 100%;
+      font-family: sans-serif;
+      background-color: #0d1117;
+      color: #c9d1d9;
+      overflow: hidden;
+    }
+    h1 {
+      text-align: center;
+      margin: 5px 0;
+      font-size: 14px;
+    }
+    #item-list {
+      display: grid;
+      width: 100%;
+      height: calc(100% - 24px);
+      grid-template-columns: repeat(50, 1fr); /* 50 columns */
+      grid-auto-rows: 1fr;
+      gap: 1px;
+      box-sizing: border-box;
+    }
+    .item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-size: 5px;
+      text-align: center;
+      background-color: #161b22;
+      border-radius: 2px;
+      padding: 1px;
+      overflow: hidden;
+      cursor: pointer;
+      transition: transform 0.1s, background-color 0.1s;
+    }
+    .item:hover {
+      background-color: #21262d;
+      transform: scale(1.2);
+      z-index: 1;
+    }
+    .item img {
+      width: 100%;
+      height: auto;
+      max-height: 100%;
+      image-rendering: pixelated;
+      display: block;
+    }
+    .item-name {
+      font-size: 5px;
+      line-height: 1;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+  </style>
+</head>
+<body>
+  <h1>Creative Menu</h1>
+  <div id="item-list"></div>
+
+  <script>
+    fetch('items.json')
+      .then(res => res.json())
+      .then(data => {
+        const list = document.getElementById('item-list');
+        let inventory = data.players[0].inventory;
+
+        inventory = inventory.map(item => ({
+          originalName: item.Name,
+          displayName: item.Name.replace(/^minecraft:/, '')
+        })).sort((a, b) => a.displayName.localeCompare(b.displayName));
+
+        inventory.forEach(item => {
+          const div = document.createElement('div');
+          div.className = 'item';
+
+          const iconName = item.originalName.replace(/[:.]/g, '_');
+
+          div.innerHTML = `
+            <img src="items/${iconName}.png" alt="${item.displayName}">
+            <div class="item-name">${item.displayName}</div>
+          `;
+          list.appendChild(div);
+        });
+      })
+      .catch(err => console.error('Failed to load items.json', err));
+  </script>
+</body>
+</html>

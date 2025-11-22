@@ -1,0 +1,1 @@
+event entity @s capes:cn_translator_cape

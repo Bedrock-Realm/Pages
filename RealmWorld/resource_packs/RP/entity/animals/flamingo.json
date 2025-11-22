@@ -1,0 +1,33 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "nm:flamingo",
+      "materials": {
+        "default": "parrot"
+      },
+      "textures": {
+        "norm": "textures/entity/animals/flamingo",
+        "white": "textures/entity/animals/flamingo_white",
+        "rose": "textures/entity/animals/flamingo_rose"
+      },
+      "geometry": {
+        "default": "geometry.flamingo"
+      },
+      "scripts": {
+        "animate": ["controller"]
+      },
+      "animations": {
+        "controller": "controller.animation.nm_flamingo",
+        "idle": "animation.nm.flamingo_idle",
+        "move": "animation.nm.flamingo_walk",
+        "death": "animation.nm.flamingo_death"
+      },
+      "render_controllers": ["controller.render.flamingo"],
+      "spawn_egg": {
+        "base_color": "#FFFFFF",
+        "overlay_color": "#5F9E8D"
+      }
+    }
+  }
+}

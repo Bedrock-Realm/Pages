@@ -1,0 +1,14 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.treasure_chest.idle": {
+			"loop": true,
+			"bones": {
+				"chest": {
+					"rotation": [13.08619, -17.07228, 23.59601],
+					"position": [-3, -7, 2]
+				}
+			}
+		}
+	}
+}

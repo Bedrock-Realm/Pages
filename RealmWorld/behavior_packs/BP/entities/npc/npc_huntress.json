@@ -1,0 +1,170 @@
+{
+  "format_version": "1.14.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "nm:huntress",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false,
+      "scripts": {
+        "animate": ["grid_align", "rotate", "furniture"]
+      },
+      "animations": {
+        "grid_align": "controller.animation.grid_align",
+        "rotate": "controller.animation.rotate",
+        "furniture": "controller.animation.furniture"
+      }
+    },
+    "component_groups": {
+      "nm:snap": {
+        "minecraft:is_tamed": {},
+        "minecraft:timer": {
+          "time": 2,
+          "time_down_event": {
+            "event": "nm:stop_snap"
+          }
+        }
+      },
+      "nm:rotate_off": {
+        "minecraft:interact": {
+          "interactions": [
+            {
+              "on_interact": {
+                "filters": {
+                  "test": "has_equipment",
+                  "subject": "player",
+                  "domain": "hand",
+                  "value": "stick"
+                },
+                "event": "nm:start_rotate"
+              },
+              "play_sounds": "note",
+              "interact_text": "rotate"
+            }
+          ]
+        }
+      },
+      "nm:rotate_on": {
+        "minecraft:is_baby": {},
+        "minecraft:timer": {
+          "time": 0.1,
+          "time_down_event": {
+            "event": "nm:stop_rotate"
+          }
+        }
+      },
+      "to_villager": {
+        "minecraft:transformation": {
+          "into": "nm:huntress",
+          "transformation_sound": "convert_mooshroom",
+          "keep_level": false,
+          "delay": 0.5
+        }
+      }
+    },
+    "components": {
+      "minecraft:type_family": {
+        "family": ["npc"]
+      },
+      "minecraft:physics": {
+        "has_gravity": true,
+        "has_collision": true
+      },
+      "minecraft:pushable": {
+        "is_pushable": false,
+        "is_pushable_by_piston": false
+      },
+      "minecraft:collision_box": {
+        "width": 0.6,
+        "height": 1.8
+      },
+      "minecraft:knockback_resistance": {
+        "value": 1
+      },
+      "minecraft:fire_immune": true,
+      "minecraft:health": {
+        "value": 1,
+        "max": 1
+      },
+      "minecraft:nameable": {
+        "always_show": true,
+        "allow_name_tag_renaming": true
+      },
+      "minecraft:economy_trade_table": {
+        "display_name": "Huntress",
+        "table": "trading/huntress_trades.json",
+        "new_screen": true
+      },
+      "minecraft:damage_sensor": {
+        "triggers": [
+          {
+            "on_damage": {
+              "filters": {
+                "test": "has_equipment",
+                "domain": "hand",
+                "subject": "other",
+                "operator": "not",
+                "value": "air"
+              },
+              "event": "villager_converted",
+              "target": "self"
+            },
+            "deals_damage": false
+          },
+          {
+            "on_damage": {
+              "filters": {
+                "test": "has_equipment",
+                "domain": "hand",
+                "subject": "other",
+                "operator": "not",
+                "value": "blaze_rod"
+              }
+            },
+            "deals_damage": false
+          }
+        ]
+      },
+      "minecraft:behavior.look_at_player": {
+        "priority": 10,
+        "look_distance": 5,
+        "target_distance": 5
+      },
+      "minecraft:persistent": {}
+    },
+    "events": {
+      "minecraft:entity_spawned": {
+        "add": {
+          "component_groups": ["nm:rotate_off", "nm:snap"]
+        }
+      },
+      "nm:stop_snap": {
+        "remove": {
+          "component_groups": ["nm:snap"]
+        }
+      },
+      "nm:stop_rotate": {
+        "remove": {
+          "component_groups": ["nm:rotate_on"]
+        },
+        "add": {
+          "component_groups": ["nm:rotate_off"]
+        }
+      },
+      "nm:start_rotate": {
+        "remove": {
+          "component_groups": ["nm:rotate_off"]
+        },
+        "add": {
+          "component_groups": ["nm:rotate_on"]
+        }
+      },
+      "villager_converted": {
+        "remove": {},
+        "add": {
+          "component_groups": ["to_villager"]
+        }
+      }
+    }
+  }
+}

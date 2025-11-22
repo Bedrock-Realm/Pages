@@ -1,0 +1,88 @@
+{
+  "format_version": "1.21.20",
+  "minecraft:block": {
+    "description": {
+      "identifier": "fs:treasure_bottle",
+      "states": {
+        "lp:angled": [false, true],
+        "lp:cardinal": [4, 0, 2, 6]
+      },
+      "menu_category": {
+        "category": "items",
+        "group": "itemGroup.name.chest"
+      }
+    },
+    "components": {
+      "minecraft:geometry": {
+        "identifier": "geometry.fs_treasure_bottle",
+        "bone_visibility": {
+          "main": "!(q.block_state('lp:angled'))",
+          "angle": "q.block_state('lp:angled')"
+        }
+      },
+      "minecraft:map_color": "#6a4332",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "treasure_bottle",
+          "render_method": "alpha_test",
+          "face_dimming": false,
+          "ambient_occlusion": false
+        }
+      },
+      "minecraft:collision_box": {
+        "origin": [-3, 0, -3],
+        "size": [6, 11, 6]
+      },
+      "minecraft:selection_box": {
+        "origin": [-3, 0, -3],
+        "size": [6, 11, 6]
+      },
+      "minecraft:destructible_by_explosion": true,
+      "minecraft:destructible_by_mining": 4,
+      "minecraft:custom_components": ["lp:rotation"]
+    },
+    "permutations": [
+      {
+        "condition": "query.block_state('lp:cardinal') == 0",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [0, 0, 0]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('lp:cardinal') == 4",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [0, 180, 0]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('lp:cardinal') == 2",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [0, 270, 0]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('lp:cardinal') == 6",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [0, 90, 0]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('lp:angled')",
+        "components": {
+          "minecraft:selection_box": {
+        "origin": [-3, 0, -3],
+        "size": [6, 11, 6]
+          }
+        }
+      }
+    ]
+  }
+}

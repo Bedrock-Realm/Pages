@@ -1,0 +1,16 @@
+{
+  "format_version": "1.20.80",
+  "minecraft:item": {
+    "description": {
+      "identifier": "behaviorpack:cape_changer",
+      "menu_category": { "category": "items" }
+    },
+    "components": {
+      "minecraft:max_stack_size": 1,
+      "minecraft:icon": "cape_changer",
+      "minecraft:display_name": {
+        "value": "§f[§cCape Changer§f]"
+      }
+    }
+  }
+}

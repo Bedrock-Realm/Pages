@@ -1,0 +1,1 @@
+event entity @s customcapes:blossom_cape

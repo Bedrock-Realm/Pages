@@ -1,0 +1,1 @@
+event entity @s capes:newyear2011_cape

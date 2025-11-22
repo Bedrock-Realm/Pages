@@ -1,0 +1,1 @@
+event entity @s capes:mr_messiah_cape

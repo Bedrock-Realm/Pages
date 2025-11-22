@@ -1,0 +1,40 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "nm:fisherman",
+      "render_controllers": [
+        "controller.render.default",
+        {
+          "controller.render.spark_skittles.npc_outline": "q.distance_from_camera < 40"
+        }
+      ],
+      "materials": {
+        "default": "entity_glow_base",
+        "outline": "entity_glow_outline"
+      },
+      "geometry": {
+        "default": "geometry.spark_skittles.garret",
+        "outline": "geometry.spark_skittles.garret.outline"
+      },
+      "textures": {
+        "default": "textures/entity/npc/garret",
+        "outline": "textures/entity/npc/npc_outline"
+      },
+      "animations": {
+        "look_at_target": "animation.humanoid.look_at_target.default",
+        "anim.idle": "animation.nm.idle_full"
+      },
+      "scripts": {
+        "scale": "0.9375",
+        "initialize": ["v.look_at_cutoff = 15;", "v.lookat_rotation = q.rotation_to_camera(1);"],
+        "pre_animation": ["v.lookat_delta = Math.mod(v.lookat_rotation - q.rotation_to_camera(1) + 900, 360) - 180;"],
+        "should_update_bones_and_effects_offscreen": true,
+        "animate": ["look_at_target", "anim.idle"]
+      },
+      "spawn_egg": {
+        "texture": "npc_fisherman"
+      }
+    }
+  }
+}

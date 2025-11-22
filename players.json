@@ -1,0 +1,2118 @@
+{
+  "max": 3,
+  "players": [
+    {
+      "name": "Unknown",
+      "xuid": "2535460561105730",
+      "uuid": "f45e5bf0-05cc-45b1-a3b9-9eb74bb3ae35",
+      "world": "overworld",
+      "playergamemode": 0,
+      "x": 74,
+      "y": 72,
+      "z": 133,
+      "rotation": [108.58819580078125, 16.749420166015625],
+      "SpawnX": -2147483648,
+      "SpawnY": -2147483648,
+      "SpawnZ": -2147483648,
+      "DeathX": 73,
+      "DeathY": 66,
+      "DeathZ": 131,
+      "inventory": [
+        {
+          "Count": 1,
+          "Damage": 0,
+          "Name": "minecraft:crossbow",
+          "Slot": 0,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 1,
+          "Damage": 0,
+          "Name": "minecraft:crossbow",
+          "Slot": 1,
+          "WasPickedUp": 0,
+          "tag": {
+            "chargedItem": {
+              "Count": 1,
+              "Damage": 0,
+              "Name": "minecraft:arrow",
+              "WasPickedUp": 0
+            }
+          }
+        },
+        {
+          "Count": 1,
+          "Damage": 0,
+          "Name": "minecraft:crossbow",
+          "Slot": 2,
+          "WasPickedUp": 0,
+          "tag": {
+            "chargedItem": {
+              "Count": 1,
+              "Damage": 0,
+              "Name": "minecraft:firework_rocket",
+              "WasPickedUp": 0,
+              "tag": {
+                "Fireworks": {
+                  "Explosions": [
+                    {
+                      "FireworkColor": [4],
+                      "FireworkFade": [],
+                      "FireworkFlicker": 0,
+                      "FireworkTrail": 0,
+                      "FireworkType": 0
+                    }
+                  ],
+                  "Flight": 1
+                }
+              }
+            }
+          }
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 3,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 4,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 5,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 6,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 7,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 8,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 1,
+          "Damage": 7,
+          "Name": "minecraft:filled_map",
+          "Slot": 9,
+          "WasPickedUp": 0,
+          "tag": {
+            "RepairCost": 0,
+            "display": {
+              "Name": "Snowy Village Map!"
+            },
+            "map_display_players": 1,
+            "map_uuid": -73014443604
+          }
+        },
+        {
+          "Count": 1,
+          "Damage": 11,
+          "Name": "minecraft:filled_map",
+          "Slot": 10,
+          "WasPickedUp": 0,
+          "tag": {
+            "RepairCost": 0,
+            "display": {
+              "Name": "Desert Village Map!"
+            },
+            "map_display_players": 1,
+            "map_uuid": -73014443422
+          }
+        },
+        {
+          "Count": 1,
+          "Damage": 10,
+          "Name": "minecraft:filled_map",
+          "Slot": 11,
+          "WasPickedUp": 0,
+          "tag": {
+            "RepairCost": 0,
+            "display": {
+              "Name": "Savanna Village Map!"
+            },
+            "map_display_players": 1,
+            "map_uuid": -73014443422
+          }
+        },
+        {
+          "Count": 1,
+          "Damage": 8,
+          "Name": "minecraft:filled_map",
+          "Slot": 12,
+          "WasPickedUp": 0,
+          "tag": {
+            "RepairCost": 0,
+            "display": {
+              "Name": "Taiga Village Map!"
+            },
+            "map_display_players": 1,
+            "map_uuid": -73014443553
+          }
+        },
+        {
+          "Count": 1,
+          "Damage": 9,
+          "Name": "minecraft:filled_map",
+          "Slot": 13,
+          "WasPickedUp": 0,
+          "tag": {
+            "RepairCost": 0,
+            "display": {
+              "Name": "Plains Village Map!"
+            },
+            "map_display_players": 1,
+            "map_uuid": -73014443422
+          }
+        },
+        {
+          "Count": 1,
+          "Damage": 12,
+          "Name": "minecraft:filled_map",
+          "Slot": 14,
+          "WasPickedUp": 0,
+          "tag": {
+            "RepairCost": 0,
+            "display": {
+              "Name": "Jungle Explorer Map!"
+            },
+            "map_display_players": 1,
+            "map_uuid": -73014443422
+          }
+        },
+        {
+          "Count": 1,
+          "Damage": 13,
+          "Name": "minecraft:filled_map",
+          "Slot": 15,
+          "WasPickedUp": 0,
+          "tag": {
+            "RepairCost": 0,
+            "display": {
+              "Name": "Swamp Explorer Map!"
+            },
+            "map_display_players": 1,
+            "map_uuid": -73014443422
+          }
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 16,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 17,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 1,
+          "Damage": 6,
+          "Name": "minecraft:filled_map",
+          "Slot": 18,
+          "WasPickedUp": 0,
+          "tag": {
+            "RepairCost": 0,
+            "display": {
+              "Name": "Locked Map!"
+            },
+            "map_display_players": 1,
+            "map_uuid": -73014443604
+          }
+        },
+        {
+          "Count": 1,
+          "Damage": 2,
+          "Name": "minecraft:filled_map",
+          "Slot": 19,
+          "WasPickedUp": 0,
+          "tag": {
+            "RepairCost": 0,
+            "display": {
+              "Name": "Map 0!"
+            },
+            "map_display_players": 1,
+            "map_uuid": -73014443736
+          }
+        },
+        {
+          "Count": 1,
+          "Damage": 0,
+          "Name": "minecraft:filled_map",
+          "Slot": 20,
+          "WasPickedUp": 0,
+          "tag": {
+            "RepairCost": 0,
+            "display": {
+              "Name": "Map 0!"
+            },
+            "map_display_players": 1,
+            "map_uuid": -73014443736
+          }
+        },
+        {
+          "Count": 1,
+          "Damage": 1,
+          "Name": "minecraft:filled_map",
+          "Slot": 21,
+          "WasPickedUp": 0,
+          "tag": {
+            "RepairCost": 0,
+            "display": {
+              "Name": "Map 0!"
+            },
+            "map_display_players": 1,
+            "map_uuid": -73014443736
+          }
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 22,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 1,
+          "Damage": 14,
+          "Name": "minecraft:filled_map",
+          "Slot": 23,
+          "WasPickedUp": 0,
+          "tag": {
+            "RepairCost": 0,
+            "display": {
+              "Name": "Trial Explorer Map!"
+            },
+            "map_display_players": 1,
+            "map_uuid": -73014443707
+          }
+        },
+        {
+          "Count": 1,
+          "Damage": 5,
+          "Name": "minecraft:filled_map",
+          "Slot": 24,
+          "WasPickedUp": 0,
+          "tag": {
+            "RepairCost": 0,
+            "display": {
+              "Name": "Treasure Map!"
+            },
+            "map_display_players": 1,
+            "map_uuid": -73014443707
+          }
+        },
+        {
+          "Count": 1,
+          "Damage": 4,
+          "Name": "minecraft:filled_map",
+          "Slot": 25,
+          "WasPickedUp": 0,
+          "tag": {
+            "RepairCost": 0,
+            "display": {
+              "Name": "Woodland Explorer Map!"
+            },
+            "map_display_players": 1,
+            "map_uuid": -73014443736
+          }
+        },
+        {
+          "Count": 1,
+          "Damage": 3,
+          "Name": "minecraft:filled_map",
+          "Slot": 26,
+          "WasPickedUp": 0,
+          "tag": {
+            "RepairCost": 0,
+            "display": {
+              "Name": "Ocean Explorer Map!"
+            },
+            "map_display_players": 1,
+            "map_uuid": -73014443736
+          }
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 27,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 28,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 29,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 30,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 31,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 32,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 33,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 34,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 35,
+          "WasPickedUp": 0,
+          "tag": {}
+        }
+      ],
+      "enderchestinventory": [
+        {
+          "Count": 1,
+          "Damage": 0,
+          "Name": "minecraft:netherite_helmet",
+          "Slot": 0,
+          "WasPickedUp": 0,
+          "tag": {
+            "Damage": 0,
+            "Trim": {
+              "Material": "redstone",
+              "Pattern": "bolt"
+            }
+          }
+        },
+        {
+          "Count": 1,
+          "Damage": 0,
+          "Name": "minecraft:netherite_helmet",
+          "Slot": 1,
+          "WasPickedUp": 0,
+          "tag": {
+            "Damage": 0,
+            "Trim": {
+              "Material": "amethyst",
+              "Pattern": "flow"
+            }
+          }
+        },
+        {
+          "Count": 1,
+          "Damage": 0,
+          "Name": "minecraft:netherite_helmet",
+          "Slot": 2,
+          "WasPickedUp": 0,
+          "tag": {
+            "Damage": 0,
+            "Trim": {
+              "Material": "diamond",
+              "Pattern": "spire"
+            }
+          }
+        },
+        {
+          "Count": 1,
+          "Damage": 0,
+          "Name": "minecraft:netherite_helmet",
+          "Slot": 3,
+          "WasPickedUp": 0,
+          "tag": {
+            "Damage": 0,
+            "Trim": {
+              "Material": "resin",
+              "Pattern": "eye"
+            }
+          }
+        },
+        {
+          "Count": 1,
+          "Damage": 0,
+          "Name": "minecraft:netherite_helmet",
+          "Slot": 4,
+          "WasPickedUp": 0,
+          "tag": {
+            "Damage": 0,
+            "Trim": {
+              "Material": "emerald",
+              "Pattern": "rib"
+            }
+          }
+        },
+        {
+          "Count": 1,
+          "Damage": 0,
+          "Name": "minecraft:netherite_helmet",
+          "Slot": 5,
+          "WasPickedUp": 0,
+          "tag": {
+            "Damage": 0,
+            "Trim": {
+              "Material": "quartz",
+              "Pattern": "snout"
+            }
+          }
+        },
+        {
+          "Count": 1,
+          "Damage": 0,
+          "Name": "minecraft:netherite_helmet",
+          "Slot": 6,
+          "WasPickedUp": 0,
+          "tag": {
+            "Damage": 0,
+            "Trim": {
+              "Material": "gold",
+              "Pattern": "tide"
+            }
+          }
+        },
+        {
+          "Count": 1,
+          "Damage": 0,
+          "Name": "minecraft:netherite_helmet",
+          "Slot": 7,
+          "WasPickedUp": 0,
+          "tag": {
+            "Damage": 0,
+            "Trim": {
+              "Material": "copper",
+              "Pattern": "silence"
+            }
+          }
+        },
+        {
+          "Count": 1,
+          "Damage": 0,
+          "Name": "minecraft:netherite_helmet",
+          "Slot": 8,
+          "WasPickedUp": 0,
+          "tag": {
+            "Damage": 0,
+            "Trim": {
+              "Material": "iron",
+              "Pattern": "sentry"
+            }
+          }
+        },
+        {
+          "Count": 1,
+          "Damage": 0,
+          "Name": "minecraft:netherite_helmet",
+          "Slot": 9,
+          "WasPickedUp": 0,
+          "tag": {
+            "Damage": 0,
+            "Trim": {
+              "Material": "gold",
+              "Pattern": "wild"
+            }
+          }
+        },
+        {
+          "Count": 1,
+          "Damage": 0,
+          "Name": "minecraft:netherite_helmet",
+          "Slot": 10,
+          "WasPickedUp": 0,
+          "tag": {
+            "Damage": 0,
+            "Trim": {
+              "Material": "iron",
+              "Pattern": "dune"
+            }
+          }
+        },
+        {
+          "Count": 1,
+          "Damage": 0,
+          "Name": "minecraft:netherite_helmet",
+          "Slot": 11,
+          "WasPickedUp": 0,
+          "tag": {
+            "Damage": 0,
+            "Trim": {
+              "Material": "redstone",
+              "Pattern": "wayfinder"
+            }
+          }
+        },
+        {
+          "Count": 1,
+          "Damage": 0,
+          "Name": "minecraft:netherite_helmet",
+          "Slot": 12,
+          "WasPickedUp": 0,
+          "tag": {
+            "Damage": 0,
+            "Trim": {
+              "Material": "diamond",
+              "Pattern": "shaper"
+            }
+          }
+        },
+        {
+          "Count": 1,
+          "Damage": 0,
+          "Name": "minecraft:netherite_helmet",
+          "Slot": 13,
+          "WasPickedUp": 0,
+          "tag": {
+            "Damage": 0,
+            "Trim": {
+              "Material": "amethyst",
+              "Pattern": "raiser"
+            }
+          }
+        },
+        {
+          "Count": 1,
+          "Damage": 0,
+          "Name": "minecraft:netherite_helmet",
+          "Slot": 14,
+          "WasPickedUp": 0,
+          "tag": {
+            "Damage": 0,
+            "Trim": {
+              "Material": "quartz",
+              "Pattern": "host"
+            }
+          }
+        },
+        {
+          "Count": 1,
+          "Damage": 0,
+          "Name": "minecraft:netherite_helmet",
+          "Slot": 15,
+          "WasPickedUp": 0,
+          "tag": {
+            "Damage": 0,
+            "Trim": {
+              "Material": "resin",
+              "Pattern": "dune"
+            }
+          }
+        },
+        {
+          "Count": 1,
+          "Damage": 0,
+          "Name": "minecraft:netherite_helmet",
+          "Slot": 16,
+          "WasPickedUp": 0,
+          "tag": {
+            "Damage": 0,
+            "Trim": {
+              "Material": "emerald",
+              "Pattern": "coast"
+            }
+          }
+        },
+        {
+          "Count": 1,
+          "Damage": 0,
+          "Name": "minecraft:netherite_helmet",
+          "Slot": 17,
+          "WasPickedUp": 0,
+          "tag": {
+            "Damage": 0,
+            "Trim": {
+              "Material": "netherite",
+              "Pattern": "ward"
+            }
+          }
+        },
+        {
+          "Count": 1,
+          "Damage": 0,
+          "Name": "minecraft:netherite_helmet",
+          "Slot": 18,
+          "WasPickedUp": 0,
+          "tag": {
+            "Damage": 0,
+            "Trim": {
+              "Material": "copper",
+              "Pattern": "vex"
+            }
+          }
+        },
+        {
+          "Count": 1,
+          "Damage": 0,
+          "Name": "minecraft:leather_helmet",
+          "Slot": 19,
+          "WasPickedUp": 0,
+          "tag": {
+            "Damage": 0,
+            "Trim": {
+              "Material": "diamond",
+              "Pattern": "bolt"
+            }
+          }
+        },
+        {
+          "Count": 1,
+          "Damage": 0,
+          "Name": "minecraft:chainmail_helmet",
+          "Slot": 20,
+          "WasPickedUp": 0,
+          "tag": {
+            "Damage": 0,
+            "Trim": {
+              "Material": "diamond",
+              "Pattern": "bolt"
+            }
+          }
+        },
+        {
+          "Count": 1,
+          "Damage": 0,
+          "Name": "minecraft:iron_helmet",
+          "Slot": 21,
+          "WasPickedUp": 0,
+          "tag": {
+            "Damage": 0,
+            "Trim": {
+              "Material": "diamond",
+              "Pattern": "bolt"
+            }
+          }
+        },
+        {
+          "Count": 1,
+          "Damage": 0,
+          "Name": "minecraft:golden_helmet",
+          "Slot": 22,
+          "WasPickedUp": 0,
+          "tag": {
+            "Damage": 0,
+            "Trim": {
+              "Material": "diamond",
+              "Pattern": "bolt"
+            }
+          }
+        },
+        {
+          "Count": 1,
+          "Damage": 0,
+          "Name": "minecraft:diamond_helmet",
+          "Slot": 23,
+          "WasPickedUp": 0,
+          "tag": {
+            "Damage": 0,
+            "Trim": {
+              "Material": "diamond",
+              "Pattern": "bolt"
+            }
+          }
+        },
+        {
+          "Count": 1,
+          "Damage": 0,
+          "Name": "minecraft:netherite_sword",
+          "Slot": 24,
+          "WasPickedUp": 0,
+          "tag": {
+            "Damage": 0,
+            "Unbreakable": 1,
+            "ench": [
+              {
+                "id": 12,
+                "lvl": 3
+              }
+            ],
+            "minecraft:keep_on_death": 1
+          }
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 25,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 26,
+          "WasPickedUp": 0,
+          "tag": {}
+        }
+      ],
+      "mainhand": [
+        {
+          "Count": 1,
+          "Damage": 0,
+          "Name": "minecraft:crossbow",
+          "Slot": 0,
+          "WasPickedUp": 0,
+          "tag": {
+            "chargedItem": {
+              "Count": 1,
+              "Damage": 0,
+              "Name": "minecraft:firework_rocket",
+              "WasPickedUp": 0,
+              "tag": {
+                "Fireworks": {
+                  "Explosions": [
+                    {
+                      "FireworkColor": [4],
+                      "FireworkFade": [],
+                      "FireworkFlicker": 0,
+                      "FireworkTrail": 0,
+                      "FireworkType": 0
+                    }
+                  ],
+                  "Flight": 1
+                }
+              }
+            }
+          }
+        }
+      ],
+      "offhand": [
+        {
+          "Count": 1,
+          "Damage": 0,
+          "Name": "minecraft:saddle",
+          "WasPickedUp": 0,
+          "tag": {
+            "ench": [
+              {
+                "id": 0,
+                "lvl": 1
+              },
+              {
+                "id": 1,
+                "lvl": 1
+              },
+              {
+                "id": 2,
+                "lvl": 1
+              },
+              {
+                "id": 3,
+                "lvl": 1
+              },
+              {
+                "id": 4,
+                "lvl": 1
+              },
+              {
+                "id": 5,
+                "lvl": 1
+              },
+              {
+                "id": 6,
+                "lvl": 1
+              },
+              {
+                "id": 7,
+                "lvl": 1
+              },
+              {
+                "id": 8,
+                "lvl": 1
+              },
+              {
+                "id": 25,
+                "lvl": 1
+              },
+              {
+                "id": 36,
+                "lvl": 1
+              },
+              {
+                "id": 37,
+                "lvl": 1
+              },
+              {
+                "id": 9,
+                "lvl": 1
+              },
+              {
+                "id": 10,
+                "lvl": 1
+              },
+              {
+                "id": 11,
+                "lvl": 1
+              },
+              {
+                "id": 13,
+                "lvl": 1
+              },
+              {
+                "id": 14,
+                "lvl": 1
+              },
+              {
+                "id": 16,
+                "lvl": 1
+              },
+              {
+                "id": 17,
+                "lvl": 1
+              },
+              {
+                "id": 18,
+                "lvl": 1
+              },
+              {
+                "id": 21,
+                "lvl": 1
+              },
+              {
+                "id": 23,
+                "lvl": 1
+              },
+              {
+                "id": 29,
+                "lvl": 1
+              },
+              {
+                "id": 38,
+                "lvl": 1
+              },
+              {
+                "id": 39,
+                "lvl": 1
+              },
+              {
+                "id": 40,
+                "lvl": 1
+              },
+              {
+                "id": 12,
+                "lvl": 1
+              },
+              {
+                "id": 15,
+                "lvl": 1
+              },
+              {
+                "id": 19,
+                "lvl": 1
+              },
+              {
+                "id": 20,
+                "lvl": 1
+              },
+              {
+                "id": 22,
+                "lvl": 1
+              },
+              {
+                "id": 24,
+                "lvl": 1
+              },
+              {
+                "id": 26,
+                "lvl": 1
+              },
+              {
+                "id": 27,
+                "lvl": 1
+              },
+              {
+                "id": 28,
+                "lvl": 1
+              },
+              {
+                "id": 30,
+                "lvl": 1
+              },
+              {
+                "id": 31,
+                "lvl": 1
+              },
+              {
+                "id": 32,
+                "lvl": 1
+              },
+              {
+                "id": 33,
+                "lvl": 1
+              },
+              {
+                "id": 34,
+                "lvl": 1
+              },
+              {
+                "id": 35,
+                "lvl": 1
+              }
+            ]
+          }
+        }
+      ],
+      "armor": [
+        {
+          "Count": 1,
+          "Damage": 0,
+          "Name": "minecraft:turtle_helmet",
+          "Slot": 0,
+          "WasPickedUp": 0,
+          "tag": {
+            "Damage": 0,
+            "Trim": {
+              "Material": "quartz",
+              "Pattern": "flow"
+            },
+            "ench": [
+              {
+                "id": 0,
+                "lvl": 1
+              }
+            ]
+          }
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 0,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 0,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 0,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 1,
+          "Damage": 0,
+          "Name": "minecraft:barrier",
+          "Slot": 0,
+          "WasPickedUp": 0,
+          "tag": {
+            "minecraft:item_lock": 1,
+            "minecraft:keep_on_death": 1,
+            "display": {
+              "Name": "BehaviorPack",
+              "Lore": ["2535460561105730", "e1bc515c-b069-38ad-af4d-a4326d6e036e"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Young Psycho924",
+      "xuid": "2535432793578858",
+      "uuid": "f45e5bf0-05cc-45b1-a3b9-9eb74bb3ae35",
+      "world": "nether",
+      "playergamemode": 1,
+      "x": 137,
+      "y": 41,
+      "z": 60,
+      "rotation": [-45.32844543457031, 42.615875244140625],
+      "SpawnX": -2147483648,
+      "SpawnY": -2147483648,
+      "SpawnZ": -2147483648,
+      "DeathX": 184,
+      "DeathY": 88,
+      "DeathZ": -368,
+      "inventory": [
+        {
+          "Count": 1,
+          "Damage": 0,
+          "Name": "minecraft:iron_sword",
+          "Slot": 0,
+          "WasPickedUp": 0,
+          "tag": {
+            "Damage": 64,
+            "ench": [
+              {
+                "id": 11,
+                "lvl": 3
+              },
+              {
+                "id": 13,
+                "lvl": 1
+              }
+            ]
+          }
+        },
+        {
+          "Count": 1,
+          "Damage": 0,
+          "Name": "minecraft:diamond_pickaxe",
+          "Slot": 1,
+          "WasPickedUp": 0,
+          "tag": {
+            "ench": [
+              {
+                "id": 15,
+                "lvl": 1
+              }
+            ]
+          }
+        },
+        {
+          "Count": 1,
+          "Damage": 0,
+          "Name": "minecraft:golden_axe",
+          "Slot": 2,
+          "WasPickedUp": 0,
+          "tag": {
+            "ench": [
+              {
+                "id": 11,
+                "lvl": 3
+              },
+              {
+                "id": 15,
+                "lvl": 3
+              }
+            ]
+          }
+        },
+        {
+          "Count": 2,
+          "Damage": 0,
+          "Name": "minecraft:golden_apple",
+          "Slot": 3,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 3,
+          "Damage": 0,
+          "Name": "minecraft:cooked_porkchop",
+          "Slot": 4,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 5,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 6,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 1,
+          "Damage": 0,
+          "Name": "minecraft:flint_and_steel",
+          "Slot": 7,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 28,
+          "Damage": 0,
+          "Name": "minecraft:obsidian",
+          "Slot": 8,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 2,
+          "Damage": 0,
+          "Name": "minecraft:gold_block",
+          "Slot": 9,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 56,
+          "Damage": 0,
+          "Name": "minecraft:gold_ingot",
+          "Slot": 10,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 14,
+          "Damage": 0,
+          "Name": "minecraft:gold_nugget",
+          "Slot": 11,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 2,
+          "Damage": 0,
+          "Name": "minecraft:iron_block",
+          "Slot": 12,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 12,
+          "Damage": 0,
+          "Name": "minecraft:iron_ingot",
+          "Slot": 13,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 5,
+          "Damage": 0,
+          "Name": "minecraft:iron_nugget",
+          "Slot": 14,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 5,
+          "Damage": 0,
+          "Name": "minecraft:ancient_debris",
+          "Slot": 15,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 2,
+          "Damage": 0,
+          "Name": "minecraft:rib_armor_trim_smithing_template",
+          "Slot": 16,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 2,
+          "Damage": 0,
+          "Name": "minecraft:snout_armor_trim_smithing_template",
+          "Slot": 17,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 6,
+          "Damage": 0,
+          "Name": "minecraft:mob_spawner",
+          "Slot": 18,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 3,
+          "Damage": 0,
+          "Name": "minecraft:diamond",
+          "Slot": 19,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 1,
+          "Damage": 0,
+          "Name": "minecraft:diamond_horse_armor",
+          "Slot": 20,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 1,
+          "Damage": 0,
+          "Name": "minecraft:saddle",
+          "Slot": 21,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 1,
+          "Damage": 0,
+          "Name": "minecraft:music_disc_pigstep",
+          "Slot": 22,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 22,
+          "Damage": 0,
+          "Name": "minecraft:magma_cream",
+          "Slot": 23,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 24,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 25,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 26,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 17,
+          "Damage": 0,
+          "Name": "minecraft:string",
+          "Slot": 27,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 8,
+          "Damage": 0,
+          "Name": "minecraft:bone_block",
+          "Slot": 28,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 18,
+          "Damage": 0,
+          "Name": "minecraft:gilded_blackstone",
+          "Slot": 29,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 1,
+          "Damage": 0,
+          "Name": "minecraft:crying_obsidian",
+          "Slot": 30,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 38,
+          "Damage": 0,
+          "Name": "minecraft:chain",
+          "Slot": 31,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 32,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 33,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 34,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 35,
+          "WasPickedUp": 0,
+          "tag": {}
+        }
+      ],
+      "enderchestinventory": [
+        {
+          "Count": 59,
+          "Damage": 0,
+          "Name": "minecraft:chest",
+          "Slot": 0,
+          "WasPickedUp": 0,
+          "tag": {
+            "Findable": 0,
+            "Items": [
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 0,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 1,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 2,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 3,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 4,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 5,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 6,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 7,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 8,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 9,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 10,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 11,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 12,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 13,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 14,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 15,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 16,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 17,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 18,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 19,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 20,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 21,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 22,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 23,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 24,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 25,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 26,
+                "WasPickedUp": 0
+              }
+            ],
+            "LootTable": "loot_tables/chests/woodland_mansion.json",
+            "LootTableSeed": 0,
+            "display": {
+              "Lore": [
+                "\u00a7r\u00a73Chance to recieve:\n\u00a77Bone / Gunpowder / Rotten Flesh / String \u00a7857.8%\u00a7f\nNothing / \u00a7bVex Armor Trim \u00a7850.0%\u00a7f\nWheat / Bread \u00a7830.0%\u00a7f\nLead / Name Tag \u00a7827.9%\u00a7f\nCoal / Redstone Dust \u00a7823.3%\u00a7f\n\u00a7eMusic Disc (13) \u00a7f/ \u00a7eMusic Disc (cat) \u00a7821.5%\u00a7f\nGolden Apple / Diamond Hoe \u00a7821.5%\u00a7f\nEnchanted Book \u00a7817.5%\u00a7f\nBeetroot Seeds / Melon Seeds \u00a7816.1%\u00a7f\nPumpkin Seeds / Resin Clump / Iron Ingot \u00a7816.1%\u00a7f\nResin Brick / Bucket \u00a7816.1%\u00a7f\nChainmail Chestplate \u00a7814.7%\u00a7f\nGold Ingot \u00a788.3%\u00a7f\nDiamond Chestplate \u00a787.6%\u00a7f\n\u00a7bEnchanted Golden Apple \u00a783.1%"
+              ],
+              "Name": "\u00a7r\u00a7bWoodland Mansion Loot Crate"
+            }
+          }
+        },
+        {
+          "Count": 61,
+          "Damage": 0,
+          "Name": "minecraft:chest",
+          "Slot": 1,
+          "WasPickedUp": 0,
+          "tag": {
+            "Findable": 0,
+            "Items": [
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 0,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 1,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 2,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 3,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 4,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 5,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 6,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 7,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 8,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 9,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 10,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 11,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 12,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 13,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 14,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 15,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 16,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 17,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 18,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 19,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 20,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 21,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 22,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 23,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 24,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 25,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 26,
+                "WasPickedUp": 0
+              }
+            ],
+            "LootTable": "loot_tables/chests/stronghold_library.json",
+            "LootTableSeed": 0,
+            "display": {
+              "Lore": [
+                "\u00a7r\u00a73Chance to recieve:\n\u00a77\u00a7bEye Armor Trim \u00a78100.0%\u00a7f\nPaper / Book \u00a7888.3%\u00a7f\nEnchanted Book \u00a7872.9%\u00a7f\nCompass / Map \u00a7810.5%"
+              ],
+              "Name": "\u00a7r\u00a7bStronghold Library Loot Crate"
+            }
+          }
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 2,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 3,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 4,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 5,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 6,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 7,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 8,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 9,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 10,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 11,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 12,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 13,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 14,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 15,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 16,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 17,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 18,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 19,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 20,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 21,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 22,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 23,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 24,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 25,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 26,
+          "WasPickedUp": 0,
+          "tag": {}
+        }
+      ],
+      "mainhand": [
+        {
+          "Count": 1,
+          "Damage": 0,
+          "Name": "minecraft:diamond_pickaxe",
+          "Slot": 0,
+          "WasPickedUp": 0,
+          "tag": {
+            "ench": [
+              {
+                "id": 15,
+                "lvl": 1
+              }
+            ]
+          }
+        }
+      ],
+      "offhand": [
+        {
+          "Count": 62,
+          "Damage": 0,
+          "Name": "minecraft:arrow",
+          "Slot": 0,
+          "WasPickedUp": 0,
+          "tag": {}
+        }
+      ],
+      "armor": [
+        {
+          "Count": 1,
+          "Damage": 0,
+          "Name": "minecraft:golden_helmet",
+          "Slot": 0,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 1,
+          "Damage": 0,
+          "Name": "minecraft:golden_chestplate",
+          "Slot": 0,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 1,
+          "Damage": 0,
+          "Name": "minecraft:golden_leggings",
+          "Slot": 0,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 1,
+          "Damage": 0,
+          "Name": "minecraft:golden_boots",
+          "Slot": 0,
+          "WasPickedUp": 0,
+          "tag": {
+            "ench": [
+              {
+                "id": 36,
+                "lvl": 2
+              }
+            ]
+          }
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 0,
+          "WasPickedUp": 0,
+          "tag": {}
+        }
+      ]
+    }
+  ]
+}

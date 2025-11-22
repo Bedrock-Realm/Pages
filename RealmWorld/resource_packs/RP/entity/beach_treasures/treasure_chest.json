@@ -1,0 +1,28 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "fs:treasure_chest",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/beach_treasures/treasure_chest"
+      },
+      "geometry": {
+        "default": "geometry.fs_treasure_chest"
+      },
+      "animations": {
+        "idle": "animation.treasure_chest.idle"
+      },
+      "scripts": {
+        "animate": ["idle"]
+      },
+      "render_controllers": ["controller.render.default"],
+      "spawn_egg": {
+        "base_color": "#5b4576",
+        "overlay_color": "#4d5b8e"
+      }
+    }
+  }
+}

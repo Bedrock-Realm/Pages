@@ -1,0 +1,187 @@
+{
+  "format_version": "1.14.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "fs:prize_wheel",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false,
+      "scripts": {
+        "animate": ["grid_align", "rotate", "furniture"]
+      },
+      "animations": {
+        "grid_align": "controller.animation.grid_align",
+        "rotate": "controller.animation.rotate",
+        "furniture": "controller.animation.furniture"
+      }
+    },
+    "component_groups": {
+      "nm:snap": {
+        "minecraft:is_tamed": {},
+        "minecraft:timer": {
+          "time": 2,
+          "time_down_event": {
+            "event": "nm:stop_snap"
+          }
+        }
+      },
+      "nm:rotate_off": {
+        "minecraft:interact": {
+          "interactions": [
+            {
+              "on_interact": {
+                "filters": {
+                  "test": "has_equipment",
+                  "subject": "player",
+                  "domain": "hand",
+                  "value": "stick"
+                },
+                "event": "nm:start_rotate"
+              },
+              "play_sounds": "note",
+              "interact_text": "rotate"
+            }
+          ]
+        }
+      },
+      "nm:rotate_on": {
+        "minecraft:is_baby": {},
+        "minecraft:timer": {
+          "time": 0.1,
+          "time_down_event": {
+            "event": "nm:stop_rotate"
+          }
+        }
+      },
+
+      "interactable_piglin": {
+        "minecraft:interact": {
+          "interactions": [
+            {
+              "on_interact": {
+                "filters": {
+                  "all_of": [
+                    {
+                      "test": "has_equipment",
+                      "subject": "other",
+                      "domain": "hand",
+                      "value": "fs:prize_wheel_ticket"
+                    },
+                    {
+                      "test": "is_family",
+                      "subject": "other",
+                      "value": "player"
+                    },
+                    {
+                      "test": "has_component",
+                      "subject": "self",
+                      "operator": "!=",
+                      "value": "minecraft:is_baby"
+                    }
+                  ]
+                }
+              },
+              "barter": true,
+              "admire": true,
+              "use_item": true,
+              "interact_text": "action.interact.barter"
+            }
+          ]
+        }
+      }
+    },
+    "components": {
+      "minecraft:type_family": {
+        "family": ["npc"]
+      },
+      "minecraft:physics": {
+        "has_gravity": true,
+        "has_collision": true
+      },
+      "minecraft:pushable": {
+        "is_pushable": false,
+        "is_pushable_by_piston": false
+      },
+      "minecraft:collision_box": {
+        "width": 0.6,
+        "height": 1.8
+      },
+      "minecraft:knockback_resistance": {
+        "value": 1
+      },
+      "minecraft:fire_immune": true,
+      "minecraft:health": {
+        "value": 1,
+        "max": 1
+      },
+      "minecraft:nameable": {
+        "always_show": true,
+        "allow_name_tag_renaming": true
+      },
+      "minecraft:admire_item": {
+        "duration": 6.1
+      },
+      "minecraft:behavior.admire_item": {
+        "priority": 8,
+        "admire_item_sound": "admire",
+        "sound_interval": {
+          "range_min": 2.0,
+          "range_max": 5.0
+        },
+        "on_admire_item_start": {
+          "event": "admire_item_started_event",
+          "target": "self"
+        },
+        "on_admire_item_stop": {
+          "event": "admire_item_stopped_event",
+          "target": "self"
+        }
+      },
+      "minecraft:behavior.barter": {
+        "priority": 9
+      },
+      "minecraft:barter": {
+        "barter_table": "loot_tables/entities/piglin_barter.json"
+      },
+      "minecraft:persistent": {}
+    },
+    "events": {
+      "minecraft:entity_spawned": {
+        "add": {
+          "component_groups": ["nm:rotate_off", "nm:snap", "interactable_piglin"]
+        }
+      },
+      "nm:stop_snap": {
+        "remove": {
+          "component_groups": ["nm:snap"]
+        }
+      },
+      "nm:stop_rotate": {
+        "remove": {
+          "component_groups": ["nm:rotate_on"]
+        },
+        "add": {
+          "component_groups": ["nm:rotate_off"]
+        }
+      },
+      "nm:start_rotate": {
+        "remove": {
+          "component_groups": ["nm:rotate_off"]
+        },
+        "add": {
+          "component_groups": ["nm:rotate_on"]
+        }
+      },
+      "admire_item_started_event": {
+        "remove": {
+          "component_groups": ["interactable_piglin"]
+        }
+      },
+      "admire_item_stopped_event": {
+        "add": {
+          "component_groups": ["interactable_piglin"]
+        }
+      }
+    }
+  }
+}

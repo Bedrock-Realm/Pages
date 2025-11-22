@@ -1,0 +1,1 @@
+event entity @s capes:xbox360_cape

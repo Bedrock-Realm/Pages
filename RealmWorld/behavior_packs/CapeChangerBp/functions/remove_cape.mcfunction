@@ -1,0 +1,1 @@
+event entity @s capes:remove_cape

@@ -1,0 +1,196 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.player.default_cape": {
+      "rebuild_animation_matrices": true,
+      "geometry": "Geometry.cape",
+      "materials": [{ "*": "Material.cape" }],
+      "textures": ["Texture.cape"],
+      "part_visibility": [
+        {
+          "cape": "(query.armor_texture_slot(1) != 5) && (!variable.is_first_person || variable.is_paperdoll) && (!variable.map_face_icon)"
+        }
+      ]
+    },
+
+    "controller.render.player.yearn_cape": {
+      "rebuild_animation_matrices": true,
+      "geometry": "Geometry.cape",
+      "materials": [{ "*": "Material.cape" }],
+      "textures": ["!query.has_cape ? Texture.yearn_cape : Texture.cape"],
+      "part_visibility": [
+        {
+          "cape": "(query.armor_texture_slot(1) != 5) && (!variable.is_first_person || variable.is_paperdoll) && (!variable.map_face_icon)"
+        }
+      ]
+    },
+
+    "controller.render.player.menace_cape": {
+      "rebuild_animation_matrices": true,
+      "geometry": "Geometry.cape",
+      "materials": [{ "*": "Material.cape" }],
+      "textures": ["!query.has_cape ? Texture.menace_cape : Texture.cape"],
+      "part_visibility": [
+        {
+          "cape": "(query.armor_texture_slot(1) != 5) && (!variable.is_first_person || variable.is_paperdoll) && (!variable.map_face_icon)"
+        }
+      ]
+    },
+
+    "controller.render.player.home_cape": {
+      "rebuild_animation_matrices": true,
+      "geometry": "Geometry.cape",
+      "materials": [{ "*": "Material.cape" }],
+      "textures": ["!query.has_cape ? Texture.home_cape : Texture.cape"],
+      "part_visibility": [
+        {
+          "cape": "(query.armor_texture_slot(1) != 5) && (!variable.is_first_person || variable.is_paperdoll) && (!variable.map_face_icon)"
+        }
+      ]
+    },
+
+    "controller.render.player.cape_office": {
+      "rebuild_animation_matrices": true,
+      "geometry": "Geometry.cape",
+      "materials": [{ "*": "Material.cape" }],
+      "textures": ["!query.has_cape ? Texture.cape_office : Texture.cape"],
+      "part_visibility": [
+        {
+          "cape": "(query.armor_texture_slot(1) != 5) && (!variable.is_first_person || variable.is_paperdoll) && (!variable.map_face_icon)"
+        }
+      ]
+    },
+
+    "controller.render.player.cape_LBE": {
+      "rebuild_animation_matrices": true,
+      "geometry": "Geometry.cape",
+      "materials": [{ "*": "Material.cape" }],
+      "textures": ["!query.has_cape ? Texture.cape_LBE : Texture.cape"],
+      "part_visibility": [
+        {
+          "cape": "(query.armor_texture_slot(1) != 5) && (!variable.is_first_person || variable.is_paperdoll) && (!variable.map_face_icon)"
+        }
+      ]
+    },
+
+    "controller.render.player.mcc_cape": {
+      "rebuild_animation_matrices": true,
+      "geometry": "Geometry.cape",
+      "materials": [{ "*": "Material.cape" }],
+      "textures": ["!query.has_cape ? Texture.mcc_cape : Texture.cape"],
+      "part_visibility": [
+        {
+          "cape": "(query.armor_texture_slot(1) != 5) && (!variable.is_first_person || variable.is_paperdoll) && (!variable.map_face_icon)"
+        }
+      ]
+    },
+
+    "controller.render.player.cape15": {
+      "rebuild_animation_matrices": true,
+      "geometry": "Geometry.cape",
+      "materials": [{ "*": "Material.cape" }],
+      "textures": ["!query.has_cape ? Texture.cape15 : Texture.cape"],
+      "part_visibility": [
+        {
+          "cape": "(query.armor_texture_slot(1) != 5) && (!variable.is_first_person || variable.is_paperdoll) && (!variable.map_face_icon)"
+        }
+      ]
+    },
+
+    "controller.render.player.cape_tiktok": {
+      "rebuild_animation_matrices": true,
+      "geometry": "Geometry.cape",
+      "materials": [{ "*": "Material.cape" }],
+      "textures": ["!query.has_cape ? Texture.cape_tiktok : Texture.cape"],
+      "part_visibility": [
+        {
+          "cape": "(query.armor_texture_slot(1) != 5) && (!variable.is_first_person || variable.is_paperdoll) && (!variable.map_face_icon)"
+        }
+      ]
+    },
+
+    "controller.render.player.cape_twitch": {
+      "rebuild_animation_matrices": true,
+      "geometry": "Geometry.cape",
+      "materials": [{ "*": "Material.cape" }],
+      "textures": ["!query.has_cape ? Texture.cape_twitch : Texture.cape"],
+      "part_visibility": [
+        {
+          "cape": "(query.armor_texture_slot(1) != 5) && (!variable.is_first_person || variable.is_paperdoll) && (!variable.map_face_icon)"
+        }
+      ]
+    },
+
+    "controller.render.player.cape_cherry": {
+      "rebuild_animation_matrices": true,
+      "geometry": "Geometry.cape",
+      "materials": [{ "*": "Material.cape" }],
+      "textures": ["!query.has_cape ? Texture.cape_cherry : Texture.cape"],
+      "part_visibility": [
+        {
+          "cape": "(query.armor_texture_slot(1) != 5) && (!variable.is_first_person || variable.is_paperdoll) && (!variable.map_face_icon)"
+        }
+      ]
+    },
+
+    "controller.render.player.cape_pride": {
+      "rebuild_animation_matrices": true,
+      "geometry": "Geometry.cape",
+      "materials": [{ "*": "Material.cape" }],
+      "textures": ["!query.has_cape ? Texture.cape_pride : Texture.cape"],
+      "part_visibility": [
+        {
+          "cape": "(query.armor_texture_slot(1) != 5) && (!variable.is_first_person || variable.is_paperdoll) && (!variable.map_face_icon)"
+        }
+      ]
+    },
+
+    "controller.render.player.java_bedrock_cape": {
+      "rebuild_animation_matrices": true,
+      "geometry": "Geometry.cape",
+      "materials": [{ "*": "Material.cape" }],
+      "textures": ["!query.has_cape ? Texture.java_bedrock_cape : Texture.cape"],
+      "part_visibility": [
+        {
+          "cape": "(query.armor_texture_slot(1) != 5) && (!variable.is_first_person || variable.is_paperdoll) && (!variable.map_face_icon)"
+        }
+      ]
+    },
+
+    "controller.render.player.mojangstudios_cape": {
+      "rebuild_animation_matrices": true,
+      "geometry": "Geometry.cape",
+      "materials": [{ "*": "Material.cape" }],
+      "textures": ["!query.has_cape ? Texture.mojangstudios_cape : Texture.cape"],
+      "part_visibility": [
+        {
+          "cape": "(query.armor_texture_slot(1) != 5) && (!variable.is_first_person || variable.is_paperdoll) && (!variable.map_face_icon)"
+        }
+      ]
+    },
+
+    "controller.render.player.founders_cape": {
+      "rebuild_animation_matrices": true,
+      "geometry": "Geometry.cape",
+      "materials": [{ "*": "Material.cape" }],
+      "textures": ["!query.has_cape ? Texture.founders_cape : Texture.cape"],
+      "part_visibility": [
+        {
+          "cape": "(query.armor_texture_slot(1) != 5) && (!variable.is_first_person || variable.is_paperdoll) && (!variable.map_face_icon)"
+        }
+      ]
+    },
+
+    "controller.render.player.common_cape": {
+      "rebuild_animation_matrices": true,
+      "geometry": "Geometry.cape",
+      "materials": [{ "*": "Material.cape" }],
+      "textures": ["!query.has_cape ? Texture.common_cape : Texture.cape"],
+      "part_visibility": [
+        {
+          "cape": "(query.armor_texture_slot(1) != 5) && (!variable.is_first_person || variable.is_paperdoll) && (!variable.map_face_icon)"
+        }
+      ]
+    }
+  }
+}

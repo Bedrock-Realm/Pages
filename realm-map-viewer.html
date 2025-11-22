@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Bedrock Map Viewer</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <style>
+      html,
+      body,
+      #map {
+        height: 100%;
+        margin: 0;
+        background-color: #0d1117;
+      }
+      .leaflet-container {
+        background: #0d1117 !important;
+      }
+      .leaflet-image-layer,
+      .leaflet-tile {
+        image-rendering: pixelated;
+      }
+      .player-icon {
+        width: 32px;
+        height: 32px;
+        transform-origin: center center;
+        image-rendering: pixelated;
+        image-rendering: crisp-edges;
+      }
+      #players-sidebar {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        background: #ffffffdd;
+        color: #000;
+        padding: 6px 10px;
+        border-radius: 5px;
+        font-family: sans-serif;
+        max-width: 220px;
+        overflow-y: auto;
+        max-height: 90%;
+        z-index: 1000;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+        background-color: #f8f9fa;
+      }
+      #players-sidebar b {
+        display: block;
+        margin-bottom: 6px;
+        font-weight: bold;
+      }
+      .player-entry {
+        display: flex;
+        align-items: center;
+        margin-bottom: 6px;
+        cursor: pointer;
+        transition: background 0.2s;
+        padding: 2px 4px;
+        border-radius: 4px;
+      }
+      .player-entry:hover {
+        background: #e1e3e6;
+      }
+      .player-entry img {
+        width: 32px;
+        height: 32px;
+        margin-right: 8px;
+        border-radius: 4px;
+      }
+
+      #coords-display {
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        background: #161b22dd;
+        color: #c9d1d9;
+        padding: 4px 8px;
+        border-radius: 4px;
+        font-family: monospace;
+        font-size: 14px;
+        z-index: 1000;
+        pointer-events: none;
+      }
+
+      .inventory-popup {
+        position: relative;
+        width: 176px;
+        height: 166px;
+        background: url("inventory.png") no-repeat;
+        image-rendering: pixelated;
+      }
+      .inventory-slot {
+        position: absolute;
+        width: 16px;
+        height: 16px;
+      }
+      .inventory-slot img {
+        width: 16px;
+        height: 16px;
+        image-rendering: pixelated;
+        image-rendering: crisp-edges;
+      }
+      .slot-count {
+        position: absolute;
+        bottom: -3px;
+        right: -1px;
+        font-size: 10px;
+        color: white;
+        text-shadow: 1px 1px #000;
+      }
+      .inventory-avatar {
+        position: absolute;
+        left: 25px;
+        top: 8px;
+        width: 50px;
+        height: 70px;
+        image-rendering: pixelated;
+      }
+
+      .enderchest-popup {
+        position: relative;
+        width: 176px;
+        height: 77px;
+        background: url(ender-chest.png) no-repeat;
+        image-rendering: pixelated;
+      }
+      .enderchest-slot {
+        position: absolute;
+        width: 16px;
+        height: 16px;
+      }
+      .enderchest-slot img {
+        width: 16px;
+        height: 16px;
+        image-rendering: pixelated;
+        image-rendering: crisp-edges;
+      }
+
+      #inventory-popup-container {
+        position: absolute;
+        background: #161b22;
+        padding: 10px;
+        border-radius: 8px;
+        z-index: 2000;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+        display: none;
+      }
+      #close-inventory {
+        position: absolute;
+        top: 4px;
+        right: 4px;
+        background: #c33;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        padding: 2px 6px;
+        cursor: pointer;
+      }
+      #close-inventory:hover {
+        background: #a22;
+      }
+
+      .inventory-coords-overlay {
+        position: relative;
+        color: #fff;
+        font-size: 12px;
+        font-family: monospace;
+        text-shadow: 1px 1px 2px #000;
+        pointer-events: none;
+        z-index: 5;
+        text-align: center;
+      }
+
+      .structure-icon {
+        width: 32px;
+        height: 32px;
+        image-rendering: pixelated;
+        image-rendering: crisp-edges;
+      }
+
+      .item-tooltip {
+        position: absolute;
+        background: rgba(16, 0, 16, 0.94);
+        border: 1px solid #373737;
+        color: #fff;
+        font-family: Minecraftia, monospace, sans-serif;
+        font-size: 12px;
+        line-height: 1.2;
+        padding: 4px 6px;
+        max-width: 200px;
+        z-index: 9999;
+        pointer-events: none;
+        display: none;
+        white-space: pre-line;
+      }
+      .item-tooltip .enchant {
+        color: #55ffff;
+      }
+      .item-tooltip .trim {
+        color: #aaa;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+    <div id="coords-display">X: 0, Z: 0</div>
+    <div id="players-sidebar">
+      <b>Players</b>
+      <div id="player-list"></div>
+    </div>
+
+    <div id="item-tooltip" class="item-tooltip"></div>
+
+    <div id="inventory-popup-container">
+      <div id="inventory-popup-content"></div>
+      <button id="close-inventory">X</button>
+    </div>
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script>
+      const mapWidth = 6240;
+      const mapHeight = 6240;
+      const bounds = [
+        [0, 0],
+        [mapHeight - 1, mapWidth - 1],
+      ];
+
+      const worldBounds = {
+        overworld: { minX: -3120, maxX: 3119, minZ: -3120, maxZ: 3119, image: "map_overworld.png" },
+        nether: { minX: -3120, maxX: 3119, minZ: -3120, maxZ: 3119, image: "map_nether.png" },
+        end: { minX: -3120, maxX: 3119, minZ: -3120, maxZ: 3119, image: "map_end.png" },
+      };
+
+      const map = L.map("map", { crs: L.CRS.Simple, minZoom: -3, maxZoom: 5, zoomControl: false });
+      const baseLayers = {},
+        playerLayers = {};
+
+      Object.keys(worldBounds).forEach((world) => {
+        const img = L.imageOverlay(worldBounds[world].image, bounds, { interactive: false });
+        const players = L.layerGroup();
+        const group = L.layerGroup([img, players]);
+        baseLayers[world] = group;
+        playerLayers[world] = players;
+      });
+
+      baseLayers["overworld"].addTo(map);
+      map.fitBounds(bounds);
+
+      const mansionBounds = [
+        [worldBounds.overworld.maxZ - 7167, -3328 - worldBounds.overworld.minX],
+        [worldBounds.overworld.maxZ - 6912, -3073 - worldBounds.overworld.minX],
+      ];
+
+      const mansionOverlay = L.imageOverlay("map_mansion.png", mansionBounds);
+      mansionOverlay.addTo(map);
+
+      const spawnLayer = L.layerGroup().addTo(map);
+      const deathLayer = L.layerGroup();
+
+      const structureLayers = {
+        "Plains Village": L.layerGroup().addTo(map),
+        "Desert Village": L.layerGroup().addTo(map),
+        "Savanna Village": L.layerGroup().addTo(map),
+        "Snowy Village": L.layerGroup().addTo(map),
+        "Taiga Village": L.layerGroup().addTo(map),
+        "Jungle Temple": L.layerGroup().addTo(map),
+        "Desert Pyramid": L.layerGroup().addTo(map),
+        "Ocean Monument": L.layerGroup().addTo(map),
+        "Pillager Outpost": L.layerGroup().addTo(map),
+        "Stronghold": L.layerGroup().addTo(map),
+        "Ancient City": L.layerGroup().addTo(map),
+        "Igloo": L.layerGroup().addTo(map),
+        "Buried Treasure": L.layerGroup(),
+        "Shipwreck": L.layerGroup(),
+        "Ruined Portal": L.layerGroup(),
+        "Trial Chambers": L.layerGroup(),
+        "Swamp Hut": L.layerGroup(),
+        "Woodland Mansion": L.layerGroup().addTo(map),
+        "Nether Fortress": L.layerGroup().addTo(map),
+        "Bastion Remnant": L.layerGroup().addTo(map),
+      };
+
+      L.control
+        .layers(
+          baseLayers,
+          {
+            "Spawn Points": spawnLayer,
+            Deaths: deathLayer,
+            ...structureLayers,
+          },
+          { collapsed: false, position: "topleft" }
+        )
+        .addTo(map);
+
+      let currentWorld = "overworld";
+
+map.on("baselayerchange", (e) => {
+  currentWorld = e.name.toLowerCase();
+  updateStructureVisibility();
+});
+
+updateStructureVisibility();
+
+function updateStructureVisibility() {
+  Object.values(structureLayers).forEach((layer) => layer.clearLayers());
+
+  fetch("structures.json")
+    .then((res) => res.json())
+    .then((data) => {
+      data.structures.forEach((s) => {
+        if (s.world !== currentWorld) return;
+
+        const coords = mcToPixel(s.world, s.x, s.z);
+
+        const iconMap = {
+          "Plains Village": "village_plains.png",
+          "Desert Village": "village_desert.png",
+          "Savanna Village": "village_savanna.png",
+          "Snowy Village": "village_snowy.png",
+          "Taiga Village": "village_taiga.png",
+          "Swamp Hut": "swamp_hut.png",
+          "Jungle Temple": "jungle_temple.png",
+          "Desert Pyramid": "desert_pyramid.png",
+          "Trial Chambers": "trial_chambers.png",
+          "Ocean Monument": "ocean_monument.png",
+          "Woodland Mansion": "woodland_mansion.png",
+          "Buried Treasure": "buried_treasure.png",
+          "Pillager Outpost": "pillager_outpost.png",
+          "Stronghold": "stronghold.png",
+          "Ancient City": "ancient_city.png",
+          "Ruined Portal": "ruined_portal.png",
+          "Shipwreck": "shipwreck.png",
+          "Igloo": "igloo.png",
+          "Nether Fortress": "nether_fortress.png",
+          "Bastion Remnant": "bastion_remnant.png",
+        };
+
+        const icon = L.divIcon({
+          className: "poi-icon",
+          html: `<img src="icons/${iconMap[s.type] || "default.png"}" class="structure-icon">`,
+          iconSize: [32, 32],
+          iconAnchor: [16, 16],
+        });
+
+        let popupHtml = `<b>${s.type}</b><br>X:${s.x}, Z:${s.z}`;
+
+        if (s.chestCount !== undefined) {
+          popupHtml += `<br>
+            <img src="icons/chest.png"
+                 style="width:16px; height:16px; vertical-align:middle; margin-right:4px;
+                        image-rendering: pixelated; image-rendering: crisp-edges;">
+            ${s.chestCount}`;
+        }
+
+        if (s.spawnerCount !== undefined) {
+          popupHtml += `<br>
+            <img src="icons/spawner.png"
+                 style="width:16px; height:16px; vertical-align:middle; margin-right:4px;
+                        image-rendering: pixelated; image-rendering: crisp-edges;">
+            ${s.spawnerCount}`;
+        }
+
+        L.marker(coords, { icon })
+          .bindPopup(popupHtml)
+          .addTo(structureLayers[s.type]);
+      });
+    });
+}
+
+      function mcToPixel(world, mcX, mcZ) {
+        const wb = worldBounds[world];
+        const xPixel = mcX - wb.minX;
+        const yPixel = wb.maxZ - mcZ;
+        return [yPixel, xPixel];
+      }
+
+      function pixelToMc(world, yPixel, xPixel) {
+        const wb = worldBounds[world];
+        const mcX = Math.floor(wb.minX + xPixel);
+        const mcZ = Math.floor(wb.maxZ - yPixel);
+        return [mcX, mcZ];
+      }
+
+      function mcFormat(str) {
+        const colors = {
+          "§0": "black",
+          "§1": "darkblue",
+          "§2": "darkgreen",
+          "§3": "darkcyan",
+          "§4": "darkred",
+          "§5": "darkmagenta",
+          "§6": "gold",
+          "§7": "gray",
+          "§8": "darkgray",
+          "§9": "blue",
+          "§a": "lime",
+          "§b": "aqua",
+          "§c": "red",
+          "§d": "pink",
+          "§e": "yellow",
+          "§f": "white",
+        };
+
+        return (
+          str.replace(/§[0-9a-f]/g, (m) => `<span style="color:${colors[m] || "white"}">`).replace(/\n/g, "<br>") +
+          "</span>"
+        );
+      }
+
+      const popupContainer = document.getElementById("inventory-popup-container");
+      const popupContent = document.getElementById("inventory-popup-content");
+      document.getElementById("close-inventory").addEventListener("click", () => {
+        popupContainer.style.display = "none";
+        window.currentPopupPlayer = null;
+      });
+
+      function showInventoryPopup(player, coords, html) {
+        popupContent.innerHTML = html;
+
+        let overlay = document.createElement("div");
+        overlay.className = "inventory-coords-overlay";
+        overlay.innerHTML = `${player.name}<br>X:${player.x}, Y:${player.y}, Z:${player.z}`;
+        popupContent.appendChild(overlay);
+
+        const point = map.latLngToContainerPoint(L.latLng(coords[0], coords[1]));
+        popupContainer.style.left = point.x + 20 + "px";
+        popupContainer.style.top = point.y - 40 + "px";
+        popupContainer.style.display = "block";
+        window.currentPopupPlayer = { player, coords, html };
+      }
+
+      map.on("move", () => {
+        if (popupContainer.style.display === "block" && window.currentPopupPlayer) {
+          const { player, coords, html } = window.currentPopupPlayer;
+          showInventoryPopup(player, coords, html);
+        }
+      });
+
+      fetch("players.json")
+        .then((res) => res.json())
+        .then((data) => {
+          const playerList = document.getElementById("player-list");
+
+          document.querySelector("#players-sidebar b").textContent = `Players (${data.players.length}/${data.max})`;
+
+          data.players.forEach((p) => {
+            if (!worldBounds[p.world]) return;
+            const coords = mcToPixel(p.world, p.x, p.z);
+
+            const icon = L.divIcon({
+              className: "player-icon-wrapper",
+              html: `<img src="icons/player.png" class="player-icon" style="transform: rotate(${p.rotation[0]}deg)">`,
+              iconSize: [32, 32],
+              iconAnchor: [16, 16],
+            });
+            const marker = L.marker(coords, { icon }).addTo(playerLayers[p.world]);
+
+            if (p.SpawnX !== undefined && p.SpawnZ !== undefined) {
+              const spawnCoords = mcToPixel(p.world, p.SpawnX, p.SpawnZ);
+              const spawnIcon = L.divIcon({
+                className: "player-icon-wrapper",
+                html: `<img src="icons/spawn-point.png" class="player-icon" style="image-rendering: pixelated;">`,
+                iconSize: [32, 32],
+                iconAnchor: [16, 16],
+              });
+              L.marker(spawnCoords, { icon: spawnIcon })
+                .bindPopup(`<b>${p.name} Spawn</b><br>X:${p.SpawnX}, Y=${p.SpawnY}, Z:${p.SpawnZ}`)
+                .addTo(spawnLayer);
+            }
+
+            if (p.DeathX !== undefined && p.DeathZ !== undefined) {
+              const deathCoords = mcToPixel(p.world, p.DeathX, p.DeathZ);
+              const deathIcon = L.divIcon({
+                className: "player-icon-wrapper",
+                html: `<img src="icons/death.png" class="player-icon" style="image-rendering: pixelated;">`,
+                iconSize: [32, 32],
+                iconAnchor: [16, 16],
+              });
+              L.marker(deathCoords, { icon: deathIcon })
+                .bindPopup(`<b>${p.name} Last Death</b><br>X:${p.DeathX}, Y=${p.DeathY}, Z:${p.DeathZ}`)
+                .addTo(deathLayer);
+            }
+
+            const slotPositions = [
+              { x: 8, y: 142 },
+              { x: 26, y: 142 },
+              { x: 44, y: 142 },
+              { x: 62, y: 142 },
+              { x: 80, y: 142 },
+              { x: 98, y: 142 },
+              { x: 116, y: 142 },
+              { x: 134, y: 142 },
+              { x: 152, y: 142 },
+              { x: 8, y: 84 },
+              { x: 26, y: 84 },
+              { x: 44, y: 84 },
+              { x: 62, y: 84 },
+              { x: 80, y: 84 },
+              { x: 98, y: 84 },
+              { x: 116, y: 84 },
+              { x: 134, y: 84 },
+              { x: 152, y: 84 },
+              { x: 8, y: 102 },
+              { x: 26, y: 102 },
+              { x: 44, y: 102 },
+              { x: 62, y: 102 },
+              { x: 80, y: 102 },
+              { x: 98, y: 102 },
+              { x: 116, y: 102 },
+              { x: 134, y: 102 },
+              { x: 152, y: 102 },
+              { x: 8, y: 120 },
+              { x: 26, y: 120 },
+              { x: 44, y: 120 },
+              { x: 62, y: 120 },
+              { x: 80, y: 120 },
+              { x: 98, y: 120 },
+              { x: 116, y: 120 },
+              { x: 134, y: 120 },
+              { x: 152, y: 120 },
+              { x: 8, y: 8 },
+              { x: 8, y: 26 },
+              { x: 8, y: 44 },
+              { x: 8, y: 62 },
+              { x: 152, y: 8 }, //Null
+              { x: 77, y: 62 },
+            ];
+
+            const enderChestSlots = [
+              { x: 8, y: 18 },
+              { x: 26, y: 18 },
+              { x: 44, y: 18 },
+              { x: 62, y: 18 },
+              { x: 80, y: 18 },
+              { x: 98, y: 18 },
+              { x: 116, y: 18 },
+              { x: 134, y: 18 },
+              { x: 152, y: 18 },
+              { x: 8, y: 36 },
+              { x: 26, y: 36 },
+              { x: 44, y: 36 },
+              { x: 62, y: 36 },
+              { x: 80, y: 36 },
+              { x: 98, y: 36 },
+              { x: 116, y: 36 },
+              { x: 134, y: 36 },
+              { x: 152, y: 36 },
+              { x: 8, y: 54 },
+              { x: 26, y: 54 },
+              { x: 44, y: 54 },
+              { x: 62, y: 54 },
+              { x: 80, y: 54 },
+              { x: 98, y: 54 },
+              { x: 116, y: 54 },
+              { x: 134, y: 54 },
+              { x: 152, y: 54 },
+            ];
+
+            const specialItemIcons = {
+              "minecraft:filled_map|3": "items/minecraft_ocean_explorer_map.png",
+              "minecraft:filled_map|4": "items/minecraft_woodland_explorer_map.png",
+              "minecraft:filled_map|7": "items/minecraft_snowy_village_map.png",
+              "minecraft:filled_map|11": "items/minecraft_desert_village_map.png",
+              "minecraft:filled_map|10": "items/minecraft_savanna_village_map.png",
+              "minecraft:filled_map|8": "items/minecraft_taiga_village_map.png",
+              "minecraft:filled_map|9": "items/minecraft_plains_village_map.png",
+              "minecraft:filled_map|12": "items/minecraft_jungle_explorer_map.png",
+              "minecraft:filled_map|13": "items/minecraft_swamp_explorer_map.png",
+              "minecraft:filled_map|6": "items/minecraft_locked_map.png",
+              "minecraft:filled_map|14": "items/minecraft_trial_explorer_map.png",
+              "minecraft:filled_map|5": "items/minecraft_treasure_map.png",
+            };
+
+            function getItemIcon(item) {
+              if (!item || !item.Name) return "items/empty.png";
+
+              const keyWithDamage = `${item.Name}|${item.Damage}`;
+              if (specialItemIcons[keyWithDamage]) return specialItemIcons[keyWithDamage];
+              if (specialItemIcons[item.Name]) return specialItemIcons[item.Name];
+
+              if (item.Name === "minecraft:crossbow" && item.tag?.chargedItem) {
+                const charged = item.tag.chargedItem.Name;
+                if (charged === "minecraft:arrow") {
+                  return "items/minecraft_crossbow_arrow.png";
+                }
+                if (charged === "minecraft:firework_rocket") {
+                  return "items/minecraft_crossbow_firework.png";
+                }
+                return "items/minecraft_crossbow.png";
+              }
+
+              if (item.tag?.Trim?.Material) {
+                const baseName = item.Name.replace(/[:.]/g, "_").toLowerCase();
+                const trimName = item.tag.Trim.Material.toLowerCase();
+                return `trims/${baseName}_${trimName}_trim.png`;
+              }
+
+              const baseName = item.Name.replace(/[:.]/g, "_").toLowerCase();
+              return `items/${baseName}.png`;
+            }
+
+            function renderEnderChest(player) {
+              let html = '<div class="enderchest-popup">';
+              (player.enderchestinventory || []).forEach((item, index) => {
+                if (!enderChestSlots[index]) return;
+                const pos = enderChestSlots[index];
+                html += `<div class="enderchest-slot" style="left:${pos.x}px; top:${pos.y}px;"
+          data-name="${item.Name}"
+          data-meta='${encodeURIComponent(JSON.stringify(item))}'>
+          <img src="${getItemIcon(item)}">
+          ${item.Count > 1 ? `<span class="slot-count">${item.Count}</span>` : ""}
+        </div>`;
+              });
+              html += "</div>";
+              return html;
+            }
+
+            function renderInventoryGrid(player) {
+              let html = "";
+              if (Array.isArray(player.enderchestinventory) && player.enderchestinventory.length) {
+                html += renderEnderChest(player);
+              }
+              html += '<div class="inventory-popup">';
+              html += `<img src="https://persona.franchise.minecraft-services.net/api/v1.0/profile/xuid/${player.xuid}/image/avatar" 
+                         alt="${player.name} avatar" class="inventory-avatar">`;
+              const allItems = [...player.inventory, ...player.armor, ...player.offhand];
+              allItems.forEach((item, index) => {
+                if (!slotPositions[index]) return;
+                const pos = slotPositions[index];
+                html += `<div class="inventory-slot" 
+            style="left:${pos.x}px; top:${pos.y}px;"
+            data-name="${item.Name}"
+            data-meta='${encodeURIComponent(JSON.stringify(item))}'>
+            <img src="${getItemIcon(item)}">
+              ${item.Count > 1 ? `<span class="slot-count">${item.Count}</span>` : ""}
+            </div>`;
+              });
+              html += "</div>";
+              return html;
+            }
+
+            const invHTML = renderInventoryGrid(p);
+
+            marker.on("click", () => {
+              showInventoryPopup(p, coords, invHTML);
+            });
+
+            const entry = document.createElement("div");
+            entry.className = "player-entry";
+            entry.innerHTML = `<img src="https://persona.franchise.minecraft-services.net/api/v1.0/profile/xuid/${p.xuid}/image/head" alt="${p.name} head">
+                               <span>${p.name}</span>`;
+            entry.addEventListener("click", () => {
+              Object.keys(baseLayers).forEach((world) => map.removeLayer(baseLayers[world]));
+              baseLayers[p.world].addTo(map);
+              spawnLayer.addTo(map);
+              // deathLayer.addTo(map); <-- remove this line
+              map.setView(coords, 0);
+              showInventoryPopup(p, coords, invHTML);
+            });
+            playerList.appendChild(entry);
+          });
+        })
+
+        .catch((err) => console.error("Failed to load players.json", err));
+
+      const tooltip = document.getElementById("item-tooltip");
+
+      const enchantmentNames = {
+        0: "Protection",
+        1: "Fire Protection",
+        2: "Feather Falling",
+        3: "Blast Protection",
+        4: "Projectile Protection",
+        5: "Thorns",
+        6: "Respiration",
+        7: "Depth Strider",
+        8: "Aqua Affinity",
+        9: "Sharpness",
+        10: "Smite",
+        11: "Bane of Arthropods",
+        12: "Knockback",
+        13: "Fire Aspect",
+        14: "Looting",
+        15: "Efficiency",
+        16: "Silk Touch",
+        17: "Unbreaking",
+        18: "Fortune",
+        19: "Power",
+        20: "Punch",
+        21: "Flame",
+        22: "Infinity",
+        23: "Luck of the Sea",
+        24: "Lure",
+        25: "Frost Walker",
+        26: "Mending",
+        27: "Curse of Binding",
+        28: "Curse of Vanishing",
+        29: "Impaling",
+        30: "Riptide",
+        31: "Loyalty",
+        32: "Channeling",
+        33: "Multishot",
+        34: "Piercing",
+        35: "Quick Charge",
+        36: "Soul Speed",
+        37: "Swift Sneak",
+        38: "Wind Burst",
+        39: "Density",
+        40: "Breach",
+      };
+
+      document.addEventListener("mouseover", (e) => {
+        const slot = e.target.closest(".inventory-slot, .enderchest-slot");
+        if (slot) {
+          const meta = JSON.parse(decodeURIComponent(slot.dataset.meta || "{}"));
+          let text = "";
+
+          // --- Use custom name if available, otherwise fallback to item Name
+          if (meta.tag?.display?.Name) {
+            text += meta.tag.display.Name;
+          } else {
+            text += meta.Name || "Unknown Item";
+          }
+
+          if (meta.Damage) text += `\nDamage: ${meta.Damage}`;
+
+          if (meta.tag?.Trim) {
+            text += `\n§7Trim: ${meta.tag.Trim.Material} + ${meta.tag.Trim.Pattern}`;
+          }
+
+          if (Array.isArray(meta.tag?.ench)) {
+            meta.tag.ench.forEach((en) => {
+              const name = enchantmentNames[en.id] || `Ench ${en.id}`;
+              text += `\n§b${name} ${en.lvl}`;
+            });
+          }
+
+          // --- Add Lore lines if present
+          if (Array.isArray(meta.tag?.display?.Lore)) {
+            meta.tag.display.Lore.forEach((line) => {
+              text += `\n§7${line}`; // §7 = gray, like in Minecraft
+            });
+          }
+
+          tooltip.innerHTML = mcFormat(text);
+          tooltip.style.display = "block";
+        } else {
+          tooltip.style.display = "none";
+        }
+      });
+
+      document.addEventListener("mousemove", (e) => {
+        if (tooltip.style.display === "block") {
+          tooltip.style.left = e.pageX + 12 + "px";
+          tooltip.style.top = e.pageY + 12 + "px";
+        }
+      });
+
+      const coordsDisplay = document.getElementById("coords-display");
+      map.on("mousemove", function (e) {
+        let currentWorld = "overworld";
+        const [mcX, mcZ] = pixelToMc(currentWorld, e.latlng.lat, e.latlng.lng);
+        coordsDisplay.textContent = `X: ${mcX}, Z: ${mcZ}`;
+      });
+    </script>
+  </body>
+</html>

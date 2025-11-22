@@ -1,0 +1,20 @@
+{
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "npc_fisherman": {
+      "textures": "textures/items/npc_fisherman"
+    },
+    "npc_huntress": {
+      "textures": "textures/items/npc_huntress"
+    },
+    "flamingo_feather": {
+      "textures": "textures/items/flamingo_feather"
+    },
+    "orca_fin": {
+      "textures": "textures/items/orca_fin"
+    },
+    "prize_wheel_ticket": {
+      "textures": "textures/items/prize_wheel_ticket"
+    }
+  }
+}

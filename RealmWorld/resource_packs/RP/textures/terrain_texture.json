@@ -1,0 +1,28 @@
+{
+  "num_mip_levels": 4,
+  "padding": 8,
+  "texture_name": "atlas.terrain",
+  "texture_data": {
+    "plushie_flamingo": {
+      "textures": "textures/blocks/plushies/animals/plushie_flamingo"
+    },
+    "plushie_orca": {
+      "textures": "textures/blocks/plushies/animals/plushie_orca"
+    },
+    "plushie_shark_great_white": {
+      "textures": "textures/blocks/plushies/animals/plushie_shark_great_white"
+    },
+    "plushie_shark_hammerhead": {
+      "textures": "textures/blocks/plushies/animals/plushie_shark_hammerhead"
+    },
+    "treasure_chest": {
+      "textures": "textures/blocks/furniture/beach_treasures/treasure_chest"
+    },
+    "treasure_crate": {
+      "textures": "textures/blocks/furniture/beach_treasures/treasure_crate"
+    },
+    "treasure_bottle": {
+      "textures": "textures/blocks/furniture/beach_treasures/treasure_bottle"
+    }
+  }
+}

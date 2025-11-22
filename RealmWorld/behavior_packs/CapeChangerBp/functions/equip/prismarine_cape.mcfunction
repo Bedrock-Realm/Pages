@@ -1,0 +1,1 @@
+event entity @s capes:prismarine_cape

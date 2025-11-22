@@ -1,0 +1,8145 @@
+{
+  "max": 11,
+  "players": [
+    {
+      "name": "BehaviorPack",
+      "xuid": "2535460561105730",
+      "uuid": "e1bc515c-b069-38ad-af4d-a4326d6e036e",
+      "world": "overworld",
+      "playergamemode": 1,
+      "x": 466,
+      "y": 65,
+      "z": -113,
+      "rotation": [78.85153198242188, 18.62872314453125],
+      "SpawnX": 463,
+      "SpawnY": 68,
+      "SpawnZ": -124,
+      "DeathX": -488,
+      "DeathY": 120,
+      "DeathZ": 407,
+      "inventory": [
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 0
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 1
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 2
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 3
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 4
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 5
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 6
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 7
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 8
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:barrel",
+          "Slot": 9
+        },
+        {
+          "Count": 19,
+          "Name": "minecraft:filled_map",
+          "Slot": 10
+        },
+        {
+          "Count": 2,
+          "Name": "minecraft:filled_map",
+          "Slot": 11
+        },
+        {
+          "Count": 12,
+          "Name": "minecraft:filled_map",
+          "Slot": 12
+        },
+        {
+          "Count": 2,
+          "Name": "minecraft:filled_map",
+          "Slot": 13
+        },
+        {
+          "Count": 1,
+          "Name": "mythicus_ws:waystone.interact",
+          "Slot": 14
+        },
+        {
+          "Count": 62,
+          "Name": "minecraft:wither_rose",
+          "Slot": 15
+        },
+        {
+          "Count": 49,
+          "Name": "minecraft:chest",
+          "Slot": 16
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:glow_stick",
+          "Slot": 17
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 18
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 19
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 20
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 21
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 22
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 23
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 24
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 25
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 26
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 27
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 28
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 29
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 30
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 31
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 32
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 33
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 34
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 35
+        }
+      ],
+      "enderchestinventory": [
+        {
+          "Count": 1,
+          "Name": "minecraft:brown_shulker_box",
+          "Slot": 0
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:green_shulker_box",
+          "Slot": 1
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:blue_shulker_box",
+          "Slot": 2
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:command_block",
+          "Slot": 3
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 4
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 5
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 6
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:filled_map",
+          "Slot": 7
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:filled_map",
+          "Slot": 8
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:mob_spawner",
+          "Slot": 9
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 10
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 11
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 12
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 13
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 14
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 15
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 16
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 17
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:brown_shulker_box",
+          "Slot": 18
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:brown_shulker_box",
+          "Slot": 19
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:brown_shulker_box",
+          "Slot": 20
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:brown_shulker_box",
+          "Slot": 21
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:brown_shulker_box",
+          "Slot": 22
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 23
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 24
+        },
+        {
+          "Count": 1,
+          "Name": "ulkd_ess:guidebook",
+          "Slot": 25
+        },
+        {
+          "Count": 1,
+          "Name": "ulkd_ess:admin_remote",
+          "Slot": 26
+        }
+      ],
+      "mainhand": [
+        {
+          "Count": 0,
+          "Name": ""
+        }
+      ],
+      "offhand": [
+        {
+          "Count": 0,
+          "Name": ""
+        }
+      ],
+      "armor": [
+        {
+          "Count": 0,
+          "Name": ""
+        },
+        {
+          "Count": 0,
+          "Name": ""
+        },
+        {
+          "Count": 0,
+          "Name": ""
+        },
+        {
+          "Count": 0,
+          "Name": ""
+        },
+        {
+          "Count": 0,
+          "Name": ""
+        }
+      ]
+    },
+    {
+      "name": "HeckinDingus",
+      "xuid": "2535458325973711",
+      "uuid": "9ee621d4-f7cd-3116-94c3-d623982ba547",
+      "world": "overworld",
+      "playergamemode": 5,
+      "x": 30,
+      "y": 77,
+      "z": -536,
+      "rotation": [-74.46401977539062, 27.3572998046875],
+      "SpawnX": 33,
+      "SpawnY": 76,
+      "SpawnZ": -525,
+      "DeathX": 38,
+      "DeathY": 73,
+      "DeathZ": -522,
+      "inventory": [
+        {
+          "Count": 1,
+          "Name": "minecraft:iron_sword",
+          "Slot": 0
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:diamond_pickaxe",
+          "Slot": 1
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 2
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:iron_axe",
+          "Slot": 3
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:spyglass",
+          "Slot": 4
+        },
+        {
+          "Count": 1,
+          "Name": "mythicus_ws:waystone.interact",
+          "Slot": 5
+        },
+        {
+          "Count": 61,
+          "Name": "minecraft:golden_carrot",
+          "Slot": 6
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 7
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:filled_map",
+          "Slot": 8
+        },
+        {
+          "Count": 61,
+          "Name": "minecraft:cooked_beef",
+          "Slot": 9
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:iron_hoe",
+          "Slot": 10
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:bow",
+          "Slot": 11
+        },
+        {
+          "Count": 27,
+          "Name": "minecraft:paper",
+          "Slot": 12
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:string",
+          "Slot": 13
+        },
+        {
+          "Count": 16,
+          "Name": "minecraft:carrot",
+          "Slot": 14
+        },
+        {
+          "Count": 9,
+          "Name": "minecraft:carrot",
+          "Slot": 15
+        },
+        {
+          "Count": 1,
+          "Name": "spark_pets_pro:collar",
+          "Slot": 16
+        },
+        {
+          "Count": 37,
+          "Name": "minecraft:golden_apple",
+          "Slot": 17
+        },
+        {
+          "Count": 7,
+          "Name": "minecraft:bone",
+          "Slot": 18
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:iron_pickaxe",
+          "Slot": 19
+        },
+        {
+          "Count": 21,
+          "Name": "minecraft:lapis_lazuli",
+          "Slot": 20
+        },
+        {
+          "Count": 63,
+          "Name": "minecraft:cobbled_deepslate",
+          "Slot": 21
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:bundle",
+          "Slot": 22
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:bundle",
+          "Slot": 23
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:bundle",
+          "Slot": 24
+        },
+        {
+          "Count": 48,
+          "Name": "minecraft:iron_ingot",
+          "Slot": 25
+        },
+        {
+          "Count": 1,
+          "Name": "hivehats:endolotl_buddy",
+          "Slot": 26
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:diamond_sword",
+          "Slot": 27
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:diamond_pickaxe",
+          "Slot": 28
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:bundle",
+          "Slot": 29
+        },
+        {
+          "Count": 12,
+          "Name": "minecraft:arrow",
+          "Slot": 30
+        },
+        {
+          "Count": 14,
+          "Name": "minecraft:cooked_mutton",
+          "Slot": 31
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:pumpkin",
+          "Slot": 32
+        },
+        {
+          "Count": 47,
+          "Name": "minecraft:golden_carrot",
+          "Slot": 33
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:crafting_table",
+          "Slot": 34
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:water_bucket",
+          "Slot": 35
+        }
+      ],
+      "enderchestinventory": [
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 0
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 1
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 2
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 3
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 4
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 5
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 6
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 7
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 8
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 9
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 10
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 11
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 12
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 13
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 14
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 15
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 16
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 17
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 18
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 19
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 20
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 21
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 22
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 23
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 24
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 25
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 26
+        }
+      ],
+      "mainhand": [
+        {
+          "Count": 0,
+          "Name": ""
+        }
+      ],
+      "offhand": [
+        {
+          "Count": 1,
+          "Name": "xp_dl:torch.default"
+        }
+      ],
+      "armor": [
+        {
+          "Count": 0,
+          "Name": ""
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:iron_chestplate"
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:iron_leggings"
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:iron_boots"
+        },
+        {
+          "Count": 0,
+          "Name": ""
+        }
+      ]
+    },
+    {
+      "name": "Iazybird",
+      "xuid": "2535427252898343",
+      "uuid": "97013647-1f22-375f-9d0e-331825bda59f",
+      "world": "overworld",
+      "playergamemode": 5,
+      "x": -23,
+      "y": 72,
+      "z": 31,
+      "rotation": [-68.62384033203125, -19.209213256835938],
+      "SpawnX": -2147483648,
+      "SpawnY": -2147483648,
+      "SpawnZ": -2147483648,
+      "DeathX": 0,
+      "DeathY": 0,
+      "DeathZ": 0,
+      "inventory": [
+        {
+          "Count": 60,
+          "Name": "minecraft:torch",
+          "Slot": 0
+        },
+        {
+          "Count": 2,
+          "Name": "minecraft:oak_sapling",
+          "Slot": 1
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:stone_axe",
+          "Slot": 2
+        },
+        {
+          "Count": 14,
+          "Name": "minecraft:oak_planks",
+          "Slot": 3
+        },
+        {
+          "Count": 64,
+          "Name": "minecraft:oak_log",
+          "Slot": 4
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:flint_and_steel",
+          "Slot": 5
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 6
+        },
+        {
+          "Count": 1,
+          "Name": "oreville_rb:lksmfpz",
+          "Slot": 7
+        },
+        {
+          "Count": 1,
+          "Name": "mythicus_ws:waystone.interact",
+          "Slot": 8
+        },
+        {
+          "Count": 1,
+          "Name": "mythicus_ws:waystone.energize.waystone",
+          "Slot": 9
+        },
+        {
+          "Count": 1,
+          "Name": "mythicus_ws:waystone.stone",
+          "Slot": 10
+        },
+        {
+          "Count": 2,
+          "Name": "minecraft:feather",
+          "Slot": 11
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:wooden_pickaxe",
+          "Slot": 12
+        },
+        {
+          "Count": 1,
+          "Name": "ulkd_ess:guidebook",
+          "Slot": 13
+        },
+        {
+          "Count": 1,
+          "Name": "oreville_rb:lafxtwv",
+          "Slot": 14
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:written_book",
+          "Slot": 15
+        },
+        {
+          "Count": 1,
+          "Name": "mythicus_ws:waystone.guidebook",
+          "Slot": 16
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:written_book",
+          "Slot": 17
+        },
+        {
+          "Count": 1,
+          "Name": "mythicus_ws:waystone.guidebook.update",
+          "Slot": 18
+        },
+        {
+          "Count": 11,
+          "Name": "minecraft:dirt",
+          "Slot": 19
+        },
+        {
+          "Count": 23,
+          "Name": "minecraft:oak_log",
+          "Slot": 20
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 21
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:cobblestone",
+          "Slot": 22
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:wheat_seeds",
+          "Slot": 23
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 24
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 25
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 26
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 27
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 28
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 29
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 30
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 31
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 32
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 33
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 34
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 35
+        }
+      ],
+      "enderchestinventory": [
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 0
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 1
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 2
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 3
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 4
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 5
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 6
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 7
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 8
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 9
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 10
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 11
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 12
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 13
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 14
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 15
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 16
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 17
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 18
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 19
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 20
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 21
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 22
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 23
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 24
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 25
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 26
+        }
+      ],
+      "mainhand": [
+        {
+          "Count": 1,
+          "Name": "minecraft:flint_and_steel"
+        }
+      ],
+      "offhand": [
+        {
+          "Count": 0,
+          "Name": ""
+        }
+      ],
+      "armor": [
+        {
+          "Count": 0,
+          "Name": ""
+        },
+        {
+          "Count": 1,
+          "Name": "hivebackbling:angel_wings_white"
+        },
+        {
+          "Count": 0,
+          "Name": ""
+        },
+        {
+          "Count": 0,
+          "Name": ""
+        },
+        {
+          "Count": 0,
+          "Name": ""
+        }
+      ]
+    },
+    {
+      "name": "SethRWorkman",
+      "xuid": "2535442000490115",
+      "uuid": "893156d1-d929-31a0-9b08-32e6b8c0a9b2",
+      "world": "overworld",
+      "playergamemode": 0,
+      "x": 822,
+      "y": 64,
+      "z": -999,
+      "rotation": [164.87420654296875, 14.368850708007812],
+      "SpawnX": 824,
+      "SpawnY": 63,
+      "SpawnZ": -1011,
+      "DeathX": 46,
+      "DeathY": 81,
+      "DeathZ": -34,
+      "inventory": [
+        {
+          "Count": 1,
+          "Name": "minecraft:netherite_pickaxe",
+          "Slot": 0
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:netherite_sword",
+          "Slot": 1
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:netherite_axe",
+          "Slot": 2
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:netherite_shovel",
+          "Slot": 3
+        },
+        {
+          "Count": 35,
+          "Name": "minecraft:cooked_mutton",
+          "Slot": 4
+        },
+        {
+          "Count": 64,
+          "Name": "minecraft:glass",
+          "Slot": 5
+        },
+        {
+          "Count": 1,
+          "Name": "mythicus_ws:waystone.interact",
+          "Slot": 6
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:filled_map",
+          "Slot": 7
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 8
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 9
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 10
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 11
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 12
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 13
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 14
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 15
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 16
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 17
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 18
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 19
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 20
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 21
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 22
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 23
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 24
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 25
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 26
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:shield",
+          "Slot": 27
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 28
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 29
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 30
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 31
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 32
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 33
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 34
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 35
+        }
+      ],
+      "enderchestinventory": [
+        {
+          "Count": 1,
+          "Name": "minecraft:rib_armor_trim_smithing_template",
+          "Slot": 0
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:netherite_upgrade_smithing_template",
+          "Slot": 1
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:blue_shulker_box",
+          "Slot": 2
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:blue_shulker_box",
+          "Slot": 3
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:blue_shulker_box",
+          "Slot": 4
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:blue_shulker_box",
+          "Slot": 5
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:blue_shulker_box",
+          "Slot": 6
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:blue_shulker_box",
+          "Slot": 7
+        },
+        {
+          "Count": 1,
+          "Name": "mythicus_ws:waystone.stone",
+          "Slot": 8
+        },
+        {
+          "Count": 7,
+          "Name": "minecraft:ender_pearl",
+          "Slot": 9
+        },
+        {
+          "Count": 29,
+          "Name": "minecraft:blaze_rod",
+          "Slot": 10
+        },
+        {
+          "Count": 1,
+          "Name": "hivehats:horns_blaze",
+          "Slot": 11
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:enchanted_book",
+          "Slot": 12
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:enchanted_book",
+          "Slot": 13
+        },
+        {
+          "Count": 64,
+          "Name": "minecraft:lapis_lazuli",
+          "Slot": 14
+        },
+        {
+          "Count": 50,
+          "Name": "minecraft:lapis_lazuli",
+          "Slot": 15
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:crimson_sign",
+          "Slot": 16
+        },
+        {
+          "Count": 1,
+          "Name": "mythicus_ws:waystone.easter_egg",
+          "Slot": 17
+        },
+        {
+          "Count": 46,
+          "Name": "minecraft:spruce_planks",
+          "Slot": 18
+        },
+        {
+          "Count": 38,
+          "Name": "minecraft:paper",
+          "Slot": 19
+        },
+        {
+          "Count": 15,
+          "Name": "minecraft:emerald",
+          "Slot": 20
+        },
+        {
+          "Count": 9,
+          "Name": "minecraft:book",
+          "Slot": 21
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:fishing_rod",
+          "Slot": 22
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 23
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 24
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 25
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 26
+        }
+      ],
+      "mainhand": [
+        {
+          "Count": 0,
+          "Name": ""
+        }
+      ],
+      "offhand": [
+        {
+          "Count": 0,
+          "Name": ""
+        }
+      ],
+      "armor": [
+        {
+          "Count": 1,
+          "Name": "minecraft:netherite_helmet"
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:netherite_chestplate"
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:netherite_leggings"
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:netherite_boots"
+        },
+        {
+          "Count": 0,
+          "Name": ""
+        }
+      ]
+    },
+    {
+      "name": "LittleSpacer629",
+      "xuid": "2535459257416669",
+      "uuid": "ba72f97f-d8ab-36fd-9da4-8cf5831afa0e",
+      "world": "overworld",
+      "playergamemode": 0,
+      "x": 756,
+      "y": -37,
+      "z": -997,
+      "rotation": [32.74079895019531, 11.273345947265625],
+      "SpawnX": 820,
+      "SpawnY": 67,
+      "SpawnZ": -1022,
+      "DeathX": -13,
+      "DeathY": 38,
+      "DeathZ": -154,
+      "inventory": [
+        {
+          "Count": 1,
+          "Name": "minecraft:iron_sword",
+          "Slot": 0
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:crossbow",
+          "Slot": 1
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:diamond_pickaxe",
+          "Slot": 2
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:diamond_axe",
+          "Slot": 3
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:cobbled_deepslate",
+          "Slot": 4
+        },
+        {
+          "Count": 2,
+          "Name": "xp_dl:firepowder.brown",
+          "Slot": 5
+        },
+        {
+          "Count": 2,
+          "Name": "minecraft:book",
+          "Slot": 6
+        },
+        {
+          "Count": 1,
+          "Name": "mythicus_ws:waystone.interact",
+          "Slot": 7
+        },
+        {
+          "Count": 8,
+          "Name": "minecraft:cooked_beef",
+          "Slot": 8
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:pink_shulker_box",
+          "Slot": 9
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:gray_shulker_box",
+          "Slot": 10
+        },
+        {
+          "Count": 12,
+          "Name": "spark_pets_pro:collar",
+          "Slot": 11
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 12
+        },
+        {
+          "Count": 3,
+          "Name": "minecraft:lead",
+          "Slot": 13
+        },
+        {
+          "Count": 46,
+          "Name": "minecraft:arrow",
+          "Slot": 14
+        },
+        {
+          "Count": 64,
+          "Name": "minecraft:arrow",
+          "Slot": 15
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 16
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 17
+        },
+        {
+          "Count": 1,
+          "Name": "mythicus_ws:waystone.stone",
+          "Slot": 18
+        },
+        {
+          "Count": 31,
+          "Name": "minecraft:emerald",
+          "Slot": 19
+        },
+        {
+          "Count": 1,
+          "Name": "ulkd_ess:player_teleporter",
+          "Slot": 20
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 21
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 22
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 23
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 24
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 25
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 26
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:filled_map",
+          "Slot": 27
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:diamond_hoe",
+          "Slot": 28
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:diamond_shovel",
+          "Slot": 29
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 30
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 31
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 32
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 33
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 34
+        },
+        {
+          "Count": 46,
+          "Name": "minecraft:baked_potato",
+          "Slot": 35
+        }
+      ],
+      "enderchestinventory": [
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 0
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 1
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 2
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 3
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 4
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 5
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 6
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 7
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 8
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 9
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 10
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 11
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 12
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 13
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 14
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 15
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 16
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 17
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 18
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 19
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 20
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 21
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 22
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 23
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 24
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 25
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 26
+        }
+      ],
+      "mainhand": [
+        {
+          "Count": 1,
+          "Name": "minecraft:crossbow"
+        }
+      ],
+      "offhand": [
+        {
+          "Count": 1,
+          "Name": "xp_dl:lantern.gray"
+        }
+      ],
+      "armor": [
+        {
+          "Count": 1,
+          "Name": "camel:flower_crown"
+        },
+        {
+          "Count": 1,
+          "Name": "essential:cherry_blossom_wings"
+        },
+        {
+          "Count": 1,
+          "Name": "essential:cherry_blossom_particles"
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:diamond_boots"
+        },
+        {
+          "Count": 0,
+          "Name": ""
+        }
+      ]
+    },
+    {
+      "name": "xXSilverCatXx14",
+      "xuid": "2535434774959193",
+      "uuid": "b203fbf7-0ce2-36b5-95bb-e3ae804fe9eb",
+      "world": "overworld",
+      "playergamemode": 0,
+      "x": -479,
+      "y": 122,
+      "z": 394,
+      "rotation": [-171.50680541992188, 16.584152221679688],
+      "SpawnX": -471,
+      "SpawnY": 118,
+      "SpawnZ": 376,
+      "DeathX": 837,
+      "DeathY": 64,
+      "DeathZ": -1013,
+      "inventory": [
+        {
+          "Count": 1,
+          "Name": "minecraft:diamond_sword",
+          "Slot": 0
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:diamond_pickaxe",
+          "Slot": 1
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:diamond_axe",
+          "Slot": 2
+        },
+        {
+          "Count": 3,
+          "Name": "xp_furniture:copper_pipe",
+          "Slot": 3
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 4
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 5
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 6
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:diamond_hoe",
+          "Slot": 7
+        },
+        {
+          "Count": 16,
+          "Name": "minecraft:baked_potato",
+          "Slot": 8
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:diamond_shovel",
+          "Slot": 9
+        },
+        {
+          "Count": 23,
+          "Name": "minecraft:torch",
+          "Slot": 10
+        },
+        {
+          "Count": 1,
+          "Name": "mythicus_ws:waystone.interact",
+          "Slot": 11
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:pink_shulker_box",
+          "Slot": 12
+        },
+        {
+          "Count": 3,
+          "Name": "xp_furniture:flower_cluster_0_item",
+          "Slot": 13
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:dark_oak_stairs",
+          "Slot": 14
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:diamond_pickaxe",
+          "Slot": 15
+        },
+        {
+          "Count": 16,
+          "Name": "minecraft:sugar_cane",
+          "Slot": 16
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:trident",
+          "Slot": 17
+        },
+        {
+          "Count": 3,
+          "Name": "minecraft:filled_map",
+          "Slot": 18
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:shears",
+          "Slot": 19
+        },
+        {
+          "Count": 4,
+          "Name": "minecraft:bucket",
+          "Slot": 20
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:copper_trapdoor",
+          "Slot": 21
+        },
+        {
+          "Count": 2,
+          "Name": "minecraft:acacia_planks",
+          "Slot": 22
+        },
+        {
+          "Count": 31,
+          "Name": "minecraft:scaffolding",
+          "Slot": 23
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:trident",
+          "Slot": 24
+        },
+        {
+          "Count": 64,
+          "Name": "minecraft:carrot",
+          "Slot": 25
+        },
+        {
+          "Count": 56,
+          "Name": "minecraft:carrot",
+          "Slot": 26
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:iron_pickaxe",
+          "Slot": 27
+        },
+        {
+          "Count": 37,
+          "Name": "minecraft:azalea_leaves",
+          "Slot": 28
+        },
+        {
+          "Count": 16,
+          "Name": "minecraft:redstone",
+          "Slot": 29
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:diamond_axe",
+          "Slot": 30
+        },
+        {
+          "Count": 57,
+          "Name": "minecraft:copper_ingot",
+          "Slot": 31
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:cut_copper",
+          "Slot": 32
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 33
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 34
+        },
+        {
+          "Count": 39,
+          "Name": "minecraft:emerald",
+          "Slot": 35
+        }
+      ],
+      "enderchestinventory": [
+        {
+          "Count": 1,
+          "Name": "minecraft:turtle_helmet",
+          "Slot": 0
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 1
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 2
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 3
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 4
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 5
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 6
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 7
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 8
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 9
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 10
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 11
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 12
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 13
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 14
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 15
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 16
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 17
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 18
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 19
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 20
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 21
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 22
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 23
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 24
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 25
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 26
+        }
+      ],
+      "mainhand": [
+        {
+          "Count": 0,
+          "Name": ""
+        }
+      ],
+      "offhand": [
+        {
+          "Count": 1,
+          "Name": "xp_dl:lantern.default"
+        }
+      ],
+      "armor": [
+        {
+          "Count": 0,
+          "Name": ""
+        },
+        {
+          "Count": 1,
+          "Name": "hivebackbling:butterfly_wings_pink"
+        },
+        {
+          "Count": 1,
+          "Name": "essential:cherry_blossom_particles"
+        },
+        {
+          "Count": 1,
+          "Name": "essential:heart_fire_feet_slim"
+        },
+        {
+          "Count": 0,
+          "Name": ""
+        }
+      ]
+    },
+    {
+      "name": "Madisongs827",
+      "xuid": "2535455624920108",
+      "uuid": "7401791a-2752-3d5b-b001-0f6af42679d3",
+      "world": "overworld",
+      "playergamemode": 5,
+      "x": 856,
+      "y": 68,
+      "z": -1011,
+      "rotation": [81.27584838867188, 18.319244384765625],
+      "SpawnX": 852,
+      "SpawnY": 67,
+      "SpawnZ": -1022,
+      "DeathX": 79,
+      "DeathY": 75,
+      "DeathZ": -22,
+      "inventory": [
+        {
+          "Count": 1,
+          "Name": "ulkd_ess:player_teleporter",
+          "Slot": 0
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:diamond_sword",
+          "Slot": 1
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:diamond_pickaxe",
+          "Slot": 2
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 3
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:bundle",
+          "Slot": 4
+        },
+        {
+          "Count": 1,
+          "Name": "mythicus_ws:waystone.interact",
+          "Slot": 5
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 6
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 7
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 8
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 9
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 10
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:yellow_shulker_box",
+          "Slot": 11
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 12
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 13
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:iron_axe",
+          "Slot": 14
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 15
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 16
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 17
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 18
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 19
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 20
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 21
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 22
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 23
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 24
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 25
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:diamond_shovel",
+          "Slot": 26
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 27
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 28
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 29
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 30
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 31
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 32
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 33
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 34
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 35
+        }
+      ],
+      "enderchestinventory": [
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 0
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 1
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 2
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 3
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 4
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 5
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 6
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 7
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 8
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 9
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 10
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 11
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 12
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 13
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 14
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 15
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 16
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 17
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 18
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 19
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 20
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 21
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 22
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 23
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 24
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 25
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 26
+        }
+      ],
+      "mainhand": [
+        {
+          "Count": 0,
+          "Name": ""
+        }
+      ],
+      "offhand": [
+        {
+          "Count": 1,
+          "Name": "xp_dl:torch.default"
+        }
+      ],
+      "armor": [
+        {
+          "Count": 1,
+          "Name": "hivehats:party_zuk_goggles"
+        },
+        {
+          "Count": 1,
+          "Name": "customcapes:cherry_blossom"
+        },
+        {
+          "Count": 0,
+          "Name": ""
+        },
+        {
+          "Count": 0,
+          "Name": ""
+        },
+        {
+          "Count": 0,
+          "Name": ""
+        }
+      ]
+    },
+    {
+      "name": "CreeperWeeper25",
+      "xuid": "2535447571156965",
+      "uuid": "6f9b312f-bb30-3777-8116-b6641dc5ab91",
+      "world": "overworld",
+      "playergamemode": 5,
+      "x": -482,
+      "y": 121,
+      "z": 404,
+      "rotation": [-172.7413787841797, 29.118087768554688],
+      "SpawnX": -2147483648,
+      "SpawnY": -2147483648,
+      "SpawnZ": -2147483648,
+      "DeathX": 0,
+      "DeathY": 0,
+      "DeathZ": 0,
+      "inventory": [
+        {
+          "Count": 1,
+          "Name": "minecraft:iron_sword",
+          "Slot": 0
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:iron_pickaxe",
+          "Slot": 1
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:iron_axe",
+          "Slot": 2
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 3
+        },
+        {
+          "Count": 13,
+          "Name": "minecraft:cherry_log",
+          "Slot": 4
+        },
+        {
+          "Count": 25,
+          "Name": "minecraft:dark_oak_slab",
+          "Slot": 5
+        },
+        {
+          "Count": 20,
+          "Name": "minecraft:scaffolding",
+          "Slot": 6
+        },
+        {
+          "Count": 11,
+          "Name": "minecraft:torch",
+          "Slot": 7
+        },
+        {
+          "Count": 20,
+          "Name": "minecraft:carrot",
+          "Slot": 8
+        },
+        {
+          "Count": 64,
+          "Name": "minecraft:dark_oak_log",
+          "Slot": 9
+        },
+        {
+          "Count": 2,
+          "Name": "minecraft:pale_oak_log",
+          "Slot": 10
+        },
+        {
+          "Count": 64,
+          "Name": "minecraft:dark_oak_planks",
+          "Slot": 11
+        },
+        {
+          "Count": 2,
+          "Name": "minecraft:cherry_wood",
+          "Slot": 12
+        },
+        {
+          "Count": 20,
+          "Name": "minecraft:dark_oak_planks",
+          "Slot": 13
+        },
+        {
+          "Count": 64,
+          "Name": "minecraft:dark_oak_log",
+          "Slot": 14
+        },
+        {
+          "Count": 35,
+          "Name": "minecraft:deepslate_tiles",
+          "Slot": 15
+        },
+        {
+          "Count": 62,
+          "Name": "minecraft:pale_oak_planks",
+          "Slot": 16
+        },
+        {
+          "Count": 1,
+          "Name": "xp_furniture:magenta_wood_pillow",
+          "Slot": 17
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 18
+        },
+        {
+          "Count": 51,
+          "Name": "minecraft:cherry_fence",
+          "Slot": 19
+        },
+        {
+          "Count": 44,
+          "Name": "minecraft:deepslate_tile_stairs",
+          "Slot": 20
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 21
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 22
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 23
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 24
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 25
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 26
+        },
+        {
+          "Count": 1,
+          "Name": "mythicus_ws:waystone.interact",
+          "Slot": 27
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 28
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 29
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:iron_shovel",
+          "Slot": 30
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:iron_hoe",
+          "Slot": 31
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 32
+        },
+        {
+          "Count": 50,
+          "Name": "minecraft:gold_ingot",
+          "Slot": 33
+        },
+        {
+          "Count": 28,
+          "Name": "minecraft:iron_ingot",
+          "Slot": 34
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:diamond",
+          "Slot": 35
+        }
+      ],
+      "enderchestinventory": [
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 0
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 1
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 2
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 3
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 4
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 5
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 6
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 7
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 8
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 9
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 10
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 11
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 12
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 13
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 14
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 15
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 16
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 17
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 18
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 19
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 20
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 21
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 22
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 23
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 24
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 25
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 26
+        }
+      ],
+      "mainhand": [
+        {
+          "Count": 0,
+          "Name": ""
+        }
+      ],
+      "offhand": [
+        {
+          "Count": 0,
+          "Name": ""
+        }
+      ],
+      "armor": [
+        {
+          "Count": 1,
+          "Name": "hivehats:turtle_buddy"
+        },
+        {
+          "Count": 0,
+          "Name": ""
+        },
+        {
+          "Count": 0,
+          "Name": ""
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:iron_boots"
+        },
+        {
+          "Count": 0,
+          "Name": ""
+        }
+      ]
+    },
+    {
+      "name": "MintBunnii",
+      "xuid": "2535425933649932",
+      "uuid": "0b484ae5-0ad9-3f79-b519-4c7a88db8400",
+      "world": "overworld",
+      "playergamemode": 0,
+      "x": 452,
+      "y": 65,
+      "z": -94,
+      "rotation": [-147.08071899414062, 18.445663452148438],
+      "SpawnX": 463,
+      "SpawnY": 68,
+      "SpawnZ": -125,
+      "DeathX": 473,
+      "DeathY": 65,
+      "DeathZ": -126,
+      "inventory": [
+        {
+          "Count": 1,
+          "Name": "minecraft:diamond_sword",
+          "Slot": 0
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:diamond_pickaxe",
+          "Slot": 1
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:iron_axe",
+          "Slot": 2
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:iron_shovel",
+          "Slot": 3
+        },
+        {
+          "Count": 29,
+          "Name": "minecraft:bookshelf",
+          "Slot": 4
+        },
+        {
+          "Count": 41,
+          "Name": "minecraft:baked_potato",
+          "Slot": 5
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 6
+        },
+        {
+          "Count": 13,
+          "Name": "minecraft:amethyst_block",
+          "Slot": 7
+        },
+        {
+          "Count": 3,
+          "Name": "minecraft:amethyst_shard",
+          "Slot": 8
+        },
+        {
+          "Count": 9,
+          "Name": "minecraft:leather",
+          "Slot": 9
+        },
+        {
+          "Count": 50,
+          "Name": "minecraft:torch",
+          "Slot": 10
+        },
+        {
+          "Count": 11,
+          "Name": "minecraft:oak_sapling",
+          "Slot": 11
+        },
+        {
+          "Count": 5,
+          "Name": "minecraft:cooked_mutton",
+          "Slot": 12
+        },
+        {
+          "Count": 8,
+          "Name": "minecraft:birch_log",
+          "Slot": 13
+        },
+        {
+          "Count": 61,
+          "Name": "camel:cherry_tree_boba",
+          "Slot": 14
+        },
+        {
+          "Count": 2,
+          "Name": "minecraft:lead",
+          "Slot": 15
+        },
+        {
+          "Count": 12,
+          "Name": "minecraft:cooked_beef",
+          "Slot": 16
+        },
+        {
+          "Count": 48,
+          "Name": "minecraft:stick",
+          "Slot": 17
+        },
+        {
+          "Count": 1,
+          "Name": "essential:rose_petal_particles",
+          "Slot": 18
+        },
+        {
+          "Count": 7,
+          "Name": "minecraft:cobblestone",
+          "Slot": 19
+        },
+        {
+          "Count": 64,
+          "Name": "minecraft:leather",
+          "Slot": 20
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:gunpowder",
+          "Slot": 21
+        },
+        {
+          "Count": 1,
+          "Name": "xp_furniture:log_stack",
+          "Slot": 22
+        },
+        {
+          "Count": 31,
+          "Name": "minecraft:dirt",
+          "Slot": 23
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:poisonous_potato",
+          "Slot": 24
+        },
+        {
+          "Count": 2,
+          "Name": "minecraft:apple",
+          "Slot": 25
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:wheat_seeds",
+          "Slot": 26
+        },
+        {
+          "Count": 2,
+          "Name": "minecraft:emerald",
+          "Slot": 27
+        },
+        {
+          "Count": 4,
+          "Name": "minecraft:rotten_flesh",
+          "Slot": 28
+        },
+        {
+          "Count": 47,
+          "Name": "minecraft:spruce_log",
+          "Slot": 29
+        },
+        {
+          "Count": 40,
+          "Name": "minecraft:wheat",
+          "Slot": 30
+        },
+        {
+          "Count": 14,
+          "Name": "minecraft:oak_planks",
+          "Slot": 31
+        },
+        {
+          "Count": 64,
+          "Name": "minecraft:oak_planks",
+          "Slot": 32
+        },
+        {
+          "Count": 45,
+          "Name": "spark_pets_pro:collar",
+          "Slot": 33
+        },
+        {
+          "Count": 25,
+          "Name": "minecraft:book",
+          "Slot": 34
+        },
+        {
+          "Count": 1,
+          "Name": "mythicus_ws:waystone.interact",
+          "Slot": 35
+        }
+      ],
+      "enderchestinventory": [
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 0
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 1
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 2
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 3
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 4
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 5
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 6
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 7
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 8
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 9
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 10
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 11
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 12
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 13
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 14
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 15
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 16
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 17
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 18
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 19
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 20
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 21
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 22
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 23
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 24
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 25
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 26
+        }
+      ],
+      "mainhand": [
+        {
+          "Count": 0,
+          "Name": ""
+        }
+      ],
+      "offhand": [
+        {
+          "Count": 1,
+          "Name": "xp_dl:torch.default"
+        }
+      ],
+      "armor": [
+        {
+          "Count": 0,
+          "Name": ""
+        },
+        {
+          "Count": 0,
+          "Name": ""
+        },
+        {
+          "Count": 0,
+          "Name": ""
+        },
+        {
+          "Count": 0,
+          "Name": ""
+        },
+        {
+          "Count": 0,
+          "Name": ""
+        }
+      ]
+    },
+    {
+      "name": "a9f9a21c-b340-4761-aa1e-98b275bf5608",
+      "xuid": "2535460561105730",
+      "uuid": "a9f9a21c-b340-4761-aa1e-98b275bf5608",
+      "world": "overworld",
+      "playergamemode": 5,
+      "x": 93,
+      "y": 81,
+      "z": 5,
+      "rotation": [-165.91285705566406, 15.412216186523438],
+      "SpawnX": -2147483648,
+      "SpawnY": -2147483648,
+      "SpawnZ": -2147483648,
+      "DeathX": 0,
+      "DeathY": 0,
+      "DeathZ": 0,
+      "inventory": [
+        {
+          "Count": 1,
+          "Name": "oreville_rb:lafxtwv",
+          "Slot": 0
+        },
+        {
+          "Count": 1,
+          "Name": "oreville_rb:lksmfpz",
+          "Slot": 1
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:written_book",
+          "Slot": 2
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:written_book",
+          "Slot": 3
+        },
+        {
+          "Count": 1,
+          "Name": "spark_pets_pro:guide_book_spawn_egg",
+          "Slot": 4
+        },
+        {
+          "Count": 1,
+          "Name": "ulkd_ess:guidebook",
+          "Slot": 5
+        },
+        {
+          "Count": 1,
+          "Name": "mythicus_ws:waystone.guidebook.update",
+          "Slot": 6
+        },
+        {
+          "Count": 1,
+          "Name": "mythicus_ws:waystone.guidebook",
+          "Slot": 7
+        },
+        {
+          "Count": 1,
+          "Name": "mythicus_ws:waystone.interact",
+          "Slot": 8
+        },
+        {
+          "Count": 1,
+          "Name": "mythicus_ws:waystone.energize.waystone",
+          "Slot": 9
+        },
+        {
+          "Count": 1,
+          "Name": "mythicus_ws:waystone.stone",
+          "Slot": 10
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 11
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 12
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 13
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 14
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 15
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 16
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 17
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 18
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 19
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 20
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 21
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 22
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 23
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 24
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 25
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 26
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 27
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 28
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 29
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 30
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 31
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 32
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 33
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 34
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 35
+        }
+      ],
+      "enderchestinventory": [
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 0
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 1
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 2
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 3
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 4
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 5
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 6
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 7
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 8
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 9
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 10
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 11
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 12
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 13
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 14
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 15
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 16
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 17
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 18
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 19
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 20
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 21
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 22
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 23
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 24
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 25
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 26
+        }
+      ],
+      "mainhand": [
+        {
+          "Count": 1,
+          "Name": "mythicus_ws:waystone.interact"
+        }
+      ],
+      "offhand": [
+        {
+          "Count": 0,
+          "Name": ""
+        }
+      ],
+      "armor": [
+        {
+          "Count": 0,
+          "Name": ""
+        },
+        {
+          "Count": 0,
+          "Name": ""
+        },
+        {
+          "Count": 0,
+          "Name": ""
+        },
+        {
+          "Count": 0,
+          "Name": ""
+        },
+        {
+          "Count": 0,
+          "Name": ""
+        }
+      ]
+    },
+    {
+      "name": "b4cfe5d4-322b-4a5f-ba5a-870c7f3af2f2",
+      "xuid": "2535460561105730",
+      "uuid": "b4cfe5d4-322b-4a5f-ba5a-870c7f3af2f2",
+      "world": "overworld",
+      "playergamemode": 5,
+      "x": 42,
+      "y": 76,
+      "z": 6,
+      "rotation": [123.4178466796875, 5.4242401123046875],
+      "SpawnX": -2147483648,
+      "SpawnY": -2147483648,
+      "SpawnZ": -2147483648,
+      "DeathX": 66,
+      "DeathY": 55,
+      "DeathZ": -252,
+      "inventory": [
+        {
+          "Count": 1,
+          "Name": "minecraft:stone_pickaxe",
+          "Slot": 0
+        },
+        {
+          "Count": 18,
+          "Name": "minecraft:spruce_fence",
+          "Slot": 1
+        },
+        {
+          "Count": 1,
+          "Name": "spark_pets_pro:collar",
+          "Slot": 2
+        },
+        {
+          "Count": 2,
+          "Name": "minecraft:lily_of_the_valley",
+          "Slot": 3
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 4
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:spruce_planks",
+          "Slot": 5
+        },
+        {
+          "Count": 2,
+          "Name": "minecraft:white_terracotta",
+          "Slot": 6
+        },
+        {
+          "Count": 2,
+          "Name": "minecraft:lilac",
+          "Slot": 7
+        },
+        {
+          "Count": 2,
+          "Name": "minecraft:iron_ingot",
+          "Slot": 8
+        },
+        {
+          "Count": 2,
+          "Name": "minecraft:bone",
+          "Slot": 9
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:stone_shovel",
+          "Slot": 10
+        },
+        {
+          "Count": 4,
+          "Name": "minecraft:lead",
+          "Slot": 11
+        },
+        {
+          "Count": 3,
+          "Name": "minecraft:mutton",
+          "Slot": 12
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 13
+        },
+        {
+          "Count": 3,
+          "Name": "minecraft:beef",
+          "Slot": 14
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 15
+        },
+        {
+          "Count": 7,
+          "Name": "minecraft:stick",
+          "Slot": 16
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 17
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 18
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 19
+        },
+        {
+          "Count": 2,
+          "Name": "minecraft:salmon",
+          "Slot": 20
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:wheat_seeds",
+          "Slot": 21
+        },
+        {
+          "Count": 34,
+          "Name": "minecraft:spruce_log",
+          "Slot": 22
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 23
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:wooden_pickaxe",
+          "Slot": 24
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:filled_map",
+          "Slot": 25
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 26
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 27
+        },
+        {
+          "Count": 64,
+          "Name": "minecraft:spruce_log",
+          "Slot": 28
+        },
+        {
+          "Count": 4,
+          "Name": "minecraft:spruce_stairs",
+          "Slot": 29
+        },
+        {
+          "Count": 2,
+          "Name": "minecraft:clay_ball",
+          "Slot": 30
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:white_wool",
+          "Slot": 31
+        },
+        {
+          "Count": 60,
+          "Name": "minecraft:spruce_slab",
+          "Slot": 32
+        },
+        {
+          "Count": 3,
+          "Name": "xp_furniture:spruce_stairs",
+          "Slot": 33
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 34
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 35
+        }
+      ],
+      "enderchestinventory": [
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 0
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 1
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 2
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 3
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 4
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 5
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 6
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 7
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 8
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 9
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 10
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 11
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 12
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 13
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 14
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 15
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 16
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 17
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 18
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 19
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 20
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 21
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 22
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 23
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 24
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 25
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 26
+        }
+      ],
+      "mainhand": [
+        {
+          "Count": 1,
+          "Name": "spark_pets_pro:collar"
+        }
+      ],
+      "offhand": [
+        {
+          "Count": 0,
+          "Name": ""
+        }
+      ],
+      "armor": [
+        {
+          "Count": 1,
+          "Name": "minecraft:chainmail_helmet"
+        },
+        {
+          "Count": 0,
+          "Name": ""
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:chainmail_leggings"
+        },
+        {
+          "Count": 0,
+          "Name": ""
+        },
+        {
+          "Count": 0,
+          "Name": ""
+        }
+      ]
+    },
+    {
+      "name": "ba3dec8d-83b2-4085-be41-b539b2f8f37a",
+      "xuid": "2535460561105730",
+      "uuid": "ba3dec8d-83b2-4085-be41-b539b2f8f37a",
+      "world": "overworld",
+      "playergamemode": 5,
+      "x": 547,
+      "y": -50,
+      "z": -1382,
+      "rotation": [45.3779296875, 33.80558776855469],
+      "SpawnX": -2147483648,
+      "SpawnY": -2147483648,
+      "SpawnZ": -2147483648,
+      "DeathX": 36,
+      "DeathY": 13,
+      "DeathZ": 5,
+      "inventory": [
+        {
+          "Count": 1,
+          "Name": "minecraft:diamond_sword",
+          "Slot": 0
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:iron_axe",
+          "Slot": 1
+        },
+        {
+          "Count": 1,
+          "Name": "mythicus_ws:waystone.interact",
+          "Slot": 2
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:cooked_mutton",
+          "Slot": 3
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:diamond_pickaxe",
+          "Slot": 4
+        },
+        {
+          "Count": 21,
+          "Name": "minecraft:gold_ingot",
+          "Slot": 5
+        },
+        {
+          "Count": 51,
+          "Name": "minecraft:netherrack",
+          "Slot": 6
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:writable_book",
+          "Slot": 7
+        },
+        {
+          "Count": 7,
+          "Name": "minecraft:netherite_scrap",
+          "Slot": 8
+        },
+        {
+          "Count": 16,
+          "Name": "minecraft:cooked_beef",
+          "Slot": 9
+        },
+        {
+          "Count": 44,
+          "Name": "minecraft:netherrack",
+          "Slot": 10
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:bed",
+          "Slot": 11
+        },
+        {
+          "Count": 29,
+          "Name": "minecraft:cobbled_deepslate",
+          "Slot": 12
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:netherite_ingot",
+          "Slot": 13
+        },
+        {
+          "Count": 2,
+          "Name": "minecraft:golden_apple",
+          "Slot": 14
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 15
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 16
+        },
+        {
+          "Count": 20,
+          "Name": "minecraft:gold_nugget",
+          "Slot": 17
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 18
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 19
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 20
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 21
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 22
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 23
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 24
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 25
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 26
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 27
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 28
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 29
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 30
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 31
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:water_bucket",
+          "Slot": 32
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:diamond_pickaxe",
+          "Slot": 33
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 34
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 35
+        }
+      ],
+      "enderchestinventory": [
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 0
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 1
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 2
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 3
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 4
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 5
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 6
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 7
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 8
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 9
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 10
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 11
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 12
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 13
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 14
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 15
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 16
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 17
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 18
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 19
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 20
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 21
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 22
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 23
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 24
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 25
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 26
+        }
+      ],
+      "mainhand": [
+        {
+          "Count": 1,
+          "Name": "minecraft:diamond_sword"
+        }
+      ],
+      "offhand": [
+        {
+          "Count": 1,
+          "Name": "xp_dl:lantern.default"
+        }
+      ],
+      "armor": [
+        {
+          "Count": 1,
+          "Name": "minecraft:diamond_helmet"
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:diamond_chestplate"
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:diamond_leggings"
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:diamond_boots"
+        },
+        {
+          "Count": 0,
+          "Name": ""
+        }
+      ]
+    },
+    {
+      "name": "d2768d70-cc6a-4e20-88e4-6493e49212fe",
+      "xuid": "2535460561105730",
+      "uuid": "d2768d70-cc6a-4e20-88e4-6493e49212fe",
+      "world": "overworld",
+      "playergamemode": 5,
+      "x": 69,
+      "y": 64,
+      "z": -57,
+      "rotation": [24.959869384765625, -25.904342651367188],
+      "SpawnX": -2147483648,
+      "SpawnY": -2147483648,
+      "SpawnZ": -2147483648,
+      "DeathX": 0,
+      "DeathY": 0,
+      "DeathZ": 0,
+      "inventory": [
+        {
+          "Count": 1,
+          "Name": "minecraft:crafting_table",
+          "Slot": 0
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:chest",
+          "Slot": 1
+        },
+        {
+          "Count": 4,
+          "Name": "minecraft:acacia_sapling",
+          "Slot": 2
+        },
+        {
+          "Count": 2,
+          "Name": "minecraft:salmon",
+          "Slot": 3
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:melon_seeds",
+          "Slot": 4
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:brown_mushroom",
+          "Slot": 5
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:rotten_flesh",
+          "Slot": 6
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:cocoa_beans",
+          "Slot": 7
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:wheat_seeds",
+          "Slot": 8
+        },
+        {
+          "Count": 1,
+          "Name": "mythicus_ws:waystone.energize.waystone",
+          "Slot": 9
+        },
+        {
+          "Count": 1,
+          "Name": "mythicus_ws:waystone.stone",
+          "Slot": 10
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 11
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 12
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 13
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 14
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 15
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 16
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 17
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 18
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 19
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 20
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 21
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 22
+        },
+        {
+          "Count": 1,
+          "Name": "mythicus_ws:waystone.guidebook",
+          "Slot": 23
+        },
+        {
+          "Count": 1,
+          "Name": "mythicus_ws:waystone.guidebook.update",
+          "Slot": 24
+        },
+        {
+          "Count": 1,
+          "Name": "ulkd_ess:guidebook",
+          "Slot": 25
+        },
+        {
+          "Count": 1,
+          "Name": "spark_pets_pro:guide_book_spawn_egg",
+          "Slot": 26
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 27
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 28
+        },
+        {
+          "Count": 1,
+          "Name": "oreville_rb:lksmfpz",
+          "Slot": 29
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:written_book",
+          "Slot": 30
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:written_book",
+          "Slot": 31
+        },
+        {
+          "Count": 1,
+          "Name": "mythicus_ws:waystone.interact",
+          "Slot": 32
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 33
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 34
+        },
+        {
+          "Count": 1,
+          "Name": "oreville_rb:lafxtwv",
+          "Slot": 35
+        }
+      ],
+      "enderchestinventory": [
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 0
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 1
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 2
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 3
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 4
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 5
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 6
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 7
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 8
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 9
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 10
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 11
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 12
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 13
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 14
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 15
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 16
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 17
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 18
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 19
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 20
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 21
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 22
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 23
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 24
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 25
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 26
+        }
+      ],
+      "mainhand": [
+        {
+          "Count": 1,
+          "Name": "minecraft:crafting_table"
+        }
+      ],
+      "offhand": [
+        {
+          "Count": 0,
+          "Name": ""
+        }
+      ],
+      "armor": [
+        {
+          "Count": 0,
+          "Name": ""
+        },
+        {
+          "Count": 0,
+          "Name": ""
+        },
+        {
+          "Count": 0,
+          "Name": ""
+        },
+        {
+          "Count": 0,
+          "Name": ""
+        },
+        {
+          "Count": 0,
+          "Name": ""
+        }
+      ]
+    },
+    {
+      "name": "e4f7aae4-9bf5-4b86-b493-71335802c835",
+      "xuid": "2535460561105730",
+      "uuid": "e4f7aae4-9bf5-4b86-b493-71335802c835",
+      "world": "overworld",
+      "playergamemode": 5,
+      "x": 40,
+      "y": 77,
+      "z": 12,
+      "rotation": [-62.013275146484375, 0.4299468994140625],
+      "SpawnX": -2147483648,
+      "SpawnY": -2147483648,
+      "SpawnZ": -2147483648,
+      "DeathX": 0,
+      "DeathY": 0,
+      "DeathZ": 0,
+      "inventory": [
+        {
+          "Count": 1,
+          "Name": "oreville_rb:lafxtwv",
+          "Slot": 0
+        },
+        {
+          "Count": 1,
+          "Name": "oreville_rb:lksmfpz",
+          "Slot": 1
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:porkchop",
+          "Slot": 2
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 3
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 4
+        },
+        {
+          "Count": 1,
+          "Name": "ulkd_ess:guidebook",
+          "Slot": 5
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 6
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 7
+        },
+        {
+          "Count": 1,
+          "Name": "mythicus_ws:waystone.interact",
+          "Slot": 8
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 9
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 10
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 11
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 12
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 13
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 14
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 15
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 16
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 17
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 18
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 19
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 20
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 21
+        },
+        {
+          "Count": 1,
+          "Name": "mythicus_ws:waystone.energize.waystone",
+          "Slot": 22
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 23
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 24
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 25
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 26
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 27
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 28
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 29
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 30
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 31
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 32
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 33
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 34
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 35
+        }
+      ],
+      "enderchestinventory": [
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 0
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 1
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 2
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 3
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 4
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 5
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 6
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 7
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 8
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 9
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 10
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 11
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 12
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 13
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 14
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 15
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 16
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 17
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 18
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 19
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 20
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 21
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 22
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 23
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 24
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 25
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 26
+        }
+      ],
+      "mainhand": [
+        {
+          "Count": 1,
+          "Name": "ulkd_ess:guidebook"
+        }
+      ],
+      "offhand": [
+        {
+          "Count": 0,
+          "Name": ""
+        }
+      ],
+      "armor": [
+        {
+          "Count": 0,
+          "Name": ""
+        },
+        {
+          "Count": 0,
+          "Name": ""
+        },
+        {
+          "Count": 0,
+          "Name": ""
+        },
+        {
+          "Count": 0,
+          "Name": ""
+        },
+        {
+          "Count": 0,
+          "Name": ""
+        }
+      ]
+    },
+    {
+      "name": "eb94f700-45ec-4932-8df7-aa22db282332",
+      "xuid": "2535460561105730",
+      "uuid": "eb94f700-45ec-4932-8df7-aa22db282332",
+      "world": "overworld",
+      "playergamemode": 5,
+      "x": 56,
+      "y": 73,
+      "z": 5,
+      "rotation": [-3.0517578125e-5, 0.0],
+      "SpawnX": -2147483648,
+      "SpawnY": -2147483648,
+      "SpawnZ": -2147483648,
+      "DeathX": 0,
+      "DeathY": 0,
+      "DeathZ": 0,
+      "inventory": [
+        {
+          "Count": 1,
+          "Name": "oreville_rb:lafxtwv",
+          "Slot": 0
+        },
+        {
+          "Count": 1,
+          "Name": "oreville_rb:lksmfpz",
+          "Slot": 1
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:written_book",
+          "Slot": 2
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:written_book",
+          "Slot": 3
+        },
+        {
+          "Count": 1,
+          "Name": "spark_pets_pro:guide_book_spawn_egg",
+          "Slot": 4
+        },
+        {
+          "Count": 1,
+          "Name": "ulkd_ess:guidebook",
+          "Slot": 5
+        },
+        {
+          "Count": 1,
+          "Name": "mythicus_ws:waystone.guidebook.update",
+          "Slot": 6
+        },
+        {
+          "Count": 1,
+          "Name": "mythicus_ws:waystone.guidebook",
+          "Slot": 7
+        },
+        {
+          "Count": 1,
+          "Name": "mythicus_ws:waystone.interact",
+          "Slot": 8
+        },
+        {
+          "Count": 1,
+          "Name": "mythicus_ws:waystone.energize.waystone",
+          "Slot": 9
+        },
+        {
+          "Count": 1,
+          "Name": "mythicus_ws:waystone.stone",
+          "Slot": 10
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 11
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 12
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 13
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 14
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 15
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 16
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 17
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 18
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 19
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 20
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 21
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 22
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 23
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 24
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 25
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 26
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 27
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 28
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 29
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 30
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 31
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 32
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 33
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 34
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 35
+        }
+      ],
+      "enderchestinventory": [
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 0
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 1
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 2
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 3
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 4
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 5
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 6
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 7
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 8
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 9
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 10
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 11
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 12
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 13
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 14
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 15
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 16
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 17
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 18
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 19
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 20
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 21
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 22
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 23
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 24
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 25
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 26
+        }
+      ],
+      "mainhand": [
+        {
+          "Count": 1,
+          "Name": "oreville_rb:lafxtwv"
+        }
+      ],
+      "offhand": [
+        {
+          "Count": 0,
+          "Name": ""
+        }
+      ],
+      "armor": [
+        {
+          "Count": 0,
+          "Name": ""
+        },
+        {
+          "Count": 0,
+          "Name": ""
+        },
+        {
+          "Count": 0,
+          "Name": ""
+        },
+        {
+          "Count": 0,
+          "Name": ""
+        },
+        {
+          "Count": 0,
+          "Name": ""
+        }
+      ]
+    },
+    {
+      "name": "560eb513-c317-4d88-920e-5fff2bdb2f9f",
+      "xuid": "2535460561105730",
+      "uuid": "560eb513-c317-4d88-920e-5fff2bdb2f9f",
+      "world": "overworld",
+      "playergamemode": 5,
+      "x": 63,
+      "y": 107,
+      "z": 18,
+      "rotation": [-170.44879150390625, 32.422332763671875],
+      "SpawnX": 73,
+      "SpawnY": 105,
+      "SpawnZ": 15,
+      "DeathX": 69,
+      "DeathY": 73,
+      "DeathZ": 17,
+      "inventory": [
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 0
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:iron_axe",
+          "Slot": 1
+        },
+        {
+          "Count": 1,
+          "Name": "mythicus_ws:waystone.interact",
+          "Slot": 2
+        },
+        {
+          "Count": 23,
+          "Name": "minecraft:raw_iron",
+          "Slot": 3
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:diamond",
+          "Slot": 4
+        },
+        {
+          "Count": 36,
+          "Name": "minecraft:ladder",
+          "Slot": 5
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 6
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 7
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:iron_pickaxe",
+          "Slot": 8
+        },
+        {
+          "Count": 31,
+          "Name": "minecraft:cobblestone",
+          "Slot": 9
+        },
+        {
+          "Count": 2,
+          "Name": "minecraft:tuff",
+          "Slot": 10
+        },
+        {
+          "Count": 4,
+          "Name": "minecraft:rotten_flesh",
+          "Slot": 11
+        },
+        {
+          "Count": 3,
+          "Name": "minecraft:dirt",
+          "Slot": 12
+        },
+        {
+          "Count": 23,
+          "Name": "minecraft:redstone",
+          "Slot": 13
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 14
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 15
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 16
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 17
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 18
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 19
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 20
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 21
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 22
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 23
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 24
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 25
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 26
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 27
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 28
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 29
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 30
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 31
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 32
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 33
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 34
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 35
+        }
+      ],
+      "enderchestinventory": [
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 0
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 1
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 2
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 3
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 4
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 5
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 6
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 7
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 8
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 9
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 10
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 11
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 12
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 13
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 14
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 15
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 16
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 17
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 18
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 19
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 20
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 21
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 22
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 23
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 24
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 25
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 26
+        }
+      ],
+      "mainhand": [
+        {
+          "Count": 1,
+          "Name": "minecraft:iron_axe"
+        }
+      ],
+      "offhand": [
+        {
+          "Count": 1,
+          "Name": "xp_dl:torch.default"
+        }
+      ],
+      "armor": [
+        {
+          "Count": 1,
+          "Name": "hivehats:crown_black"
+        },
+        {
+          "Count": 1,
+          "Name": "hivebackbling:axolotl_plush_endolotl"
+        },
+        {
+          "Count": 1,
+          "Name": "essential:heart_particles"
+        },
+        {
+          "Count": 1,
+          "Name": "essential:heart_fire_feet"
+        },
+        {
+          "Count": 0,
+          "Name": ""
+        }
+      ]
+    },
+    {
+      "name": "608b8306-4e71-4de5-89a7-53ee0c5708dc",
+      "xuid": "2535460561105730",
+      "uuid": "608b8306-4e71-4de5-89a7-53ee0c5708dc",
+      "world": "overworld",
+      "playergamemode": 5,
+      "x": 840,
+      "y": 64,
+      "z": -1012,
+      "rotation": [30.628494262695312, 14.258880615234375],
+      "SpawnX": 838,
+      "SpawnY": 67,
+      "SpawnZ": -1022,
+      "DeathX": 2353,
+      "DeathY": 33,
+      "DeathZ": 734,
+      "inventory": [
+        {
+          "Count": 1,
+          "Name": "minecraft:diamond_sword",
+          "Slot": 0
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:diamond_pickaxe",
+          "Slot": 1
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:iron_axe",
+          "Slot": 2
+        },
+        {
+          "Count": 2,
+          "Name": "minecraft:sugar_cane",
+          "Slot": 3
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:iron_shovel",
+          "Slot": 4
+        },
+        {
+          "Count": 2,
+          "Name": "minecraft:crimson_sign",
+          "Slot": 5
+        },
+        {
+          "Count": 37,
+          "Name": "minecraft:torch",
+          "Slot": 6
+        },
+        {
+          "Count": 35,
+          "Name": "minecraft:bread",
+          "Slot": 7
+        },
+        {
+          "Count": 1,
+          "Name": "mythicus_ws:waystone.interact",
+          "Slot": 8
+        },
+        {
+          "Count": 9,
+          "Name": "minecraft:iron_block",
+          "Slot": 9
+        },
+        {
+          "Count": 55,
+          "Name": "minecraft:cobblestone",
+          "Slot": 10
+        },
+        {
+          "Count": 6,
+          "Name": "minecraft:emerald",
+          "Slot": 11
+        },
+        {
+          "Count": 5,
+          "Name": "minecraft:flint",
+          "Slot": 12
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:cooked_porkchop",
+          "Slot": 13
+        },
+        {
+          "Count": 1,
+          "Name": "ulkd_ess:player_teleporter",
+          "Slot": 14
+        },
+        {
+          "Count": 25,
+          "Name": "minecraft:gold_ingot",
+          "Slot": 15
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 16
+        },
+        {
+          "Count": 12,
+          "Name": "minecraft:paper",
+          "Slot": 17
+        },
+        {
+          "Count": 46,
+          "Name": "minecraft:stick",
+          "Slot": 18
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 19
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 20
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 21
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 22
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:enchanted_book",
+          "Slot": 23
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 24
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:bucket",
+          "Slot": 25
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 26
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:flint_and_steel",
+          "Slot": 27
+        },
+        {
+          "Count": 1,
+          "Name": "ulkd_ess:guidebook",
+          "Slot": 28
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:dirt",
+          "Slot": 29
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 30
+        },
+        {
+          "Count": 2,
+          "Name": "minecraft:diamond",
+          "Slot": 31
+        },
+        {
+          "Count": 38,
+          "Name": "minecraft:iron_ingot",
+          "Slot": 32
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 33
+        },
+        {
+          "Count": 18,
+          "Name": "minecraft:cobbled_deepslate",
+          "Slot": 34
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 35
+        }
+      ],
+      "enderchestinventory": [
+        {
+          "Count": 10,
+          "Name": "minecraft:netherite_ingot",
+          "Slot": 0
+        },
+        {
+          "Count": 2,
+          "Name": "minecraft:netherite_scrap",
+          "Slot": 1
+        },
+        {
+          "Count": 6,
+          "Name": "minecraft:diamond",
+          "Slot": 2
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 3
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 4
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 5
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 6
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 7
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 8
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 9
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 10
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 11
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 12
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 13
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 14
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 15
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 16
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 17
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 18
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 19
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 20
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 21
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 22
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 23
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 24
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 25
+        },
+        {
+          "Count": 2,
+          "Name": "minecraft:golden_apple",
+          "Slot": 26
+        }
+      ],
+      "mainhand": [
+        {
+          "Count": 1,
+          "Name": "minecraft:diamond_sword"
+        }
+      ],
+      "offhand": [
+        {
+          "Count": 1,
+          "Name": "minecraft:shield"
+        }
+      ],
+      "armor": [
+        {
+          "Count": 0,
+          "Name": ""
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:diamond_chestplate"
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:diamond_leggings"
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:leather_boots"
+        },
+        {
+          "Count": 0,
+          "Name": ""
+        }
+      ]
+    },
+    {
+      "name": "8169bb67-a3be-4c27-8cd5-a2cfeae9de86",
+      "xuid": "2535460561105730",
+      "uuid": "8169bb67-a3be-4c27-8cd5-a2cfeae9de86",
+      "world": "overworld",
+      "playergamemode": 5,
+      "x": 46,
+      "y": 79,
+      "z": -19,
+      "rotation": [-170.45980834960938, 12.634490966796875],
+      "SpawnX": -2147483648,
+      "SpawnY": -2147483648,
+      "SpawnZ": -2147483648,
+      "DeathX": 47,
+      "DeathY": 78,
+      "DeathZ": -22,
+      "inventory": [
+        {
+          "Count": 1,
+          "Name": "minecraft:stone_axe",
+          "Slot": 0
+        },
+        {
+          "Count": 1,
+          "Name": "mythicus_ws:waystone.stone",
+          "Slot": 1
+        },
+        {
+          "Count": 2,
+          "Name": "spark_pets_pro:collar",
+          "Slot": 2
+        },
+        {
+          "Count": 5,
+          "Name": "minecraft:jungle_planks",
+          "Slot": 3
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:bow",
+          "Slot": 4
+        },
+        {
+          "Count": 1,
+          "Name": "ulkd_ess:guidebook",
+          "Slot": 5
+        },
+        {
+          "Count": 3,
+          "Name": "minecraft:jungle_sapling",
+          "Slot": 6
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 7
+        },
+        {
+          "Count": 1,
+          "Name": "mythicus_ws:waystone.interact",
+          "Slot": 8
+        },
+        {
+          "Count": 1,
+          "Name": "mythicus_ws:waystone.energize.waystone",
+          "Slot": 9
+        },
+        {
+          "Count": 2,
+          "Name": "minecraft:rotten_flesh",
+          "Slot": 10
+        },
+        {
+          "Count": 2,
+          "Name": "minecraft:salmon",
+          "Slot": 11
+        },
+        {
+          "Count": 5,
+          "Name": "minecraft:dirt",
+          "Slot": 12
+        },
+        {
+          "Count": 4,
+          "Name": "minecraft:oak_planks",
+          "Slot": 13
+        },
+        {
+          "Count": 12,
+          "Name": "minecraft:bread",
+          "Slot": 14
+        },
+        {
+          "Count": 11,
+          "Name": "minecraft:stick",
+          "Slot": 15
+        },
+        {
+          "Count": 9,
+          "Name": "minecraft:cobblestone",
+          "Slot": 16
+        },
+        {
+          "Count": 2,
+          "Name": "minecraft:brown_mushroom",
+          "Slot": 17
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:cactus",
+          "Slot": 18
+        },
+        {
+          "Count": 8,
+          "Name": "minecraft:dark_oak_planks",
+          "Slot": 19
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:cocoa_beans",
+          "Slot": 20
+        },
+        {
+          "Count": 12,
+          "Name": "minecraft:mangrove_planks",
+          "Slot": 21
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 22
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 23
+        },
+        {
+          "Count": 1,
+          "Name": "hivehats:shining_crown_gold",
+          "Slot": 24
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 25
+        },
+        {
+          "Count": 1,
+          "Name": "hivehats:dog_ears_regular",
+          "Slot": 26
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:beetroot_seeds",
+          "Slot": 27
+        },
+        {
+          "Count": 1,
+          "Name": "oreville_rb:lksmfpz",
+          "Slot": 28
+        },
+        {
+          "Count": 3,
+          "Name": "minecraft:potato",
+          "Slot": 29
+        },
+        {
+          "Count": 1,
+          "Name": "hivehats:party_zuk_goggles",
+          "Slot": 30
+        },
+        {
+          "Count": 1,
+          "Name": "spark_pets_pro:guide_book_spawn_egg",
+          "Slot": 31
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 32
+        },
+        {
+          "Count": 1,
+          "Name": "hivehats:horns_blaze",
+          "Slot": 33
+        },
+        {
+          "Count": 3,
+          "Name": "minecraft:apple",
+          "Slot": 34
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:wooden_pickaxe",
+          "Slot": 35
+        }
+      ],
+      "enderchestinventory": [
+        {
+          "Count": 1,
+          "Name": "minecraft:netherite_axe",
+          "Slot": 0
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:iron_leggings",
+          "Slot": 1
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:iron_chestplate",
+          "Slot": 2
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 3
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 4
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 5
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 6
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 7
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 8
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 9
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 10
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 11
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 12
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 13
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 14
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 15
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 16
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 17
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 18
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 19
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 20
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 21
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 22
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 23
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 24
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 25
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 26
+        }
+      ],
+      "mainhand": [
+        {
+          "Count": 1,
+          "Name": "minecraft:stone_axe"
+        }
+      ],
+      "offhand": [
+        {
+          "Count": 0,
+          "Name": ""
+        }
+      ],
+      "armor": [
+        {
+          "Count": 1,
+          "Name": "hivehats:horns_ender"
+        },
+        {
+          "Count": 0,
+          "Name": ""
+        },
+        {
+          "Count": 0,
+          "Name": ""
+        },
+        {
+          "Count": 0,
+          "Name": ""
+        },
+        {
+          "Count": 0,
+          "Name": ""
+        }
+      ]
+    },
+    {
+      "name": "2d291d4d-8097-4a9c-8ccc-72d44da2537c",
+      "xuid": "2535460561105730",
+      "uuid": "2d291d4d-8097-4a9c-8ccc-72d44da2537c",
+      "world": "overworld",
+      "playergamemode": 5,
+      "x": 510,
+      "y": 66,
+      "z": 139,
+      "rotation": [22.732986450195312, 16.48504638671875],
+      "SpawnX": -2147483648,
+      "SpawnY": -2147483648,
+      "SpawnZ": -2147483648,
+      "DeathX": 556,
+      "DeathY": 66,
+      "DeathZ": 106,
+      "inventory": [
+        {
+          "Count": 1,
+          "Name": "minecraft:stone_axe",
+          "Slot": 0
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:wooden_pickaxe",
+          "Slot": 1
+        },
+        {
+          "Count": 23,
+          "Name": "minecraft:spruce_planks",
+          "Slot": 2
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:wheat_seeds",
+          "Slot": 3
+        },
+        {
+          "Count": 2,
+          "Name": "minecraft:spruce_log",
+          "Slot": 4
+        },
+        {
+          "Count": 1,
+          "Name": "mythicus_ws:waystone.energize.waystone",
+          "Slot": 5
+        },
+        {
+          "Count": 1,
+          "Name": "mythicus_ws:waystone.stone",
+          "Slot": 6
+        },
+        {
+          "Count": 36,
+          "Name": "minecraft:dirt",
+          "Slot": 7
+        },
+        {
+          "Count": 5,
+          "Name": "minecraft:cobblestone",
+          "Slot": 8
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 9
+        },
+        {
+          "Count": 1,
+          "Name": "oreville_rb:lafxtwv",
+          "Slot": 10
+        },
+        {
+          "Count": 1,
+          "Name": "oreville_rb:lksmfpz",
+          "Slot": 11
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:written_book",
+          "Slot": 12
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:written_book",
+          "Slot": 13
+        },
+        {
+          "Count": 1,
+          "Name": "spark_pets_pro:guide_book_spawn_egg",
+          "Slot": 14
+        },
+        {
+          "Count": 1,
+          "Name": "mythicus_ws:waystone.guidebook.update",
+          "Slot": 15
+        },
+        {
+          "Count": 1,
+          "Name": "mythicus_ws:waystone.guidebook",
+          "Slot": 16
+        },
+        {
+          "Count": 1,
+          "Name": "mythicus_ws:waystone.interact",
+          "Slot": 17
+        },
+        {
+          "Count": 2,
+          "Name": "minecraft:spruce_door",
+          "Slot": 18
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:brown_mushroom",
+          "Slot": 19
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 20
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 21
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:salmon",
+          "Slot": 22
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 23
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 24
+        },
+        {
+          "Count": 2,
+          "Name": "minecraft:potato",
+          "Slot": 25
+        },
+        {
+          "Count": 2,
+          "Name": "minecraft:cactus",
+          "Slot": 26
+        },
+        {
+          "Count": 4,
+          "Name": "minecraft:jungle_sapling",
+          "Slot": 27
+        },
+        {
+          "Count": 10,
+          "Name": "minecraft:oak_log",
+          "Slot": 28
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:pumpkin_seeds",
+          "Slot": 29
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:oak_planks",
+          "Slot": 30
+        },
+        {
+          "Count": 13,
+          "Name": "minecraft:stick",
+          "Slot": 31
+        },
+        {
+          "Count": 2,
+          "Name": "minecraft:rose_bush",
+          "Slot": 32
+        },
+        {
+          "Count": 3,
+          "Name": "minecraft:beef",
+          "Slot": 33
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:porkchop",
+          "Slot": 34
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 35
+        }
+      ],
+      "enderchestinventory": [
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 0
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 1
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 2
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 3
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 4
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 5
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 6
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 7
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 8
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 9
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 10
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 11
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 12
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 13
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 14
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 15
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 16
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 17
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 18
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 19
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 20
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 21
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 22
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 23
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 24
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 25
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 26
+        }
+      ],
+      "mainhand": [
+        {
+          "Count": 1,
+          "Name": "minecraft:stone_axe"
+        }
+      ],
+      "offhand": [
+        {
+          "Count": 0,
+          "Name": ""
+        }
+      ],
+      "armor": [
+        {
+          "Count": 0,
+          "Name": ""
+        },
+        {
+          "Count": 0,
+          "Name": ""
+        },
+        {
+          "Count": 0,
+          "Name": ""
+        },
+        {
+          "Count": 0,
+          "Name": ""
+        },
+        {
+          "Count": 0,
+          "Name": ""
+        }
+      ]
+    },
+    {
+      "name": "4bd64b67-0112-42ee-b19f-adde31acd862",
+      "xuid": "2535460561105730",
+      "uuid": "4bd64b67-0112-42ee-b19f-adde31acd862",
+      "world": "overworld",
+      "playergamemode": 5,
+      "x": 918,
+      "y": -50,
+      "z": 1916,
+      "rotation": [-41.92791748046875, 5.51800537109375],
+      "SpawnX": 871,
+      "SpawnY": 67,
+      "SpawnZ": 1859,
+      "DeathX": -140,
+      "DeathY": -43,
+      "DeathZ": 191,
+      "inventory": [
+        {
+          "Count": 1,
+          "Name": "minecraft:diamond_sword",
+          "Slot": 0
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:diamond_pickaxe",
+          "Slot": 1
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:diamond_axe",
+          "Slot": 2
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:diamond_shovel",
+          "Slot": 3
+        },
+        {
+          "Count": 51,
+          "Name": "minecraft:emerald",
+          "Slot": 4
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:birch_planks",
+          "Slot": 5
+        },
+        {
+          "Count": 64,
+          "Name": "minecraft:emerald",
+          "Slot": 6
+        },
+        {
+          "Count": 37,
+          "Name": "minecraft:gravel",
+          "Slot": 7
+        },
+        {
+          "Count": 1,
+          "Name": "ulkd_ess:guidebook",
+          "Slot": 8
+        },
+        {
+          "Count": 64,
+          "Name": "minecraft:coal",
+          "Slot": 9
+        },
+        {
+          "Count": 64,
+          "Name": "minecraft:coal",
+          "Slot": 10
+        },
+        {
+          "Count": 64,
+          "Name": "minecraft:coal",
+          "Slot": 11
+        },
+        {
+          "Count": 52,
+          "Name": "minecraft:coal",
+          "Slot": 12
+        },
+        {
+          "Count": 64,
+          "Name": "minecraft:cobbled_deepslate",
+          "Slot": 13
+        },
+        {
+          "Count": 19,
+          "Name": "minecraft:raw_iron",
+          "Slot": 14
+        },
+        {
+          "Count": 29,
+          "Name": "minecraft:cobbled_deepslate",
+          "Slot": 15
+        },
+        {
+          "Count": 20,
+          "Name": "minecraft:tuff",
+          "Slot": 16
+        },
+        {
+          "Count": 3,
+          "Name": "minecraft:raw_gold",
+          "Slot": 17
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 18
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 19
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 20
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 21
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 22
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 23
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 24
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 25
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 26
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 27
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 28
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 29
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 30
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 31
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 32
+        },
+        {
+          "Count": 8,
+          "Name": "minecraft:flint",
+          "Slot": 33
+        },
+        {
+          "Count": 23,
+          "Name": "minecraft:stick",
+          "Slot": 34
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 35
+        }
+      ],
+      "enderchestinventory": [
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 0
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 1
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 2
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 3
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 4
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 5
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 6
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 7
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 8
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 9
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 10
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 11
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 12
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 13
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 14
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 15
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 16
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 17
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 18
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 19
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 20
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 21
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 22
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 23
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 24
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 25
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 26
+        }
+      ],
+      "mainhand": [
+        {
+          "Count": 1,
+          "Name": "minecraft:diamond_shovel"
+        }
+      ],
+      "offhand": [
+        {
+          "Count": 1,
+          "Name": "minecraft:shield"
+        }
+      ],
+      "armor": [
+        {
+          "Count": 1,
+          "Name": "minecraft:diamond_helmet"
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:diamond_chestplate"
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:diamond_leggings"
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:diamond_boots"
+        },
+        {
+          "Count": 0,
+          "Name": ""
+        }
+      ]
+    },
+    {
+      "name": "4e8b7fb8-d417-4dfd-8ecd-9d14c8e8621c",
+      "xuid": "2535460561105730",
+      "uuid": "4e8b7fb8-d417-4dfd-8ecd-9d14c8e8621c",
+      "world": "overworld",
+      "playergamemode": 5,
+      "x": -482,
+      "y": 122,
+      "z": 392,
+      "rotation": [115.45779418945312, 35.2679443359375],
+      "SpawnX": -2147483648,
+      "SpawnY": -2147483648,
+      "SpawnZ": -2147483648,
+      "DeathX": 0,
+      "DeathY": 0,
+      "DeathZ": 0,
+      "inventory": [
+        {
+          "Count": 1,
+          "Name": "minecraft:stone_axe",
+          "Slot": 0
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:iron_pickaxe",
+          "Slot": 1
+        },
+        {
+          "Count": 5,
+          "Name": "minecraft:baked_potato",
+          "Slot": 2
+        },
+        {
+          "Count": 1,
+          "Name": "ulkd_ess:player_teleporter",
+          "Slot": 3
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:rotten_flesh",
+          "Slot": 4
+        },
+        {
+          "Count": 1,
+          "Name": "hivehats:mushroom_cap",
+          "Slot": 5
+        },
+        {
+          "Count": 1,
+          "Name": "customcapes:booster",
+          "Slot": 6
+        },
+        {
+          "Count": 1,
+          "Name": "hivehats:cardboard_box",
+          "Slot": 7
+        },
+        {
+          "Count": 1,
+          "Name": "mythicus_ws:waystone.interact",
+          "Slot": 8
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:wheat_seeds",
+          "Slot": 9
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 10
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 11
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 12
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 13
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 14
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 15
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 16
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 17
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 18
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 19
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 20
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 21
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 22
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 23
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 24
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 25
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 26
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 27
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 28
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 29
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 30
+        },
+        {
+          "Count": 2,
+          "Name": "camel:candy_apple",
+          "Slot": 31
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 32
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 33
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 34
+        },
+        {
+          "Count": 13,
+          "Name": "minecraft:torch",
+          "Slot": 35
+        }
+      ],
+      "enderchestinventory": [
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 0
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 1
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 2
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 3
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 4
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 5
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 6
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 7
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 8
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 9
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 10
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 11
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 12
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 13
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 14
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 15
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 16
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 17
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 18
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 19
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 20
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 21
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 22
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 23
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 24
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 25
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 26
+        }
+      ],
+      "mainhand": [
+        {
+          "Count": 1,
+          "Name": "mythicus_ws:waystone.interact"
+        }
+      ],
+      "offhand": [
+        {
+          "Count": 1,
+          "Name": "minecraft:filled_map"
+        }
+      ],
+      "armor": [
+        {
+          "Count": 1,
+          "Name": "hivehats:horns_ender"
+        },
+        {
+          "Count": 1,
+          "Name": "hivebackbling:demon_wings_ender"
+        },
+        {
+          "Count": 0,
+          "Name": ""
+        },
+        {
+          "Count": 0,
+          "Name": ""
+        },
+        {
+          "Count": 0,
+          "Name": ""
+        }
+      ]
+    },
+    {
+      "name": "9eb9e282-e889-46e7-a8ed-7631ba56183a",
+      "xuid": "2535460561105730",
+      "uuid": "9eb9e282-e889-46e7-a8ed-7631ba56183a",
+      "world": "overworld",
+      "playergamemode": 5,
+      "x": 96,
+      "y": 151,
+      "z": 35,
+      "rotation": [16.7962646484375, 29.397674560546875],
+      "SpawnX": 1276,
+      "SpawnY": 75,
+      "SpawnZ": -989,
+      "DeathX": -69,
+      "DeathY": 94,
+      "DeathZ": 55,
+      "inventory": [
+        {
+          "Count": 1,
+          "Name": "minecraft:trident",
+          "Slot": 0
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:iron_pickaxe",
+          "Slot": 1
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:lantern",
+          "Slot": 2
+        },
+        {
+          "Count": 13,
+          "Name": "minecraft:bread",
+          "Slot": 3
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:water_bucket",
+          "Slot": 4
+        },
+        {
+          "Count": 47,
+          "Name": "minecraft:cobblestone",
+          "Slot": 5
+        },
+        {
+          "Count": 64,
+          "Name": "minecraft:netherrack",
+          "Slot": 6
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:flint_and_steel",
+          "Slot": 7
+        },
+        {
+          "Count": 1,
+          "Name": "mythicus_ws:waystone.interact",
+          "Slot": 8
+        },
+        {
+          "Count": 4,
+          "Name": "minecraft:rotten_flesh",
+          "Slot": 9
+        },
+        {
+          "Count": 1,
+          "Name": "xp_dl:firepowder.black",
+          "Slot": 10
+        },
+        {
+          "Count": 1,
+          "Name": "universal:hat_top_hat",
+          "Slot": 11
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:basalt",
+          "Slot": 12
+        },
+        {
+          "Count": 44,
+          "Name": "minecraft:dirt",
+          "Slot": 13
+        },
+        {
+          "Count": 14,
+          "Name": "minecraft:obsidian",
+          "Slot": 14
+        },
+        {
+          "Count": 36,
+          "Name": "minecraft:quartz",
+          "Slot": 15
+        },
+        {
+          "Count": 36,
+          "Name": "minecraft:netherrack",
+          "Slot": 16
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 17
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 18
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 19
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 20
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 21
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 22
+        },
+        {
+          "Count": 4,
+          "Name": "minecraft:coal",
+          "Slot": 23
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 24
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 25
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 26
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:diamond_pickaxe",
+          "Slot": 27
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:iron_axe",
+          "Slot": 28
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:iron_shovel",
+          "Slot": 29
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 30
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 31
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 32
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 33
+        },
+        {
+          "Count": 1,
+          "Name": "ulkd_ess:guidebook",
+          "Slot": 34
+        },
+        {
+          "Count": 48,
+          "Name": "minecraft:torch",
+          "Slot": 35
+        }
+      ],
+      "enderchestinventory": [
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 0
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 1
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 2
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 3
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 4
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 5
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 6
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 7
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 8
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 9
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 10
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 11
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 12
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 13
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 14
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 15
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 16
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 17
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 18
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 19
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 20
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 21
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 22
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 23
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 24
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 25
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 26
+        }
+      ],
+      "mainhand": [
+        {
+          "Count": 13,
+          "Name": "minecraft:bread"
+        }
+      ],
+      "offhand": [
+        {
+          "Count": 1,
+          "Name": "minecraft:shield"
+        }
+      ],
+      "armor": [
+        {
+          "Count": 0,
+          "Name": ""
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:iron_chestplate"
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:iron_leggings"
+        },
+        {
+          "Count": 1,
+          "Name": "minecraft:iron_boots"
+        },
+        {
+          "Count": 0,
+          "Name": ""
+        }
+      ]
+    }
+  ]
+}

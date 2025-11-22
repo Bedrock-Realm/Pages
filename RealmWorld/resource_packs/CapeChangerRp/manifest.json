@@ -1,0 +1,28 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "§l§f[§cCape Changer§f]",
+    "description": "By §9BehaviorPack§r | §9discord.gg/g8SbtDf6rp",
+    "uuid": "dcb439e4-916b-4018-bf17-bbefb975247f",
+    "pack_scope": "world",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 18, 0]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "4d28a997-b5de-4457-a0fc-11081d658afd",
+      "version": [1, 0, 0]
+    }
+  ],
+  "metadata": {
+    "product_type": "addon",
+    "authors": ["BehaviorPack"]
+  },
+  "dependencies": [
+    {
+      "uuid": "09383ef8-5f3f-49c7-94ce-cbdad0c92ee2",
+      "version": [1, 0, 0]
+    }
+  ]
+}

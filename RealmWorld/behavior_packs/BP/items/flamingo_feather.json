@@ -1,0 +1,19 @@
+{
+  "format_version": "1.20.20",
+  "minecraft:item": {
+    "description": {
+      "identifier": "nm:flamingo_feather",
+      "menu_category": {
+        "category": "nature"
+      }
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "Flamingo Feather"
+      },
+      "minecraft:icon": {
+        "texture": "flamingo_feather"
+      }
+    }
+  }
+}
