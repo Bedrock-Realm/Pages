@@ -197,6 +197,45 @@
       .item-tooltip .trim {
         color: #aaa;
       }
+      
+      @media (max-width: 768px) {
+        /* Make sidebar bigger */
+        #players-sidebar {
+          transform: scale(1.3);
+          transform-origin: top right;
+          max-width: 260px;
+        }
+
+        /* Enlarge coords display */
+        #coords-display {
+          transform: scale(1.4);
+          transform-origin: bottom left;
+        }
+
+        /* Bigger inventory popup */
+        #inventory-popup-container {
+          transform: scale(1.4);
+          transform-origin: top left;
+        }
+
+        /* Big tooltips */
+        .item-tooltip {
+          font-size: 16px;
+          padding: 8px 10px;
+        }
+
+        /* Larger player icons on map */
+        .player-icon {
+          width: 48px !important;
+          height: 48px !important;
+        }
+
+        /* Larger structure icons */
+        .structure-icon {
+          width: 48px !important;
+          height: 48px !important;
+        }
+      }
     </style>
   </head>
   <body>
@@ -265,11 +304,11 @@
         "Desert Pyramid": L.layerGroup().addTo(map),
         "Ocean Monument": L.layerGroup().addTo(map),
         "Pillager Outpost": L.layerGroup().addTo(map),
-        "Stronghold": L.layerGroup().addTo(map),
+        Stronghold: L.layerGroup().addTo(map),
         "Ancient City": L.layerGroup().addTo(map),
-        "Igloo": L.layerGroup().addTo(map),
+        Igloo: L.layerGroup().addTo(map),
         "Buried Treasure": L.layerGroup(),
-        "Shipwreck": L.layerGroup(),
+        Shipwreck: L.layerGroup(),
         "Ruined Portal": L.layerGroup(),
         "Trial Chambers": L.layerGroup(),
         "Swamp Hut": L.layerGroup(),
@@ -292,78 +331,76 @@
 
       let currentWorld = "overworld";
 
-map.on("baselayerchange", (e) => {
-  currentWorld = e.name.toLowerCase();
-  updateStructureVisibility();
-});
+      map.on("baselayerchange", (e) => {
+        currentWorld = e.name.toLowerCase();
+        updateStructureVisibility();
+      });
 
-updateStructureVisibility();
+      updateStructureVisibility();
 
-function updateStructureVisibility() {
-  Object.values(structureLayers).forEach((layer) => layer.clearLayers());
+      function updateStructureVisibility() {
+        Object.values(structureLayers).forEach((layer) => layer.clearLayers());
 
-  fetch("Map/structures.json")
-    .then((res) => res.json())
-    .then((data) => {
-      data.structures.forEach((s) => {
-        if (s.world !== currentWorld) return;
+        fetch("Map/structures.json")
+          .then((res) => res.json())
+          .then((data) => {
+            data.structures.forEach((s) => {
+              if (s.world !== currentWorld) return;
 
-        const coords = mcToPixel(s.world, s.x, s.z);
+              const coords = mcToPixel(s.world, s.x, s.z);
 
-        const iconMap = {
-          "Plains Village": "village_plains.png",
-          "Desert Village": "village_desert.png",
-          "Savanna Village": "village_savanna.png",
-          "Snowy Village": "village_snowy.png",
-          "Taiga Village": "village_taiga.png",
-          "Swamp Hut": "swamp_hut.png",
-          "Jungle Temple": "jungle_temple.png",
-          "Desert Pyramid": "desert_pyramid.png",
-          "Trial Chambers": "trial_chambers.png",
-          "Ocean Monument": "ocean_monument.png",
-          "Woodland Mansion": "woodland_mansion.png",
-          "Buried Treasure": "buried_treasure.png",
-          "Pillager Outpost": "pillager_outpost.png",
-          "Stronghold": "stronghold.png",
-          "Ancient City": "ancient_city.png",
-          "Ruined Portal": "ruined_portal.png",
-          "Shipwreck": "shipwreck.png",
-          "Igloo": "igloo.png",
-          "Nether Fortress": "nether_fortress.png",
-          "Bastion Remnant": "bastion_remnant.png",
-        };
+              const iconMap = {
+                "Plains Village": "village_plains.png",
+                "Desert Village": "village_desert.png",
+                "Savanna Village": "village_savanna.png",
+                "Snowy Village": "village_snowy.png",
+                "Taiga Village": "village_taiga.png",
+                "Swamp Hut": "swamp_hut.png",
+                "Jungle Temple": "jungle_temple.png",
+                "Desert Pyramid": "desert_pyramid.png",
+                "Trial Chambers": "trial_chambers.png",
+                "Ocean Monument": "ocean_monument.png",
+                "Woodland Mansion": "woodland_mansion.png",
+                "Buried Treasure": "buried_treasure.png",
+                "Pillager Outpost": "pillager_outpost.png",
+                Stronghold: "stronghold.png",
+                "Ancient City": "ancient_city.png",
+                "Ruined Portal": "ruined_portal.png",
+                Shipwreck: "shipwreck.png",
+                Igloo: "igloo.png",
+                "Nether Fortress": "nether_fortress.png",
+                "Bastion Remnant": "bastion_remnant.png",
+              };
 
-        const icon = L.divIcon({
-          className: "poi-icon",
-          html: `<img src="Map/icons/${iconMap[s.type] || "default.png"}" class="structure-icon">`,
-          iconSize: [32, 32],
-          iconAnchor: [16, 16],
-        });
+              const icon = L.divIcon({
+                className: "poi-icon",
+                html: `<img src="Map/icons/${iconMap[s.type] || "default.png"}" class="structure-icon">`,
+                iconSize: [32, 32],
+                iconAnchor: [16, 16],
+              });
 
-        let popupHtml = `<b>${s.type}</b><br>X:${s.x}, Z:${s.z}`;
+              let popupHtml = `<b>${s.type}</b><br>X:${s.x}, Z:${s.z}`;
 
-        if (s.chestCount !== undefined) {
-          popupHtml += `<br>
+              if (s.chestCount !== undefined) {
+                popupHtml += `<br>
             <img src="icons/chest.png"
                  style="width:16px; height:16px; vertical-align:middle; margin-right:4px;
                         image-rendering: pixelated; image-rendering: crisp-edges;">
             ${s.chestCount}`;
-        }
+              }
 
-        if (s.spawnerCount !== undefined) {
-          popupHtml += `<br>
+              if (s.spawnerCount !== undefined) {
+                popupHtml += `<br>
             <img src="icons/spawner.png"
                  style="width:16px; height:16px; vertical-align:middle; margin-right:4px;
                         image-rendering: pixelated; image-rendering: crisp-edges;">
             ${s.spawnerCount}`;
-        }
+              }
 
-        L.marker(coords, { icon })
-          .bindPopup(popupHtml)
-          .addTo(structureLayers[s.type]);
-      });
-    });
-}
+              L.marker(coords, { icon }).bindPopup(popupHtml).addTo(structureLayers[s.type]);
+            });
+          });
+      }
 
       function mcToPixel(world, mcX, mcZ) {
         const wb = worldBounds[world];
