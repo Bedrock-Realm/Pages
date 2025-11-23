@@ -197,7 +197,7 @@
       .item-tooltip .trim {
         color: #aaa;
       }
-      
+
       @media (max-width: 768px) {
         /* Make sidebar bigger */
         #players-sidebar {
@@ -592,22 +592,22 @@
             ];
 
             const specialItemIcons = {
-              "minecraft:filled_map|3": "items/minecraft_ocean_explorer_map.png",
-              "minecraft:filled_map|4": "items/minecraft_woodland_explorer_map.png",
-              "minecraft:filled_map|7": "items/minecraft_snowy_village_map.png",
-              "minecraft:filled_map|11": "items/minecraft_desert_village_map.png",
-              "minecraft:filled_map|10": "items/minecraft_savanna_village_map.png",
-              "minecraft:filled_map|8": "items/minecraft_taiga_village_map.png",
-              "minecraft:filled_map|9": "items/minecraft_plains_village_map.png",
-              "minecraft:filled_map|12": "items/minecraft_jungle_explorer_map.png",
-              "minecraft:filled_map|13": "items/minecraft_swamp_explorer_map.png",
-              "minecraft:filled_map|6": "items/minecraft_locked_map.png",
-              "minecraft:filled_map|14": "items/minecraft_trial_explorer_map.png",
-              "minecraft:filled_map|5": "items/minecraft_treasure_map.png",
+              "minecraft:filled_map|3": "Items/minecraft_ocean_explorer_map.png",
+              "minecraft:filled_map|4": "Items/minecraft_woodland_explorer_map.png",
+              "minecraft:filled_map|7": "Items/minecraft_snowy_village_map.png",
+              "minecraft:filled_map|11": "Items/minecraft_desert_village_map.png",
+              "minecraft:filled_map|10": "Items/minecraft_savanna_village_map.png",
+              "minecraft:filled_map|8": "Items/minecraft_taiga_village_map.png",
+              "minecraft:filled_map|9": "Items/minecraft_plains_village_map.png",
+              "minecraft:filled_map|12": "Items/minecraft_jungle_explorer_map.png",
+              "minecraft:filled_map|13": "Items/minecraft_swamp_explorer_map.png",
+              "minecraft:filled_map|6": "Items/minecraft_locked_map.png",
+              "minecraft:filled_map|14": "Items/minecraft_trial_explorer_map.png",
+              "minecraft:filled_map|5": "Items/minecraft_treasure_map.png",
             };
 
             function getItemIcon(item) {
-              if (!item || !item.Name) return "items/empty.png";
+              if (!item || !item.Name) return "Items/empty.png";
 
               const keyWithDamage = `${item.Name}|${item.Damage}`;
               if (specialItemIcons[keyWithDamage]) return specialItemIcons[keyWithDamage];
@@ -616,12 +616,12 @@
               if (item.Name === "minecraft:crossbow" && item.tag?.chargedItem) {
                 const charged = item.tag.chargedItem.Name;
                 if (charged === "minecraft:arrow") {
-                  return "items/minecraft_crossbow_arrow.png";
+                  return "Items/minecraft_crossbow_arrow.png";
                 }
                 if (charged === "minecraft:firework_rocket") {
-                  return "items/minecraft_crossbow_firework.png";
+                  return "Items/minecraft_crossbow_firework.png";
                 }
-                return "items/minecraft_crossbow.png";
+                return "Items/minecraft_crossbow.png";
               }
 
               if (item.tag?.Trim?.Material) {
@@ -631,7 +631,7 @@
               }
 
               const baseName = item.Name.replace(/[:.]/g, "_").toLowerCase();
-              return `items/${baseName}.png`;
+              return `Items/${baseName}.png`;
             }
 
             function renderEnderChest(player) {
