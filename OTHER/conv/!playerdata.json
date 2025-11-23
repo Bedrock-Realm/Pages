@@ -2,28 +2,36 @@
   "Air": 300,
   "Armor": [
     {
-      "Count": 0,
+      "Count": 1,
       "Damage": 0,
-      "Name": "",
+      "Name": "minecraft:golden_helmet",
       "WasPickedUp": 0
     },
     {
-      "Count": 0,
+      "Count": 1,
       "Damage": 0,
-      "Name": "",
+      "Name": "minecraft:golden_chestplate",
       "WasPickedUp": 0
     },
     {
-      "Count": 0,
+      "Count": 1,
       "Damage": 0,
-      "Name": "",
+      "Name": "minecraft:golden_leggings",
       "WasPickedUp": 0
     },
     {
-      "Count": 0,
+      "Count": 1,
       "Damage": 0,
-      "Name": "",
-      "WasPickedUp": 0
+      "Name": "minecraft:golden_boots",
+      "WasPickedUp": 0,
+      "tag": {
+        "ench": [
+          {
+            "id": 36,
+            "lvl": 2
+          }
+        ]
+      }
     },
     {
       "Count": 0,
@@ -125,7 +133,7 @@
     },
     {
       "Base": 0.0,
-      "Current": 1.6330524682998657,
+      "Current": 0.6147222518920898,
       "DefaultMax": 20.0,
       "DefaultMin": 0.0,
       "Max": 20.0,
@@ -134,7 +142,7 @@
     },
     {
       "Base": 5.0,
-      "Current": 5.0,
+      "Current": 1.0,
       "DefaultMax": 20.0,
       "DefaultMin": 0.0,
       "Max": 20.0,
@@ -166,11 +174,11 @@
   "CraftingLayout": 0,
   "Dead": 0,
   "DeathDimension": 1,
-  "DeathPositionX": -156,
-  "DeathPositionY": 25,
-  "DeathPositionZ": -286,
+  "DeathPositionX": 184,
+  "DeathPositionY": 88,
+  "DeathPositionZ": -368,
   "DeathTime": 0,
-  "DimensionId": 0,
+  "DimensionId": 1,
   "EnchantmentSeed": 233590009,
   "EnderChestInventory": [
     {
@@ -789,35 +797,68 @@
     {
       "Count": 1,
       "Damage": 0,
-      "Name": "behaviorpack:cape_changer",
+      "Name": "minecraft:iron_sword",
       "Slot": 0,
-      "WasPickedUp": 0
+      "WasPickedUp": 0,
+      "tag": {
+        "Damage": 64,
+        "ench": [
+          {
+            "id": 11,
+            "lvl": 3
+          },
+          {
+            "id": 13,
+            "lvl": 1
+          }
+        ]
+      }
     },
     {
-      "Count": 0,
+      "Count": 1,
       "Damage": 0,
-      "Name": "",
+      "Name": "minecraft:diamond_pickaxe",
       "Slot": 1,
-      "WasPickedUp": 0
+      "WasPickedUp": 0,
+      "tag": {
+        "ench": [
+          {
+            "id": 15,
+            "lvl": 1
+          }
+        ]
+      }
     },
     {
-      "Count": 0,
+      "Count": 1,
       "Damage": 0,
-      "Name": "",
+      "Name": "minecraft:golden_axe",
       "Slot": 2,
-      "WasPickedUp": 0
+      "WasPickedUp": 0,
+      "tag": {
+        "ench": [
+          {
+            "id": 11,
+            "lvl": 3
+          },
+          {
+            "id": 15,
+            "lvl": 3
+          }
+        ]
+      }
     },
     {
-      "Count": 0,
+      "Count": 2,
       "Damage": 0,
-      "Name": "",
+      "Name": "minecraft:golden_apple",
       "Slot": 3,
       "WasPickedUp": 0
     },
     {
-      "Count": 0,
+      "Count": 3,
       "Damage": 0,
-      "Name": "",
+      "Name": "minecraft:cooked_porkchop",
       "Slot": 4,
       "WasPickedUp": 0
     },
@@ -836,121 +877,146 @@
       "WasPickedUp": 0
     },
     {
-      "Count": 0,
+      "Count": 1,
       "Damage": 0,
-      "Name": "",
+      "Name": "minecraft:flint_and_steel",
       "Slot": 7,
       "WasPickedUp": 0
     },
     {
-      "Count": 0,
+      "Block": {
+        "name": "minecraft:obsidian",
+        "states": {},
+        "version": 18168865
+      },
+      "Count": 28,
       "Damage": 0,
-      "Name": "",
+      "Name": "minecraft:obsidian",
       "Slot": 8,
       "WasPickedUp": 0
     },
     {
-      "Count": 0,
+      "Block": {
+        "name": "minecraft:gold_block",
+        "states": {},
+        "version": 18168865
+      },
+      "Count": 2,
       "Damage": 0,
-      "Name": "",
+      "Name": "minecraft:gold_block",
       "Slot": 9,
       "WasPickedUp": 0
     },
     {
-      "Count": 0,
+      "Count": 56,
       "Damage": 0,
-      "Name": "",
+      "Name": "minecraft:gold_ingot",
       "Slot": 10,
       "WasPickedUp": 0
     },
     {
-      "Count": 0,
+      "Count": 14,
       "Damage": 0,
-      "Name": "",
+      "Name": "minecraft:gold_nugget",
       "Slot": 11,
       "WasPickedUp": 0
     },
     {
-      "Count": 0,
+      "Block": {
+        "name": "minecraft:iron_block",
+        "states": {},
+        "version": 18168865
+      },
+      "Count": 2,
       "Damage": 0,
-      "Name": "",
+      "Name": "minecraft:iron_block",
       "Slot": 12,
       "WasPickedUp": 0
     },
     {
-      "Count": 0,
+      "Count": 12,
       "Damage": 0,
-      "Name": "",
+      "Name": "minecraft:iron_ingot",
       "Slot": 13,
       "WasPickedUp": 0
     },
     {
-      "Count": 0,
+      "Count": 5,
       "Damage": 0,
-      "Name": "",
+      "Name": "minecraft:iron_nugget",
       "Slot": 14,
       "WasPickedUp": 0
     },
     {
-      "Count": 0,
+      "Block": {
+        "name": "minecraft:ancient_debris",
+        "states": {},
+        "version": 18168865
+      },
+      "Count": 5,
       "Damage": 0,
-      "Name": "",
+      "Name": "minecraft:ancient_debris",
       "Slot": 15,
       "WasPickedUp": 0
     },
     {
-      "Count": 0,
+      "Count": 2,
       "Damage": 0,
-      "Name": "",
+      "Name": "minecraft:rib_armor_trim_smithing_template",
       "Slot": 16,
       "WasPickedUp": 0
     },
     {
-      "Count": 0,
+      "Count": 2,
       "Damage": 0,
-      "Name": "",
+      "Name": "minecraft:snout_armor_trim_smithing_template",
       "Slot": 17,
       "WasPickedUp": 0
     },
     {
-      "Count": 0,
+      "Block": {
+        "name": "minecraft:mob_spawner",
+        "states": {},
+        "version": 18168865
+      },
+      "Count": 6,
       "Damage": 0,
-      "Name": "",
+      "Name": "minecraft:mob_spawner",
       "Slot": 18,
       "WasPickedUp": 0
     },
     {
-      "Count": 0,
+      "Count": 3,
       "Damage": 0,
-      "Name": "",
+      "Name": "minecraft:diamond",
       "Slot": 19,
       "WasPickedUp": 0
     },
     {
-      "Count": 0,
+      "Count": 1,
       "Damage": 0,
-      "Name": "",
+      "Name": "minecraft:diamond_horse_armor",
       "Slot": 20,
       "WasPickedUp": 0
     },
     {
-      "Count": 0,
+      "Count": 1,
       "Damage": 0,
-      "Name": "",
+      "Name": "minecraft:saddle",
       "Slot": 21,
       "WasPickedUp": 0
     },
     {
-      "Count": 0,
+      "Count": 1,
       "Damage": 0,
-      "Name": "",
+      "Name": "minecraft:music_disc_pigstep",
       "Slot": 22,
       "WasPickedUp": 0
     },
     {
-      "Count": 0,
+      "Count": 22,
       "Damage": 0,
-      "Name": "",
+      "Name": "minecraft:magma_cream",
       "Slot": 23,
       "WasPickedUp": 0
     },
@@ -976,37 +1042,55 @@
       "WasPickedUp": 0
     },
     {
-      "Count": 0,
+      "Count": 17,
       "Damage": 0,
-      "Name": "",
+      "Name": "minecraft:string",
       "Slot": 27,
       "WasPickedUp": 0
     },
     {
-      "Count": 0,
+      "Block": {
+        "name": "minecraft:bone_block",
+        "states": {
+          "deprecated": 0,
+          "pillar_axis": "y"
+        },
+        "version": 18168865
+      },
+      "Count": 8,
       "Damage": 0,
-      "Name": "",
+      "Name": "minecraft:bone_block",
       "Slot": 28,
       "WasPickedUp": 0
     },
     {
-      "Count": 0,
+      "Block": {
+        "name": "minecraft:gilded_blackstone",
+        "states": {},
+        "version": 18168865
+      },
+      "Count": 18,
       "Damage": 0,
-      "Name": "",
+      "Name": "minecraft:gilded_blackstone",
       "Slot": 29,
       "WasPickedUp": 0
     },
     {
-      "Count": 0,
+      "Block": {
+        "name": "minecraft:crying_obsidian",
+        "states": {},
+        "version": 18168865
+      },
+      "Count": 1,
       "Damage": 0,
-      "Name": "",
+      "Name": "minecraft:crying_obsidian",
       "Slot": 30,
       "WasPickedUp": 0
     },
     {
-      "Count": 0,
+      "Count": 38,
       "Damage": 0,
-      "Name": "",
+      "Name": "minecraft:chain",
       "Slot": 31,
       "WasPickedUp": 0
     },
@@ -1065,8 +1149,16 @@
     {
       "Count": 1,
       "Damage": 0,
-      "Name": "behaviorpack:cape_changer",
-      "WasPickedUp": 0
+      "Name": "minecraft:diamond_pickaxe",
+      "WasPickedUp": 0,
+      "tag": {
+        "ench": [
+          {
+            "id": 15,
+            "lvl": 1
+          }
+        ]
+      }
     }
   ],
   "MapIndex": 1,
@@ -1074,9 +1166,9 @@
   "NaturalSpawn": 0,
   "Offhand": [
     {
-      "Count": 0,
+      "Count": 62,
       "Damage": 0,
-      "Name": "",
+      "Name": "minecraft:arrow",
       "WasPickedUp": 0
     }
   ],
@@ -1088,18 +1180,18 @@
   "PlayerUIItems": [],
   "PortalCooldown": 0,
   "Pos": [
-    126.34004211425781,
-    74.62001037597656,
-    96.84475708007812
+    -313.5850524902344,
+    41.62001037597656,
+    282.59588623046875
   ],
   "RightInventoryTabSelection": 2,
   "Rotation": [
-    -150.16064453125,
-    5.011322021484375
+    -45.32844543457031,
+    42.615875244140625
   ],
   "Saddled": 0,
   "SelectedContainerId": 0,
-  "SelectedInventorySlot": 0,
+  "SelectedInventorySlot": 1,
   "Sheared": 0,
   "ShowBottom": 0,
   "Sitting": 0,
@@ -1122,7 +1214,7 @@
     "has_cape_changer"
   ],
   "TargetID": -1,
-  "TimeSinceRest": 3367,
+  "TimeSinceRest": 1574,
   "TradeExperience": 0,
   "TradeTier": 0,
   "UniqueID": -4294967295,
@@ -1172,16 +1264,16 @@
   "playerPermissionsLevel": 2,
   "recipe_unlocking": {
     "unlocked_recipes": [
-      "shulkerBox_shulker_box_color_block_2_11_0",
+      "minecraft:cobbled_deepslate_wall",
       "wool_dye_wool_5_15",
       "minecraft:wooden_shovel",
-      "minecraft:cobbled_deepslate_wall",
-      "wool_dye_wool_19_10",
-      "minecraft:stonecutter_blackstone_stairs_from_blackstone",
-      "minecraft:WorkBench_recipeId_from_oak",
+      "shulkerBox_shulker_box_color_block_2_11_0",
       "minecraft:polished_deepslate_wall_from_cobbled_deepslate_stonecut",
       "minecraft:light_blue_carpet_from_white",
       "wool_dye_wool_7_0",
+      "minecraft:WorkBench_recipeId_from_oak",
+      "minecraft:stonecutter_blackstone_stairs_from_blackstone",
+      "wool_dye_wool_19_10",
       "shulkerBox_shulker_box_color_dye_1_0",
       "minecraft:WorkBench_recipeId",
       "wool_dye_wool_7_3",
@@ -1228,15 +1320,15 @@
       "shulkerBox_shulker_box_color_block_2_6_0",
       "shulkerBox_shulker_box_color_block_8_12_0",
       "shulkerBox_shulker_box_color_block_2_5_0",
-      "minecraft:deepslate_tiles_from_cobbled_deepslate_stonecutting",
-      "minecraft:ladder",
-      "minecraft:iron_chestplate",
       "Painting_Cobblestone_recipeId",
       "minecraft:diamond_helmet",
-      "shulkerBox_shulker_box_color_block_1_10_0",
+      "minecraft:iron_chestplate",
+      "minecraft:ladder",
+      "minecraft:deepslate_tiles_from_cobbled_deepslate_stonecutting",
+      "minecraft:gray_dye_from_ink_bonemeal",
       "minecraft:wooden_sword",
       "WoodButton_recipeId",
-      "minecraft:gray_dye_from_ink_bonemeal",
+      "shulkerBox_shulker_box_color_block_1_10_0",
       "shulkerBox_shulker_box_color_block_2_4_0",
       "shulkerBox_shulker_box_color_block_8_13_0",
       "shulkerBox_shulker_box_color_block_2_3_0",

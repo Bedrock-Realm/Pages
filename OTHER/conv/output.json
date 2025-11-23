@@ -1,0 +1,997 @@
+{
+  "max": 1,
+  "players": [
+    {
+      "name": "BehaviorPack",
+      "xuid": "2535460561105730",
+      "uuid": "f45e5bf0-05cc-45b1-a3b9-9eb74bb3ae35",
+      "world": "overworld",
+      "playergamemode": 1,
+      "x": 126,
+      "y": 74,
+      "z": 96,
+      "rotation": [
+        -150.16064453125,
+        5.011322021484375
+      ],
+      "SpawnX": -2147483648,
+      "SpawnY": -2147483648,
+      "SpawnZ": -2147483648,
+      "DeathX": -156,
+      "DeathY": 25,
+      "DeathZ": -286,
+      "inventory": [
+        {
+          "Count": 1,
+          "Damage": 0,
+          "Name": "behaviorpack:cape_changer",
+          "Slot": 0,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 1,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 2,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 3,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 4,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 5,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 6,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 7,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 8,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 9,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 10,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 11,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 12,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 13,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 14,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 15,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 16,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 17,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 18,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 19,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 20,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 21,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 22,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 23,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 24,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 25,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 26,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 27,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 28,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 29,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 30,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 31,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 32,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 33,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 34,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 35,
+          "WasPickedUp": 0,
+          "tag": {}
+        }
+      ],
+      "enderchestinventory": [
+        {
+          "Count": 59,
+          "Damage": 0,
+          "Name": "minecraft:chest",
+          "Slot": 0,
+          "WasPickedUp": 0,
+          "tag": {
+            "Findable": 0,
+            "Items": [
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 0,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 1,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 2,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 3,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 4,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 5,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 6,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 7,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 8,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 9,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 10,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 11,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 12,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 13,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 14,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 15,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 16,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 17,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 18,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 19,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 20,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 21,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 22,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 23,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 24,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 25,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 26,
+                "WasPickedUp": 0
+              }
+            ],
+            "LootTable": "loot_tables/chests/woodland_mansion.json",
+            "LootTableSeed": 0,
+            "display": {
+              "Lore": [
+                "\u00a7r\u00a73Chance to recieve:\n\u00a77Bone / Gunpowder / Rotten Flesh / String \u00a7857.8%\u00a7f\nNothing / \u00a7bVex Armor Trim \u00a7850.0%\u00a7f\nWheat / Bread \u00a7830.0%\u00a7f\nLead / Name Tag \u00a7827.9%\u00a7f\nCoal / Redstone Dust \u00a7823.3%\u00a7f\n\u00a7eMusic Disc (13) \u00a7f/ \u00a7eMusic Disc (cat) \u00a7821.5%\u00a7f\nGolden Apple / Diamond Hoe \u00a7821.5%\u00a7f\nEnchanted Book \u00a7817.5%\u00a7f\nBeetroot Seeds / Melon Seeds \u00a7816.1%\u00a7f\nPumpkin Seeds / Resin Clump / Iron Ingot \u00a7816.1%\u00a7f\nResin Brick / Bucket \u00a7816.1%\u00a7f\nChainmail Chestplate \u00a7814.7%\u00a7f\nGold Ingot \u00a788.3%\u00a7f\nDiamond Chestplate \u00a787.6%\u00a7f\n\u00a7bEnchanted Golden Apple \u00a783.1%"
+              ],
+              "Name": "\u00a7r\u00a7bWoodland Mansion Loot Crate"
+            }
+          }
+        },
+        {
+          "Count": 61,
+          "Damage": 0,
+          "Name": "minecraft:chest",
+          "Slot": 1,
+          "WasPickedUp": 0,
+          "tag": {
+            "Findable": 0,
+            "Items": [
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 0,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 1,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 2,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 3,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 4,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 5,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 6,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 7,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 8,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 9,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 10,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 11,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 12,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 13,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 14,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 15,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 16,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 17,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 18,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 19,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 20,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 21,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 22,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 23,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 24,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 25,
+                "WasPickedUp": 0
+              },
+              {
+                "Count": 0,
+                "Damage": 0,
+                "Name": "",
+                "Slot": 26,
+                "WasPickedUp": 0
+              }
+            ],
+            "LootTable": "loot_tables/chests/stronghold_library.json",
+            "LootTableSeed": 0,
+            "display": {
+              "Lore": [
+                "\u00a7r\u00a73Chance to recieve:\n\u00a77\u00a7bEye Armor Trim \u00a78100.0%\u00a7f\nPaper / Book \u00a7888.3%\u00a7f\nEnchanted Book \u00a7872.9%\u00a7f\nCompass / Map \u00a7810.5%"
+              ],
+              "Name": "\u00a7r\u00a7bStronghold Library Loot Crate"
+            }
+          }
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 2,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 3,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 4,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 5,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 6,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 7,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 8,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 9,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 10,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 11,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 12,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 13,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 14,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 15,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 16,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 17,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 18,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 19,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 20,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 21,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 22,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 23,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 24,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 25,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 26,
+          "WasPickedUp": 0,
+          "tag": {}
+        }
+      ],
+      "mainhand": [
+        {
+          "Count": 1,
+          "Damage": 0,
+          "Name": "behaviorpack:cape_changer",
+          "Slot": 0,
+          "WasPickedUp": 0,
+          "tag": {}
+        }
+      ],
+      "offhand": [
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 0,
+          "WasPickedUp": 0,
+          "tag": {}
+        }
+      ],
+      "armor": [
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 0,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 0,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 0,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 0,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 0,
+          "WasPickedUp": 0,
+          "tag": {}
+        }
+      ]
+    }
+  ]
+}

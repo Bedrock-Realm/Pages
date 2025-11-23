@@ -1,0 +1,378 @@
+{
+  "max": 1,
+  "players": [
+    {
+      "name": "f45e5bf0-05cc-45b1-a3b9-9eb74bb3ae35",
+      "xuid": "2535460561105730",
+      "uuid": "f45e5bf0-05cc-45b1-a3b9-9eb74bb3ae35",
+      "world": "overworld",
+      "playergamemode": 1,
+      "x": 126,
+      "y": 74,
+      "z": 96,
+      "rotation": [
+        -150.16064453125,
+        5.011322021484375
+      ],
+      "SpawnX": -2147483648,
+      "SpawnY": -2147483648,
+      "SpawnZ": -2147483648,
+      "DeathX": -156,
+      "DeathY": 25,
+      "DeathZ": -286,
+      "inventory": [
+        {
+          "Count": 1,
+          "Name": "behaviorpack:cape_changer",
+          "Slot": 0
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 1
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 2
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 3
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 4
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 5
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 6
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 7
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 8
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 9
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 10
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 11
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 12
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 13
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 14
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 15
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 16
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 17
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 18
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 19
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 20
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 21
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 22
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 23
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 24
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 25
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 26
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 27
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 28
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 29
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 30
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 31
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 32
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 33
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 34
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 35
+        }
+      ],
+      "enderchestinventory": [
+        {
+          "Count": 59,
+          "Name": "minecraft:chest",
+          "Slot": 0
+        },
+        {
+          "Count": 61,
+          "Name": "minecraft:chest",
+          "Slot": 1
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 2
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 3
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 4
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 5
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 6
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 7
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 8
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 9
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 10
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 11
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 12
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 13
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 14
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 15
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 16
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 17
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 18
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 19
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 20
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 21
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 22
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 23
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 24
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 25
+        },
+        {
+          "Count": 0,
+          "Name": "",
+          "Slot": 26
+        }
+      ],
+      "mainhand": [
+        {
+          "Count": 1,
+          "Name": "behaviorpack:cape_changer"
+        }
+      ],
+      "offhand": [
+        {
+          "Count": 0,
+          "Name": ""
+        }
+      ],
+      "armor": [
+        {
+          "Count": 0,
+          "Name": ""
+        },
+        {
+          "Count": 0,
+          "Name": ""
+        },
+        {
+          "Count": 0,
+          "Name": ""
+        },
+        {
+          "Count": 0,
+          "Name": ""
+        },
+        {
+          "Count": 0,
+          "Name": ""
+        }
+      ]
+    }
+  ]
+}
