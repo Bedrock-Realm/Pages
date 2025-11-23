@@ -1,1 +1,0 @@
-event entity @s capes:pan_cape

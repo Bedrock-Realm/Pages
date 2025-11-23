@@ -1,1 +1,0 @@
-event entity @s capes:minecon2012_cape

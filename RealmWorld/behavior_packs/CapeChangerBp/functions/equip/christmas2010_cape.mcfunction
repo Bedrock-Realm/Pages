@@ -1,1 +1,0 @@
-event entity @s capes:christmas2010_cape

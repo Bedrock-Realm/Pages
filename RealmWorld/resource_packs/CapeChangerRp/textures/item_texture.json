@@ -1,9 +1,0 @@
-{
-  "resource_pack_name": "cape_changer",
-  "texture_name": "atlas.items",
-  "texture_data": {
-    "cape_changer": {
-      "textures": "textures/capes/cape_changer"
-    }
-  }
-}

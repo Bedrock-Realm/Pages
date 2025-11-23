@@ -1,1 +1,0 @@
-event entity @s capes:cheapsh0t_cape

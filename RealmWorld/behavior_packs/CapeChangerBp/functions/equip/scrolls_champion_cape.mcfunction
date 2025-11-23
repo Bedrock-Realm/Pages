@@ -1,1 +1,0 @@
-event entity @s capes:scrolls_champion_cape

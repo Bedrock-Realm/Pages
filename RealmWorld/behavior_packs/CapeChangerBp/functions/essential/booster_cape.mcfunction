@@ -1,1 +1,0 @@
-event entity @s customcapes:booster_cape

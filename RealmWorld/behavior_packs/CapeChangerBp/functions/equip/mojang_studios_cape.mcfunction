@@ -1,1 +1,0 @@
-event entity @s capes:mojang_studios_cape
