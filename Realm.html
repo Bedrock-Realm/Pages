@@ -276,6 +276,7 @@
         "Woodland Mansion": L.layerGroup().addTo(map),
         "Nether Fortress": L.layerGroup().addTo(map),
         "Bastion Remnant": L.layerGroup().addTo(map),
+        "World Spawn": L.layerGroup().addTo(map),
       };
 
       L.control
@@ -331,6 +332,7 @@
                 Igloo: "igloo.png",
                 "Nether Fortress": "nether_fortress.png",
                 "Bastion Remnant": "bastion_remnant.png",
+                "World Spawn": "world-spawn.png",
               };
 
               const icon = L.divIcon({
@@ -341,6 +343,14 @@
               });
 
               let popupHtml = `<b>${s.type}</b><br>X:${s.x}, Z:${s.z}`;
+
+              if (s.villagerCount !== undefined) {
+                popupHtml += `<br>
+            <img src="Map/icons/villager.png"
+                 style="width:16px; height:16px; vertical-align:middle; margin-right:4px;
+                        image-rendering: pixelated; image-rendering: crisp-edges;">
+            ${s.villagerCount}`;
+              }
 
               if (s.chestCount !== undefined) {
                 popupHtml += `<br>
@@ -356,6 +366,30 @@
                  style="width:16px; height:16px; vertical-align:middle; margin-right:4px;
                         image-rendering: pixelated; image-rendering: crisp-edges;">
             ${s.spawnerCount}`;
+              }
+
+              if (s.golemCount !== undefined) {
+                popupHtml += `<br>
+            <img src="Map/icons/iron-golem.png"
+                 style="width:16px; height:16px; vertical-align:middle; margin-right:4px;
+                        image-rendering: pixelated; image-rendering: crisp-edges;">
+            ${s.golemCount}`;
+              }
+
+              if (s.allayCount !== undefined) {
+                popupHtml += `<br>
+            <img src="Map/icons/allay.png"
+                 style="width:16px; height:16px; vertical-align:middle; margin-right:4px;
+                        image-rendering: pixelated; image-rendering: crisp-edges;">
+            ${s.allayCount}`;
+              }
+
+              if (s.gappleCount !== undefined) {
+                popupHtml += `<br>
+            <img src="Items/minecraft_golden_apple.png"
+                 style="width:16px; height:16px; vertical-align:middle; margin-right:4px;
+                        image-rendering: pixelated; image-rendering: crisp-edges;">
+            ${s.gappleCount}`;
               }
 
               L.marker(coords, { icon }).bindPopup(popupHtml).addTo(structureLayers[s.type]);
