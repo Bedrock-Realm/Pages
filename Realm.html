@@ -197,56 +197,65 @@
       .item-tooltip .trim {
         color: #aaa;
       }
-
-      /* ----- MOBILE INVENTORY / ENDERCHEST SCALING ----- */
+      
+/* ----- REAL MOBILE BIG INVENTORY ----- */
 @media (max-width: 768px) {
 
+  /* Make the popup itself bigger */
   #inventory-popup-container {
-    transform: scale(1.6); /* Increase the whole popup */
-    transform-origin: top center;
+    padding: 18px;
+    border-radius: 12px;
+    transform: none !important;
   }
 
+  /* Scale the inventory background */
   .inventory-popup {
-    width: 260px;
-    height: 245px;
-    background-size: contain;
+    width: 300px;
+    height: 283px;
+    background-size: 300px 283px;
   }
 
+  /* Scale the ender chest background */
   .enderchest-popup {
-    width: 260px;
-    height: 115px;
-    background-size: contain;
+    width: 300px;
+    height: 132px;
+    background-size: 300px 132px;
   }
 
+  /* Bigger slots */
   .inventory-slot,
   .enderchest-slot {
-    width: 26px;
-    height: 26px;
+    width: 28px;
+    height: 28px;
   }
 
+  /* Bigger item images */
   .inventory-slot img,
   .enderchest-slot img {
-    width: 26px;
-    height: 26px;
+    width: 28px;
+    height: 28px;
   }
 
+  /* Reposition slot-count and enlarge */
   .slot-count {
     font-size: 16px;
     bottom: -2px;
-    right: -2px;
+    right: 0px;
   }
 
+  /* Bigger avatar */
   .inventory-avatar {
-    width: 75px;
-    height: 110px;
-    left: 35px;
-    top: 10px;
+    width: 90px;
+    height: 126px;
+    left: 40px;
+    top: 12px;
   }
 
+  /* Bigger tooltip for fingers */
   .item-tooltip {
-    font-size: 16px;
-    padding: 6px 8px;
-    max-width: 260px;
+    font-size: 18px;
+    padding: 8px 10px;
+    max-width: 300px;
   }
 }
 
