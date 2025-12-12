@@ -1,0 +1,215 @@
+{
+  "Block": {  
+    "name": "minecraft:chest", 
+    "states": {    
+      "minecraft:cardinal_direction": "north"
+    }, 
+    "version": 15393
+  }, 
+  "Count": 1b, 
+  "Damage": 0s, 
+  "Name": "minecraft:chest", 
+  "WasPickedUp": 0b, 
+  "tag": {  
+    "Findable": 0b, 
+    "Items": [    
+      {      
+        "Count": 0b, 
+        "Damage": 0s, 
+        "Name": "", 
+        "Slot": 0b, 
+        "WasPickedUp": 0b
+      }, 
+      {      
+        "Count": 0b, 
+        "Damage": 0s, 
+        "Name": "", 
+        "Slot": 1b, 
+        "WasPickedUp": 0b
+      }, 
+      {      
+        "Count": 0b, 
+        "Damage": 0s, 
+        "Name": "", 
+        "Slot": 2b, 
+        "WasPickedUp": 0b
+      }, 
+      {      
+        "Count": 0b, 
+        "Damage": 0s, 
+        "Name": "", 
+        "Slot": 3b, 
+        "WasPickedUp": 0b
+      }, 
+      {      
+        "Count": 0b, 
+        "Damage": 0s, 
+        "Name": "", 
+        "Slot": 4b, 
+        "WasPickedUp": 0b
+      }, 
+      {      
+        "Count": 0b, 
+        "Damage": 0s, 
+        "Name": "", 
+        "Slot": 5b, 
+        "WasPickedUp": 0b
+      }, 
+      {      
+        "Count": 0b, 
+        "Damage": 0s, 
+        "Name": "", 
+        "Slot": 6b, 
+        "WasPickedUp": 0b
+      }, 
+      {      
+        "Count": 0b, 
+        "Damage": 0s, 
+        "Name": "", 
+        "Slot": 7b, 
+        "WasPickedUp": 0b
+      }, 
+      {      
+        "Count": 0b, 
+        "Damage": 0s, 
+        "Name": "", 
+        "Slot": 8b, 
+        "WasPickedUp": 0b
+      }, 
+      {      
+        "Count": 0b, 
+        "Damage": 0s, 
+        "Name": "", 
+        "Slot": 9b, 
+        "WasPickedUp": 0b
+      }, 
+      {      
+        "Count": 0b, 
+        "Damage": 0s, 
+        "Name": "", 
+        "Slot": 10b, 
+        "WasPickedUp": 0b
+      }, 
+      {      
+        "Count": 0b, 
+        "Damage": 0s, 
+        "Name": "", 
+        "Slot": 11b, 
+        "WasPickedUp": 0b
+      }, 
+      {      
+        "Count": 0b, 
+        "Damage": 0s, 
+        "Name": "", 
+        "Slot": 12b, 
+        "WasPickedUp": 0b
+      }, 
+      {      
+        "Count": 0b, 
+        "Damage": 0s, 
+        "Name": "", 
+        "Slot": 13b, 
+        "WasPickedUp": 0b
+      }, 
+      {      
+        "Count": 0b, 
+        "Damage": 0s, 
+        "Name": "", 
+        "Slot": 14b, 
+        "WasPickedUp": 0b
+      }, 
+      {      
+        "Count": 0b, 
+        "Damage": 0s, 
+        "Name": "", 
+        "Slot": 15b, 
+        "WasPickedUp": 0b
+      }, 
+      {      
+        "Count": 0b, 
+        "Damage": 0s, 
+        "Name": "", 
+        "Slot": 16b, 
+        "WasPickedUp": 0b
+      }, 
+      {      
+        "Count": 0b, 
+        "Damage": 0s, 
+        "Name": "", 
+        "Slot": 17b, 
+        "WasPickedUp": 0b
+      }, 
+      {      
+        "Count": 0b, 
+        "Damage": 0s, 
+        "Name": "", 
+        "Slot": 18b, 
+        "WasPickedUp": 0b
+      }, 
+      {      
+        "Count": 0b, 
+        "Damage": 0s, 
+        "Name": "", 
+        "Slot": 19b, 
+        "WasPickedUp": 0b
+      }, 
+      {      
+        "Count": 0b, 
+        "Damage": 0s, 
+        "Name": "", 
+        "Slot": 20b, 
+        "WasPickedUp": 0b
+      }, 
+      {      
+        "Count": 0b, 
+        "Damage": 0s, 
+        "Name": "", 
+        "Slot": 21b, 
+        "WasPickedUp": 0b
+      }, 
+      {      
+        "Count": 0b, 
+        "Damage": 0s, 
+        "Name": "", 
+        "Slot": 22b, 
+        "WasPickedUp": 0b
+      }, 
+      {      
+        "Count": 0b, 
+        "Damage": 0s, 
+        "Name": "", 
+        "Slot": 23b, 
+        "WasPickedUp": 0b
+      }, 
+      {      
+        "Count": 0b, 
+        "Damage": 0s, 
+        "Name": "", 
+        "Slot": 24b, 
+        "WasPickedUp": 0b
+      }, 
+      {      
+        "Count": 0b, 
+        "Damage": 0s, 
+        "Name": "", 
+        "Slot": 25b, 
+        "WasPickedUp": 0b
+      }, 
+      {      
+        "Count": 0b, 
+        "Damage": 0s, 
+        "Name": "", 
+        "Slot": 26b, 
+        "WasPickedUp": 0b
+      }
+    ], 
+    "LootTable": "loot_tables/chests/desert_pyramid.json", 
+    "LootTableSeed": 0l, 
+    "display": {    
+      "Lore": [      
+        "Â§rÂ§3Chance to receive:Â§f\nNothing Â§888.1%Â§f\nÂ§7Bone / Rotten Flesh Â§870.1%Â§f\nGunpowder / Sand / String Â§859.0%Â§f\nSpider Eye Â§827.1%Â§f\nLeather / Enchanted Book / Golden Apple Â§822.2%Â§f\nGold Ingot / Iron Ingot / Emerald / Copper Horse Armor / Iron Horse Armor Â§817.0%Â§f\nÂ§eDune Armor Trim Â§814.3%Â§f\nGolden Horse Armor Â§811.6%Â§f\nDiamond / Diamond Horse Armor Â§85.9%Â§f\nÂ§bEnchanted Golden Apple Â§82.4%"
+      ], 
+      "Name": "Â§rÂ§bDesert Pyramid Loot Crate"
+    }
+  }
+}

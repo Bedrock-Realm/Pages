@@ -197,6 +197,59 @@
       .item-tooltip .trim {
         color: #aaa;
       }
+
+      /* ----- MOBILE INVENTORY / ENDERCHEST SCALING ----- */
+@media (max-width: 768px) {
+
+  #inventory-popup-container {
+    transform: scale(1.6); /* Increase the whole popup */
+    transform-origin: top center;
+  }
+
+  .inventory-popup {
+    width: 260px;
+    height: 245px;
+    background-size: contain;
+  }
+
+  .enderchest-popup {
+    width: 260px;
+    height: 115px;
+    background-size: contain;
+  }
+
+  .inventory-slot,
+  .enderchest-slot {
+    width: 26px;
+    height: 26px;
+  }
+
+  .inventory-slot img,
+  .enderchest-slot img {
+    width: 26px;
+    height: 26px;
+  }
+
+  .slot-count {
+    font-size: 16px;
+    bottom: -2px;
+    right: -2px;
+  }
+
+  .inventory-avatar {
+    width: 75px;
+    height: 110px;
+    left: 35px;
+    top: 10px;
+  }
+
+  .item-tooltip {
+    font-size: 16px;
+    padding: 6px 8px;
+    max-width: 260px;
+  }
+}
+
     </style>
   </head>
   <body>
@@ -226,7 +279,7 @@
       const worldBounds = {
         overworld: { minX: -3120, maxX: 3119, minZ: -3120, maxZ: 3119, image: "Map/map_overworld.png" },
         nether: { minX: -3120, maxX: 3119, minZ: -3120, maxZ: 3119, image: "Map/map_nether.png" },
-        end: { minX: -3120, maxX: 3119, minZ: -3120, maxZ: 3119, image: "Map/map_end.png" },
+        end: { minX: -1536, maxX: 1536, minZ: -1536, maxZ: 1536, image: "Map/map_end.png" },
       };
 
       const map = L.map("map", { crs: L.CRS.Simple, minZoom: -3, maxZoom: 5, zoomControl: false });

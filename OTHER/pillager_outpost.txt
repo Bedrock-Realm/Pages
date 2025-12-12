@@ -1,0 +1,215 @@
+{
+  "Block": {  
+    "name": "minecraft:chest", 
+    "states": {    
+      "minecraft:cardinal_direction": "north"
+    }, 
+    "version": 15393
+  }, 
+  "Count": 1b, 
+  "Damage": 0s, 
+  "Name": "minecraft:chest", 
+  "WasPickedUp": 0b, 
+  "tag": {  
+    "Findable": 0b, 
+    "Items": [    
+      {      
+        "Count": 0b, 
+        "Damage": 0s, 
+        "Name": "", 
+        "Slot": 0b, 
+        "WasPickedUp": 0b
+      }, 
+      {      
+        "Count": 0b, 
+        "Damage": 0s, 
+        "Name": "", 
+        "Slot": 1b, 
+        "WasPickedUp": 0b
+      }, 
+      {      
+        "Count": 0b, 
+        "Damage": 0s, 
+        "Name": "", 
+        "Slot": 2b, 
+        "WasPickedUp": 0b
+      }, 
+      {      
+        "Count": 0b, 
+        "Damage": 0s, 
+        "Name": "", 
+        "Slot": 3b, 
+        "WasPickedUp": 0b
+      }, 
+      {      
+        "Count": 0b, 
+        "Damage": 0s, 
+        "Name": "", 
+        "Slot": 4b, 
+        "WasPickedUp": 0b
+      }, 
+      {      
+        "Count": 0b, 
+        "Damage": 0s, 
+        "Name": "", 
+        "Slot": 5b, 
+        "WasPickedUp": 0b
+      }, 
+      {      
+        "Count": 0b, 
+        "Damage": 0s, 
+        "Name": "", 
+        "Slot": 6b, 
+        "WasPickedUp": 0b
+      }, 
+      {      
+        "Count": 0b, 
+        "Damage": 0s, 
+        "Name": "", 
+        "Slot": 7b, 
+        "WasPickedUp": 0b
+      }, 
+      {      
+        "Count": 0b, 
+        "Damage": 0s, 
+        "Name": "", 
+        "Slot": 8b, 
+        "WasPickedUp": 0b
+      }, 
+      {      
+        "Count": 0b, 
+        "Damage": 0s, 
+        "Name": "", 
+        "Slot": 9b, 
+        "WasPickedUp": 0b
+      }, 
+      {      
+        "Count": 0b, 
+        "Damage": 0s, 
+        "Name": "", 
+        "Slot": 10b, 
+        "WasPickedUp": 0b
+      }, 
+      {      
+        "Count": 0b, 
+        "Damage": 0s, 
+        "Name": "", 
+        "Slot": 11b, 
+        "WasPickedUp": 0b
+      }, 
+      {      
+        "Count": 0b, 
+        "Damage": 0s, 
+        "Name": "", 
+        "Slot": 12b, 
+        "WasPickedUp": 0b
+      }, 
+      {      
+        "Count": 0b, 
+        "Damage": 0s, 
+        "Name": "", 
+        "Slot": 13b, 
+        "WasPickedUp": 0b
+      }, 
+      {      
+        "Count": 0b, 
+        "Damage": 0s, 
+        "Name": "", 
+        "Slot": 14b, 
+        "WasPickedUp": 0b
+      }, 
+      {      
+        "Count": 0b, 
+        "Damage": 0s, 
+        "Name": "", 
+        "Slot": 15b, 
+        "WasPickedUp": 0b
+      }, 
+      {      
+        "Count": 0b, 
+        "Damage": 0s, 
+        "Name": "", 
+        "Slot": 16b, 
+        "WasPickedUp": 0b
+      }, 
+      {      
+        "Count": 0b, 
+        "Damage": 0s, 
+        "Name": "", 
+        "Slot": 17b, 
+        "WasPickedUp": 0b
+      }, 
+      {      
+        "Count": 0b, 
+        "Damage": 0s, 
+        "Name": "", 
+        "Slot": 18b, 
+        "WasPickedUp": 0b
+      }, 
+      {      
+        "Count": 0b, 
+        "Damage": 0s, 
+        "Name": "", 
+        "Slot": 19b, 
+        "WasPickedUp": 0b
+      }, 
+      {      
+        "Count": 0b, 
+        "Damage": 0s, 
+        "Name": "", 
+        "Slot": 20b, 
+        "WasPickedUp": 0b
+      }, 
+      {      
+        "Count": 0b, 
+        "Damage": 0s, 
+        "Name": "", 
+        "Slot": 21b, 
+        "WasPickedUp": 0b
+      }, 
+      {      
+        "Count": 0b, 
+        "Damage": 0s, 
+        "Name": "", 
+        "Slot": 22b, 
+        "WasPickedUp": 0b
+      }, 
+      {      
+        "Count": 0b, 
+        "Damage": 0s, 
+        "Name": "", 
+        "Slot": 23b, 
+        "WasPickedUp": 0b
+      }, 
+      {      
+        "Count": 0b, 
+        "Damage": 0s, 
+        "Name": "", 
+        "Slot": 24b, 
+        "WasPickedUp": 0b
+      }, 
+      {      
+        "Count": 0b, 
+        "Damage": 0s, 
+        "Name": "", 
+        "Slot": 25b, 
+        "WasPickedUp": 0b
+      }, 
+      {      
+        "Count": 0b, 
+        "Damage": 0s, 
+        "Name": "", 
+        "Slot": 26b, 
+        "WasPickedUp": 0b
+      }
+    ], 
+    "LootTable": "loot_tables/chests/pillager_outpost.json", 
+    "LootTableSeed": 0l, 
+    "display": {    
+      "Lore": [      
+        "Â§rÂ§3Chance to receive:Â§f\nDark Oak Log Â§8100.0%Â§f\nNothing Â§883.3%Â§f\nWheat Â§872.5%Â§f\nEnchanted Book Â§866.7%Â§e\nBottle o' Enchanting Â§860.9%Â§f\nCarrot / Potato Â§857.5%Â§f\nCrossbow / Goat Horn Â§850.0%Â§f\nArrow / String Â§839.1%Â§f\nTripwire Hook / Iron Ingot Â§830.5%Â§f\nÂ§eSentry Armor Trim Â§825.0%Â§f\nEnchanted Book Â§811.0%"
+      ], 
+      "Name": "Â§rÂ§bPillager Outpost Loot Crate"
+    }
+  }
+}
