@@ -197,68 +197,144 @@
       .item-tooltip .trim {
         color: #aaa;
       }
-      
-/* ----- REAL MOBILE BIG INVENTORY ----- */
-@media (max-width: 768px) {
 
-  /* Make the popup itself bigger */
-  #inventory-popup-container {
-    padding: 18px;
-    border-radius: 12px;
-    transform: none !important;
-  }
-
-  /* Scale the inventory background */
-  .inventory-popup {
-    width: 300px;
-    height: 283px;
-    background-size: 300px 283px;
-  }
-
-  /* Scale the ender chest background */
-  .enderchest-popup {
-    width: 300px;
-    height: 132px;
-    background-size: 300px 132px;
-  }
-
-  /* Bigger slots */
-  .inventory-slot,
-  .enderchest-slot {
-    width: 28px;
-    height: 28px;
-  }
-
-  /* Bigger item images */
-  .inventory-slot img,
-  .enderchest-slot img {
-    width: 28px;
-    height: 28px;
-  }
-
-  /* Reposition slot-count and enlarge */
-  .slot-count {
-    font-size: 16px;
-    bottom: -2px;
-    right: 0px;
-  }
-
-  /* Bigger avatar */
-  .inventory-avatar {
-    width: 90px;
-    height: 126px;
-    left: 40px;
-    top: 12px;
-  }
-
-  /* Bigger tooltip for fingers */
-  .item-tooltip {
-    font-size: 18px;
-    padding: 8px 10px;
-    max-width: 300px;
-  }
-}
-
+      /* ----- MOBILE RESPONSIVE STYLING ----- */
+      @media (max-width: 768px) {
+        /* Scale up player icons for easier visibility */
+        .player-icon {
+          width: 48px;
+          height: 48px;
+        }
+        .player-icon-wrapper .player-icon {
+          width: 48px !important;
+          height: 48px !important;
+        }
+        /* Scale up structure icons */
+        .structure-icon {
+          width: 48px;
+          height: 48px;
+        }
+        /* Adjust marker icon sizes */
+        .leaflet-marker-icon {
+          width: 48px !important;
+          height: 48px !important;
+        }
+        /* Make players sidebar more mobile-friendly */
+        #players-sidebar {
+          max-width: 180px;
+          font-size: 14px;
+          padding: 8px 12px;
+          top: 10px;
+          right: 10px;
+        }
+        .player-entry {
+          padding: 4px 6px;
+          margin-bottom: 8px;
+        }
+        .player-entry img {
+          width: 40px;
+          height: 40px;
+          margin-right: 10px;
+        }
+        .player-entry span {
+          font-size: 14px;
+        } /* Make coordinates display larger */
+        #coords-display {
+          font-size: 16px;
+          padding: 6px 10px;
+          bottom: 10px;
+          left: 10px;
+        } /* Scale up inventory/enderchest popup */
+        #inventory-popup-container {
+          transform: scale(1.5);
+          transform-origin: top center;
+          left: 50% !important;
+          top: 50% !important;
+          transform: translate(-50%, -50%) scale(1.5);
+        }
+        .inventory-popup {
+          width: 264px;
+          height: 249px;
+          background-size: 264px 249px;
+        }
+        .enderchest-popup {
+          width: 264px;
+          height: 115.5px;
+          background-size: 264px 115.5px;
+        }
+        .inventory-slot,
+        .enderchest-slot {
+          width: 24px;
+          height: 24px;
+        }
+        .inventory-slot img,
+        .enderchest-slot img {
+          width: 24px;
+          height: 24px;
+        }
+        .slot-count {
+          font-size: 14px;
+          bottom: -2px;
+          right: -1px;
+        }
+        .inventory-avatar {
+          width: 75px;
+          height: 105px;
+          left: 37.5px;
+          top: 12px;
+        } /* Make tooltip more readable */
+        .item-tooltip {
+          font-size: 14px;
+          padding: 6px 8px;
+          max-width: 280px;
+          line-height: 1.3;
+        } /* Close button bigger on mobile */
+        #close-inventory {
+          padding: 4px 10px;
+          font-size: 16px;
+          top: 6px;
+          right: 6px;
+        } /* Inventory coords overlay */
+        .inventory-coords-overlay {
+          font-size: 14px;
+          margin-top: 4px;
+        } /* Make popup text more readable */
+        .leaflet-popup-content {
+          font-size: 14px;
+          line-height: 1.4;
+        }
+        .leaflet-popup-content b {
+          font-size: 15px;
+        } /* Layer control adjustments */
+        .leaflet-control-layers {
+          font-size: 13px;
+        }
+        .leaflet-control-layers-toggle {
+          width: 40px;
+          height: 40px;
+        }
+      } /* Extra small devices (phones in portrait, less than 576px) */
+      @media (max-width: 576px) {
+        #players-sidebar {
+          max-width: 160px;
+          font-size: 13px;
+          padding: 6px 10px;
+        }
+        .player-entry img {
+          width: 36px;
+          height: 36px;
+        }
+        .player-entry span {
+          font-size: 13px;
+        }
+        #coords-display {
+          font-size: 14px;
+          padding: 4px 8px;
+        }
+        #inventory-popup-container {
+          transform: translate(-50%, -50%) scale(1.3);
+        }
+      }
     </style>
   </head>
   <body>
