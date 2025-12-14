@@ -1,0 +1,633 @@
+{
+  "max": 1,
+  "players": [
+    {
+      "name": "~local_player",
+      "xuid": "2535460561105730",
+      "uuid": "~local_player",
+      "world": "overworld",
+      "SpawnDimension": "overworld",
+      "playergamemode": 1,
+      "x": 14,
+      "y": 175,
+      "z": -3,
+      "rotation": [
+        19.350616455078125,
+        12.291000366210938
+      ],
+      "SpawnX": -2147483648,
+      "SpawnY": -2147483648,
+      "SpawnZ": -2147483648,
+      "DeathX": 0,
+      "DeathY": 0,
+      "DeathZ": 0,
+      "inventory": [
+        {
+          "Count": 64,
+          "Damage": 0,
+          "Name": "minecraft:invisible_bedrock",
+          "Slot": 0,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 1,
+          "Damage": 3,
+          "Name": "minecraft:glow_stick",
+          "Slot": 1,
+          "WasPickedUp": 0,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "Count": 1,
+          "Damage": 6,
+          "Name": "minecraft:glow_stick",
+          "Slot": 2,
+          "WasPickedUp": 0,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "Count": 1,
+          "Damage": 4,
+          "Name": "minecraft:glow_stick",
+          "Slot": 3,
+          "WasPickedUp": 0,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "Count": 1,
+          "Damage": 12,
+          "Name": "minecraft:glow_stick",
+          "Slot": 4,
+          "WasPickedUp": 0,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "Count": 1,
+          "Damage": 15,
+          "Name": "minecraft:glow_stick",
+          "Slot": 5,
+          "WasPickedUp": 0,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "Count": 1,
+          "Damage": 11,
+          "Name": "minecraft:glow_stick",
+          "Slot": 6,
+          "WasPickedUp": 0,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "Count": 64,
+          "Damage": 0,
+          "Name": "minecraft:petrified_oak_slab",
+          "Slot": 7,
+          "WasPickedUp": 0,
+          "tag": {
+            "display": {
+              "Lore": [
+                "(MINE WITH PICK)"
+              ],
+              "Name": "Wooden Slab"
+            }
+          }
+        },
+        {
+          "Count": 1,
+          "Damage": 14,
+          "Name": "minecraft:glow_stick",
+          "Slot": 8,
+          "WasPickedUp": 0,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "Count": 1,
+          "Damage": 8,
+          "Name": "minecraft:glow_stick",
+          "Slot": 9,
+          "WasPickedUp": 0,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "Count": 1,
+          "Damage": 2,
+          "Name": "minecraft:glow_stick",
+          "Slot": 10,
+          "WasPickedUp": 0,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "Count": 1,
+          "Damage": 10,
+          "Name": "minecraft:glow_stick",
+          "Slot": 11,
+          "WasPickedUp": 0,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "Count": 1,
+          "Damage": 13,
+          "Name": "minecraft:glow_stick",
+          "Slot": 12,
+          "WasPickedUp": 0,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "Count": 1,
+          "Damage": 5,
+          "Name": "minecraft:glow_stick",
+          "Slot": 13,
+          "WasPickedUp": 0,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "Count": 1,
+          "Damage": 1,
+          "Name": "minecraft:glow_stick",
+          "Slot": 14,
+          "WasPickedUp": 0,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "Count": 1,
+          "Damage": 9,
+          "Name": "minecraft:glow_stick",
+          "Slot": 15,
+          "WasPickedUp": 0,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 16,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 17,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 18,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 19,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 20,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 21,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 22,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 23,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 24,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 25,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 26,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 27,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 28,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 29,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 30,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 31,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 32,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 33,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 34,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 35,
+          "WasPickedUp": 0,
+          "tag": {}
+        }
+      ],
+      "enderchestinventory": [
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 0,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 1,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 2,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 3,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 4,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 5,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 6,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 7,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 8,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 9,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 10,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 11,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 12,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 13,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 14,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 15,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 16,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 17,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 18,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 19,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 20,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 21,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 22,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 23,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 24,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 25,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 26,
+          "WasPickedUp": 0,
+          "tag": {}
+        }
+      ],
+      "mainhand": [
+        {
+          "Count": 1,
+          "Damage": 3,
+          "Name": "minecraft:glow_stick",
+          "Slot": 0,
+          "WasPickedUp": 0,
+          "tag": {
+            "Damage": 0
+          }
+        }
+      ],
+      "offhand": [
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 0,
+          "WasPickedUp": 0,
+          "tag": {}
+        }
+      ],
+      "armor": [
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 0,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 0,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 0,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 0,
+          "WasPickedUp": 0,
+          "tag": {}
+        },
+        {
+          "Count": 0,
+          "Damage": 0,
+          "Name": "",
+          "Slot": 0,
+          "WasPickedUp": 0,
+          "tag": {}
+        }
+      ]
+    }
+  ]
+}
